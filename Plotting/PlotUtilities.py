@@ -44,7 +44,7 @@ def GetBinning(var):
     return nbin,minbin,maxbin
 
 def getLumi(period):
-    if period == "Run3" or 'mc23' in period: return '25767.5'
+    if period == "mc23d" in period: return '25767.5'
     if period == 'Run2' : return '((year<=2016)*36640+(year==2017)*44630 +(year==2018)*58790)'
 
 def getWeight(period, sample):

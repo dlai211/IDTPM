@@ -21,7 +21,7 @@ parser.add_argument('-s', '--samples', type=str, nargs='+', help='list of sample
 parser.add_argument('-v', '--vars', type=str, nargs='+', help='list of variables', default=['all'])
 parser.add_argument('-c', '--cuts', type=str, nargs='+', help='list of selections', default=['MET100_phPT50'])
 parser.add_argument('--stack', action = 'store_true',  help='do stack plot', default=False)
-parser.add_argument('-p', '--period', type=str, help='period (Run2,Run3,mc20..,mc23)', default='mc23d')
+parser.add_argument('-p', '--period', type=str, help='period (Run2,mc23d)', default='mc23d')
 parser.add_argument('-d', '--dir', type=str, help='input directory', default='/data/fpiazza/ggHyyd/NtuplesSelaiman/')
 parser.add_argument('--norm', action = 'store_true',  help='normalize', default=False)
 parser.add_argument('--rnorm', action = 'store_true',  help='normalize ratio plot', default=False)
