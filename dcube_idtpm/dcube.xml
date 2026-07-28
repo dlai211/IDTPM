@@ -1,0 +1,2986 @@
+<?xml version="1.0" ?>
+<dcube branch="main" install="2026-07-14T2100" cmtconfig="x86_64-el9-gcc14-opt" project="Athena" jobId="*">
+ <!--
+  ###################################################
+  DCubeClient for:
+  [1] branch: *
+  [2] install: *
+  [3] cmtconfig: *
+  [4] project: *
+  [5] jobId: *
+  [6] reference root file: /afs/cern.ch/work/m/maparo/public/my_athena_Trig/my_art/my_out/InDetTrackPerfMon/test_IDTPM_RDOtoOfflTrkAna_grid/idpvm.IDTPMcnv.root
+  [7] p-values limits FAIL = 0.750000 WARN = 0.950000
+  ###################################################
+-->
+ <date>2026-07-28</date>
+ <monitored file="../idtpm.HIST.root"/>
+ <reference file="../physval_tmp.ntuple.IDTPMcnv.root"/>
+ <ref_desc>PUT YOUR REFERENCE DESCRIPTION HERE</ref_desc>
+ <test_desc>PUT YOUR TEST DESCRIPTION HERE</test_desc>
+ <plimit fail="0.75" warn="0.95"/>
+ <TDirectory name="/" KSOK="105" KSWARN="0" KSFAIL="0" chi2OK="0" chi2WARN="0" chi2FAIL="0" bbbOK="0" bbbWARN="0" bbbFAIL="0" status="FAIL">
+  <TDirectory name="InDetTrackPerfMonPlots" KSOK="105" KSWARN="0" KSFAIL="0" chi2OK="0" chi2WARN="0" chi2FAIL="0" bbbOK="0" bbbWARN="0" bbbFAIL="0" status="FAIL">
+   <TDirectory name="TrkAnaOffl" KSOK="105" KSWARN="0" KSFAIL="0" chi2OK="0" chi2WARN="0" chi2FAIL="0" bbbOK="0" bbbWARN="0" bbbFAIL="0" status="FAIL">
+    <TDirectory name="Offline" KSOK="105" KSWARN="0" KSFAIL="0" chi2OK="0" chi2WARN="0" chi2FAIL="0" bbbOK="0" bbbWARN="0" bbbFAIL="0" status="FAIL">
+     <TDirectory name="Tracks" KSOK="105" KSWARN="0" KSFAIL="0" chi2OK="0" chi2WARN="0" chi2FAIL="0" bbbOK="0" bbbWARN="0" bbbFAIL="0" status="OK">
+      <TDirectory name="Parameters" KSOK="22" status="OK">
+       <hist1D name="offl_d0" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="16">16</underflow>
+         <overflow ref="9">9</overflow>
+         <dim name="x" bins="100">
+          <underflow ref="16">16</underflow>
+          <overflow ref="9">9</overflow>
+          <mean ref="-1.31e-02">-1.31e-02</mean>
+          <mean_unc ref="4.91e-03">4.91e-03</mean_unc>
+          <rms ref="1.09e+00">1.09e+00</rms>
+          <rms_unc ref="3.47e-03">3.47e-03</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_8988bcd9-c114-496e-9b04-8582c5834bc9.png" type="reg"/>
+        <img src="plots/h1d_1a279812-e221-4fed-8036-7f6ba99a541e.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_z0" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="100">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="-8.24e-01">-8.24e-01</mean>
+          <mean_unc ref="1.85e-01">1.85e-01</mean_unc>
+          <rms ref="4.12e+01">4.12e+01</rms>
+          <rms_unc ref="1.31e-01">1.31e-01</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_088b24f5-8570-4c1e-abe1-b97b49e9c559.png" type="reg"/>
+        <img src="plots/h1d_3e05d690-3525-48b8-95e0-a39f381aceee.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_z0sin" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="2924">2924</underflow>
+         <overflow ref="2979">2979</overflow>
+         <dim name="x" bins="100">
+          <underflow ref="2924">2924</underflow>
+          <overflow ref="2979">2979</overflow>
+          <mean ref="-5.49e-01">-5.49e-01</mean>
+          <mean_unc ref="8.01e-02">8.01e-02</mean_unc>
+          <rms ref="1.67e+01">1.67e+01</rms>
+          <rms_unc ref="5.66e-02">5.66e-02</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_2d26e37d-2f6e-4e43-9be8-41bd9c172486.png" type="reg"/>
+        <img src="plots/h1d_e3b64474-1685-4531-9be4-251ccb527224.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_phi" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="100">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="1.85e-03">1.85e-03</mean>
+          <mean_unc ref="8.16e-03">8.16e-03</mean_unc>
+          <rms ref="1.81e+00">1.81e+00</rms>
+          <rms_unc ref="5.77e-03">5.77e-03</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_e34198fb-b16e-4860-a5e6-a165147da018.png" type="reg"/>
+        <img src="plots/h1d_d26b9ea2-6866-40c1-be90-0e979b15a9cb.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_theta" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="100">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="1.58e+00">1.58e+00</mean>
+          <mean_unc ref="4.37e-03">4.37e-03</mean_unc>
+          <rms ref="9.71e-01">9.71e-01</rms>
+          <rms_unc ref="3.09e-03">3.09e-03</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_d3ce6603-9db8-4374-b38f-1efe3eb6c009.png" type="reg"/>
+        <img src="plots/h1d_6454a74e-b80b-4ac9-a14f-9d844620433f.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_eta" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="313">313</underflow>
+         <overflow ref="297">297</overflow>
+         <dim name="x" bins="100">
+          <underflow ref="313">313</underflow>
+          <overflow ref="297">297</overflow>
+          <mean ref="-1.07e-02">-1.07e-02</mean>
+          <mean_unc ref="6.26e-03">6.26e-03</mean_unc>
+          <rms ref="1.38e+00">1.38e+00</rms>
+          <rms_unc ref="4.43e-03">4.43e-03</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_e2fae39c-8d7d-45c7-8033-1712281764ff.png" type="reg"/>
+        <img src="plots/h1d_30b0472d-01c3-4a29-b216-622189667b1a.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_qoverp" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="100">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="4.18e-06">4.18e-06</mean>
+          <mean_unc ref="3.56e-06">3.56e-06</mean_unc>
+          <rms ref="7.91e-04">7.91e-04</rms>
+          <rms_unc ref="2.52e-06">2.52e-06</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_5a9f5c2a-3659-43ca-ab82-2eb1b1dc25af.png" type="reg"/>
+        <img src="plots/h1d_471b3d17-1182-4416-b207-fc0370c25f3a.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_pt" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="42">42</overflow>
+         <dim name="x" bins="100">
+          <underflow ref="0">0</underflow>
+          <overflow ref="42">42</overflow>
+          <mean ref="1.51e+00">1.51e+00</mean>
+          <mean_unc ref="1.54e-02">1.54e-02</mean_unc>
+          <rms ref="3.42e+00">3.42e+00</rms>
+          <rms_unc ref="1.09e-02">1.09e-02</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_c93c8dc1-6195-4e47-953f-45be2a911a72.png" type="reg"/>
+        <img src="plots/h1d_541c02a7-d7dc-4984-9b3e-f94e21d331b0.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_chi2" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="6">6</overflow>
+         <dim name="x" bins="100">
+          <underflow ref="0">0</underflow>
+          <overflow ref="6">6</overflow>
+          <mean ref="3.19e+01">3.19e+01</mean>
+          <mean_unc ref="7.60e-02">7.60e-02</mean_unc>
+          <rms ref="1.69e+01">1.69e+01</rms>
+          <rms_unc ref="5.37e-02">5.37e-02</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_7c1b9276-1355-4a36-b9ee-74ccb29bb3f1.png" type="reg"/>
+        <img src="plots/h1d_7c465c75-aa8c-4791-8b23-449e8ec795b2.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_ndof" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="100">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="3.28e+01">3.28e+01</mean>
+          <mean_unc ref="7.01e-02">7.01e-02</mean_unc>
+          <rms ref="1.56e+01">1.56e+01</rms>
+          <rms_unc ref="4.95e-02">4.95e-02</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_699bf069-6625-4d78-a497-4197d9956db3.png" type="reg"/>
+        <img src="plots/h1d_ab204090-f2af-4b6f-a8a1-edb7c5439fc8.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_chi2OverNdof" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="88">88</overflow>
+         <dim name="x" bins="100">
+          <underflow ref="0">0</underflow>
+          <overflow ref="88">88</overflow>
+          <mean ref="1.03e+00">1.03e+00</mean>
+          <mean_unc ref="2.16e-03">2.16e-03</mean_unc>
+          <rms ref="4.80e-01">4.80e-01</rms>
+          <rms_unc ref="1.53e-03">1.53e-03</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_e1e5aadb-c2a6-4078-934d-64b7845de590.png" type="reg"/>
+        <img src="plots/h1d_83f87de9-8671-4a17-b4c1-96197bc23a51.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_author" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="96920.0">96920.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="52">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="3.03e+00">3.03e+00</mean>
+          <mean_unc ref="2.45e-02">2.45e-02</mean_unc>
+          <rms ref="7.63e+00">7.63e+00</rms>
+          <rms_unc ref="1.73e-02">1.73e-02</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_fb3820c8-3a4e-4c05-86c6-8f42a5ea16ef.png" type="reg"/>
+        <img src="plots/h1d_b0eb402c-6755-4ed4-9439-ad55387f037f.png" type="dif"/>
+       </hist1D>
+       <hist1D name="truth_d0" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="7430.0">7430.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="100">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="9.94e-04">9.94e-04</mean>
+          <mean_unc ref="2.50e-03">2.50e-03</mean_unc>
+          <rms ref="2.16e-01">2.16e-01</rms>
+          <rms_unc ref="1.77e-03">1.77e-03</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_fc07c4a1-ae93-480a-beaa-31546071592d.png" type="reg"/>
+        <img src="plots/h1d_f359899c-de3e-4e15-b8ce-c20936a8abeb.png" type="dif"/>
+       </hist1D>
+       <hist1D name="truth_z0" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="7430.0">7430.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="100">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="-2.00e+00">-2.00e+00</mean>
+          <mean_unc ref="4.81e-01">4.81e-01</mean_unc>
+          <rms ref="4.15e+01">4.15e+01</rms>
+          <rms_unc ref="3.40e-01">3.40e-01</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_e1b1c01f-6873-4213-a9e1-11f6e6b73d88.png" type="reg"/>
+        <img src="plots/h1d_bb17d024-7075-47e5-929f-6edb1252c21f.png" type="dif"/>
+       </hist1D>
+       <hist1D name="truth_z0sin" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="7430.0">7430.0</entries>
+         <underflow ref="509">509</underflow>
+         <overflow ref="445">445</overflow>
+         <dim name="x" bins="100">
+          <underflow ref="509">509</underflow>
+          <overflow ref="445">445</overflow>
+          <mean ref="1.29e-01">1.29e-01</mean>
+          <mean_unc ref="2.24e-01">2.24e-01</mean_unc>
+          <rms ref="1.80e+01">1.80e+01</rms>
+          <rms_unc ref="1.58e-01">1.58e-01</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_4e804084-3d3b-4f61-b1cf-9544c7675c25.png" type="reg"/>
+        <img src="plots/h1d_fb72c11c-3c78-4fce-8a0d-518183ae9e4a.png" type="dif"/>
+       </hist1D>
+       <hist1D name="truth_phi" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="7430.0">7430.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="100">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="2.51e-02">2.51e-02</mean>
+          <mean_unc ref="2.09e-02">2.09e-02</mean_unc>
+          <rms ref="1.80e+00">1.80e+00</rms>
+          <rms_unc ref="1.48e-02">1.48e-02</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_8860a539-ec38-4810-96a4-fa74a658822a.png" type="reg"/>
+        <img src="plots/h1d_426fd293-23f7-4b3a-a597-64f761bc44d2.png" type="dif"/>
+       </hist1D>
+       <hist1D name="truth_theta" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="7430.0">7430.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="100">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="1.60e+00">1.60e+00</mean>
+          <mean_unc ref="1.09e-02">1.09e-02</mean_unc>
+          <rms ref="9.39e-01">9.39e-01</rms>
+          <rms_unc ref="7.70e-03">7.70e-03</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_83181dad-f39a-4153-b075-7b4e35756d5d.png" type="reg"/>
+        <img src="plots/h1d_56d8267e-b312-4d2e-b2aa-0ec219ba1146.png" type="dif"/>
+       </hist1D>
+       <hist1D name="truth_eta" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="7430.0">7430.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="100">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="-4.59e-02">-4.59e-02</mean>
+          <mean_unc ref="1.55e-02">1.55e-02</mean_unc>
+          <rms ref="1.34e+00">1.34e+00</rms>
+          <rms_unc ref="1.10e-02">1.10e-02</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_73c56e84-d2bf-4618-8ab4-d4c60ad40397.png" type="reg"/>
+        <img src="plots/h1d_92c07978-0fce-4985-b878-6957d58acde3.png" type="dif"/>
+       </hist1D>
+       <hist1D name="truth_qoverp" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="7430.0">7430.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="100">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="-4.21e-06">-4.21e-06</mean>
+          <mean_unc ref="7.65e-06">7.65e-06</mean_unc>
+          <rms ref="6.59e-04">6.59e-04</rms>
+          <rms_unc ref="5.41e-06">5.41e-06</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_dd6cfb8c-beb0-4234-b5b5-ed9e45838aa2.png" type="reg"/>
+        <img src="plots/h1d_4bb9cde7-3f5c-4413-be5c-e8bdc42c526e.png" type="dif"/>
+       </hist1D>
+       <hist1D name="truth_pt" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="7430.0">7430.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="10">10</overflow>
+         <dim name="x" bins="100">
+          <underflow ref="0">0</underflow>
+          <overflow ref="10">10</overflow>
+          <mean ref="3.34e+00">3.34e+00</mean>
+          <mean_unc ref="8.13e-02">8.13e-02</mean_unc>
+          <rms ref="7.01e+00">7.01e+00</rms>
+          <rms_unc ref="5.75e-02">5.75e-02</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_bd120c96-88d0-4e46-88c0-e40a12f56519.png" type="reg"/>
+        <img src="plots/h1d_a180d387-4579-40d0-a5d7-98868cbbdff5.png" type="dif"/>
+       </hist1D>
+       <hist1D name="truth_prodR" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="7430.0">7430.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="100">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="1.34e+00">1.34e+00</mean>
+          <mean_unc ref="3.43e-02">3.43e-02</mean_unc>
+          <rms ref="2.96e+00">2.96e+00</rms>
+          <rms_unc ref="2.43e-02">2.43e-02</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_b0faee09-d7d4-4dcf-9782-a7cd82868136.png" type="reg"/>
+        <img src="plots/h1d_bba4651f-ce87-4e81-87c5-137bb838940d.png" type="dif"/>
+       </hist1D>
+       <hist1D name="truth_prodZ" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="7430.0">7430.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="100">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="-2.01e+00">-2.01e+00</mean>
+          <mean_unc ref="4.86e-01">4.86e-01</mean_unc>
+          <rms ref="4.19e+01">4.19e+01</rms>
+          <rms_unc ref="3.44e-01">3.44e-01</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_02103dff-5f1e-41a5-9cda-bd6f185eea42.png" type="reg"/>
+        <img src="plots/h1d_fdfcd20a-ea0c-4a45-a9d8-f96c7d9e594b.png" type="dif"/>
+       </hist1D>
+      </TDirectory>
+      <TDirectory name="HitsOnTracks" KSOK="2" meanYOK="42" status="OK">
+       <hist1D name="offl_nPixelHits" plotopts="" tests="KS" type="TH1F" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="1">1</overflow>
+         <dim name="x" bins="10">
+          <underflow ref="0">0</underflow>
+          <overflow ref="1">1</overflow>
+          <mean ref="4.02e+00">4.02e+00</mean>
+          <mean_unc ref="5.17e-03">5.17e-03</mean_unc>
+          <rms ref="1.15e+00">1.15e+00</rms>
+          <rms_unc ref="3.66e-03">3.66e-03</rms_unc>
+         </dim>
+         <pvalue test="KS" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_d8478ccc-dbed-4d2d-bf51-5b1b4c052da9.png" type="reg"/>
+        <img src="plots/h1d_507c5ec1-7e2b-44ab-aa49-08a63e4879b7.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_nSCTHits" plotopts="" tests="KS" type="TH1F" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="20">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="7.93e+00">7.93e+00</mean>
+          <mean_unc ref="8.60e-03">8.60e-03</mean_unc>
+          <rms ref="1.91e+00">1.91e+00</rms>
+          <rms_unc ref="6.08e-03">6.08e-03</rms_unc>
+         </dim>
+         <pvalue test="KS" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_dd86b1b0-d2fa-475d-806e-984da92845d4.png" type="reg"/>
+        <img src="plots/h1d_4a6b40d6-d2f4-44a2-a87c-e4eae9a830c1.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_nInnerMostPixelHits_vs_offl_eta" plotopts="" tests="meany" type="TProfile" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="2">2</underflow>
+         <overflow ref="2">2</overflow>
+         <dim name="x" bins="80">
+          <underflow ref="1">1</underflow>
+          <overflow ref="1">1</overflow>
+          <mean ref="-1.07e-02">-1.07e-02</mean>
+          <mean_unc ref="6.26e-03">6.26e-03</mean_unc>
+          <rms ref="1.38e+00">1.38e+00</rms>
+          <rms_unc ref="4.43e-03">4.43e-03</rms_unc>
+         </dim>
+         <dim name="y" bins="1">
+          <underflow ref="1">1</underflow>
+          <overflow ref="1">1</overflow>
+          <mean ref="9.64e-01">9.64e-01</mean>
+          <mean_unc ref="1.77e-03">1.77e-03</mean_unc>
+          <rms ref="3.91e-01">3.91e-01</rms>
+          <rms_unc ref="1.25e-03">1.25e-03</rms_unc>
+         </dim>
+         <pvalue test="meanY" status="OK">0.000</pvalue>
+        </stat>
+        <img src="plots/p1r_92951c0b-61ef-487a-a27e-fa02ef4794b7.png" type="reg"/>
+        <img src="plots/p1d_82e3b47d-43b6-4e2d-a1c2-d392083016a4.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_nNextToInnerMostPixelHits_vs_offl_eta" plotopts="" tests="meany" type="TProfile" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="2">2</underflow>
+         <overflow ref="2">2</overflow>
+         <dim name="x" bins="80">
+          <underflow ref="1">1</underflow>
+          <overflow ref="1">1</overflow>
+          <mean ref="-1.07e-02">-1.07e-02</mean>
+          <mean_unc ref="6.26e-03">6.26e-03</mean_unc>
+          <rms ref="1.38e+00">1.38e+00</rms>
+          <rms_unc ref="4.43e-03">4.43e-03</rms_unc>
+         </dim>
+         <dim name="y" bins="1">
+          <underflow ref="1">1</underflow>
+          <overflow ref="1">1</overflow>
+          <mean ref="9.71e-01">9.71e-01</mean>
+          <mean_unc ref="2.04e-03">2.04e-03</mean_unc>
+          <rms ref="4.51e-01">4.51e-01</rms>
+          <rms_unc ref="1.44e-03">1.44e-03</rms_unc>
+         </dim>
+         <pvalue test="meanY" status="OK">0.000</pvalue>
+        </stat>
+        <img src="plots/p1r_ceae9a27-79c0-4ba1-86da-e46f4f891bbf.png" type="reg"/>
+        <img src="plots/p1d_b878fe64-e4ef-4c79-9633-9ae7bc6b48e0.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_nPixelHits_vs_offl_eta" plotopts="" tests="meany" type="TProfile" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="9">9</underflow>
+         <overflow ref="9">9</overflow>
+         <dim name="x" bins="80">
+          <underflow ref="4">4</underflow>
+          <overflow ref="4">4</overflow>
+          <mean ref="-1.07e-02">-1.07e-02</mean>
+          <mean_unc ref="6.26e-03">6.26e-03</mean_unc>
+          <rms ref="1.38e+00">1.38e+00</rms>
+          <rms_unc ref="4.43e-03">4.43e-03</rms_unc>
+         </dim>
+         <dim name="y" bins="1">
+          <underflow ref="4">4</underflow>
+          <overflow ref="4">4</overflow>
+          <mean ref="4.01e+00">4.01e+00</mean>
+          <mean_unc ref="5.18e-03">5.18e-03</mean_unc>
+          <rms ref="1.15e+00">1.15e+00</rms>
+          <rms_unc ref="3.67e-03">3.67e-03</rms_unc>
+         </dim>
+         <pvalue test="meanY" status="OK">0.000</pvalue>
+        </stat>
+        <img src="plots/p1r_6d929c84-c45f-4b72-8a9e-901cda9d4f1b.png" type="reg"/>
+        <img src="plots/p1d_f08de145-3507-4d9e-9a94-f9f0d1ef65b6.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_nSCTHits_vs_offl_eta" plotopts="" tests="meany" type="TProfile" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="11">11</underflow>
+         <overflow ref="12">12</overflow>
+         <dim name="x" bins="80">
+          <underflow ref="5">5</underflow>
+          <overflow ref="6">6</overflow>
+          <mean ref="-1.07e-02">-1.07e-02</mean>
+          <mean_unc ref="6.26e-03">6.26e-03</mean_unc>
+          <rms ref="1.38e+00">1.38e+00</rms>
+          <rms_unc ref="4.43e-03">4.43e-03</rms_unc>
+         </dim>
+         <dim name="y" bins="1">
+          <underflow ref="5">5</underflow>
+          <overflow ref="6">6</overflow>
+          <mean ref="7.96e+00">7.96e+00</mean>
+          <mean_unc ref="8.58e-03">8.58e-03</mean_unc>
+          <rms ref="1.90e+00">1.90e+00</rms>
+          <rms_unc ref="6.07e-03">6.07e-03</rms_unc>
+         </dim>
+         <pvalue test="meanY" status="OK">0.000</pvalue>
+        </stat>
+        <img src="plots/p1r_b30a576b-3485-4fdd-a7f1-09932802eaf4.png" type="reg"/>
+        <img src="plots/p1d_e22539c1-ba24-4924-9859-8b060be25be1.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_nPixelHoles_vs_offl_eta" plotopts="" tests="meany" type="TProfile" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="80">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="-1.07e-02">-1.07e-02</mean>
+          <mean_unc ref="6.26e-03">6.26e-03</mean_unc>
+          <rms ref="1.38e+00">1.38e+00</rms>
+          <rms_unc ref="4.43e-03">4.43e-03</rms_unc>
+         </dim>
+         <dim name="y" bins="1">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="4.66e-02">4.66e-02</mean>
+          <mean_unc ref="9.54e-04">9.54e-04</mean_unc>
+          <rms ref="2.11e-01">2.11e-01</rms>
+          <rms_unc ref="6.75e-04">6.75e-04</rms_unc>
+         </dim>
+         <pvalue test="meanY" status="OK">0.000</pvalue>
+        </stat>
+        <img src="plots/p1r_09d02f12-7724-4050-98e4-59b239fb49e6.png" type="reg"/>
+        <img src="plots/p1d_01fcd24e-9bd2-4025-a698-2434fd278c00.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_nInnerMostPixelHits_vs_offl_phi" plotopts="" tests="meany" type="TProfile" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="80">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="1.85e-03">1.85e-03</mean>
+          <mean_unc ref="8.16e-03">8.16e-03</mean_unc>
+          <rms ref="1.81e+00">1.81e+00</rms>
+          <rms_unc ref="5.77e-03">5.77e-03</rms_unc>
+         </dim>
+         <dim name="y" bins="1">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="9.65e-01">9.65e-01</mean>
+          <mean_unc ref="1.76e-03">1.76e-03</mean_unc>
+          <rms ref="3.91e-01">3.91e-01</rms>
+          <rms_unc ref="1.24e-03">1.24e-03</rms_unc>
+         </dim>
+         <pvalue test="meanY" status="OK">0.000</pvalue>
+        </stat>
+        <img src="plots/p1r_145d4b86-3b92-44e0-988f-d543a043961c.png" type="reg"/>
+        <img src="plots/p1d_d8b87547-c6f3-4baf-b053-f6e47d99e967.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_nNextToInnerMostPixelHits_vs_offl_phi" plotopts="" tests="meany" type="TProfile" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="80">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="1.85e-03">1.85e-03</mean>
+          <mean_unc ref="8.16e-03">8.16e-03</mean_unc>
+          <rms ref="1.81e+00">1.81e+00</rms>
+          <rms_unc ref="5.77e-03">5.77e-03</rms_unc>
+         </dim>
+         <dim name="y" bins="1">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="9.73e-01">9.73e-01</mean>
+          <mean_unc ref="2.04e-03">2.04e-03</mean_unc>
+          <rms ref="4.54e-01">4.54e-01</rms>
+          <rms_unc ref="1.44e-03">1.44e-03</rms_unc>
+         </dim>
+         <pvalue test="meanY" status="OK">0.000</pvalue>
+        </stat>
+        <img src="plots/p1r_612f6542-cf16-4b7e-986b-66b439ba2d09.png" type="reg"/>
+        <img src="plots/p1d_f654ae6b-ed5d-4419-ba61-255b824698c8.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_nPixelHits_vs_offl_phi" plotopts="" tests="meany" type="TProfile" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="80">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="1.85e-03">1.85e-03</mean>
+          <mean_unc ref="8.16e-03">8.16e-03</mean_unc>
+          <rms ref="1.81e+00">1.81e+00</rms>
+          <rms_unc ref="5.77e-03">5.77e-03</rms_unc>
+         </dim>
+         <dim name="y" bins="1">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="4.02e+00">4.02e+00</mean>
+          <mean_unc ref="5.17e-03">5.17e-03</mean_unc>
+          <rms ref="1.15e+00">1.15e+00</rms>
+          <rms_unc ref="3.66e-03">3.66e-03</rms_unc>
+         </dim>
+         <pvalue test="meanY" status="OK">0.000</pvalue>
+        </stat>
+        <img src="plots/p1r_b5b5e140-f44a-4c95-b39c-8f4b1a72887f.png" type="reg"/>
+        <img src="plots/p1d_46f9f2ad-fdb2-4dae-b11c-ac99620641dc.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_nSCTHits_vs_offl_phi" plotopts="" tests="meany" type="TProfile" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="80">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="1.85e-03">1.85e-03</mean>
+          <mean_unc ref="8.16e-03">8.16e-03</mean_unc>
+          <rms ref="1.81e+00">1.81e+00</rms>
+          <rms_unc ref="5.77e-03">5.77e-03</rms_unc>
+         </dim>
+         <dim name="y" bins="1">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="7.93e+00">7.93e+00</mean>
+          <mean_unc ref="8.60e-03">8.60e-03</mean_unc>
+          <rms ref="1.91e+00">1.91e+00</rms>
+          <rms_unc ref="6.08e-03">6.08e-03</rms_unc>
+         </dim>
+         <pvalue test="meanY" status="OK">0.000</pvalue>
+        </stat>
+        <img src="plots/p1r_6b09c603-ce70-4700-be64-245713d47de2.png" type="reg"/>
+        <img src="plots/p1d_4a2ade83-22fb-4aae-b694-8ebc79b16e4c.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_nPixelHoles_vs_offl_phi" plotopts="" tests="meany" type="TProfile" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="80">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="1.85e-03">1.85e-03</mean>
+          <mean_unc ref="8.16e-03">8.16e-03</mean_unc>
+          <rms ref="1.81e+00">1.81e+00</rms>
+          <rms_unc ref="5.77e-03">5.77e-03</rms_unc>
+         </dim>
+         <dim name="y" bins="1">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="4.69e-02">4.69e-02</mean>
+          <mean_unc ref="9.50e-04">9.50e-04</mean_unc>
+          <rms ref="2.11e-01">2.11e-01</rms>
+          <rms_unc ref="6.72e-04">6.72e-04</rms_unc>
+         </dim>
+         <pvalue test="meanY" status="OK">0.000</pvalue>
+        </stat>
+        <img src="plots/p1r_b5da9108-2fec-48a1-b3c6-bac8ab671014.png" type="reg"/>
+        <img src="plots/p1d_fa75423f-dfa6-49b0-a0ed-cfda21b42b4c.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_nInnerMostPixelOutliers_vs_offl_eta" plotopts="" tests="meany" type="TProfile" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="80">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="-1.07e-02">-1.07e-02</mean>
+          <mean_unc ref="6.26e-03">6.26e-03</mean_unc>
+          <rms ref="1.38e+00">1.38e+00</rms>
+          <rms_unc ref="4.43e-03">4.43e-03</rms_unc>
+         </dim>
+         <dim name="y" bins="1">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="2.95e-03">2.95e-03</mean>
+          <mean_unc ref="2.47e-04">2.47e-04</mean_unc>
+          <rms ref="5.46e-02">5.46e-02</rms>
+          <rms_unc ref="1.75e-04">1.75e-04</rms_unc>
+         </dim>
+         <pvalue test="meanY" status="OK">0.000</pvalue>
+        </stat>
+        <img src="plots/p1r_8908e554-0ab7-4515-b7c4-1b4f62e259a3.png" type="reg"/>
+        <img src="plots/p1d_df6ae43a-9efc-4f49-93a4-6fb3ecf4aeb2.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_nInnerMostPixelSharedHits_vs_offl_eta" plotopts="" tests="meany" type="TProfile" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="80">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="-1.07e-02">-1.07e-02</mean>
+          <mean_unc ref="6.26e-03">6.26e-03</mean_unc>
+          <rms ref="1.38e+00">1.38e+00</rms>
+          <rms_unc ref="4.43e-03">4.43e-03</rms_unc>
+         </dim>
+         <dim name="y" bins="1">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="1.09e-02">1.09e-02</mean>
+          <mean_unc ref="4.70e-04">4.70e-04</mean_unc>
+          <rms ref="1.04e-01">1.04e-01</rms>
+          <rms_unc ref="3.32e-04">3.32e-04</rms_unc>
+         </dim>
+         <pvalue test="meanY" status="OK">0.000</pvalue>
+        </stat>
+        <img src="plots/p1r_dab0d1d6-0eaa-40e6-916b-f2d611ec5645.png" type="reg"/>
+        <img src="plots/p1d_8e3a27f0-cbb7-4994-a7dc-b2f71ccf3f1e.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_nInnerMostPixelSplitHits_vs_offl_eta" plotopts="" tests="meany" type="TProfile" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="80">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="-1.07e-02">-1.07e-02</mean>
+          <mean_unc ref="6.26e-03">6.26e-03</mean_unc>
+          <rms ref="1.38e+00">1.38e+00</rms>
+          <rms_unc ref="4.43e-03">4.43e-03</rms_unc>
+         </dim>
+         <dim name="y" bins="1">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="2.78e-03">6.47e-03</mean>
+          <mean_unc ref="2.49e-04">4.73e-04</mean_unc>
+          <rms ref="5.50e-02">1.05e-01</rms>
+          <rms_unc ref="1.76e-04">3.35e-04</rms_unc>
+         </dim>
+         <pvalue test="meanY" status="OK">0.369</pvalue>
+        </stat>
+        <img src="plots/p1r_8105e629-5143-447a-b409-66f5c48d0ce2.png" type="reg"/>
+        <img src="plots/p1d_38e4b3f8-c651-456f-b5af-7ad7b715effe.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_nExpectedInnerMostPixelHits_vs_offl_eta" plotopts="" tests="meany" type="TProfile" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="1">1</underflow>
+         <overflow ref="1">1</overflow>
+         <dim name="x" bins="80">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="-1.07e-02">-1.07e-02</mean>
+          <mean_unc ref="6.26e-03">6.26e-03</mean_unc>
+          <rms ref="1.38e+00">1.38e+00</rms>
+          <rms_unc ref="4.43e-03">4.43e-03</rms_unc>
+         </dim>
+         <dim name="y" bins="1">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="9.56e-01">9.56e-01</mean>
+          <mean_unc ref="9.32e-04">9.32e-04</mean_unc>
+          <rms ref="2.06e-01">2.06e-01</rms>
+          <rms_unc ref="6.59e-04">6.59e-04</rms_unc>
+         </dim>
+         <pvalue test="meanY" status="OK">0.000</pvalue>
+        </stat>
+        <img src="plots/p1r_c89505a5-9df2-41fc-96d6-6278afb00b69.png" type="reg"/>
+        <img src="plots/p1d_d0093ea8-922b-4ae6-8d68-9eacb1e0f162.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_nExpectedNextToInnerMostPixelHits_vs_offl_eta" plotopts="" tests="meany" type="TProfile" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="1">1</underflow>
+         <overflow ref="1">1</overflow>
+         <dim name="x" bins="80">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="-1.07e-02">-1.07e-02</mean>
+          <mean_unc ref="6.26e-03">6.26e-03</mean_unc>
+          <rms ref="1.38e+00">1.38e+00</rms>
+          <rms_unc ref="4.43e-03">4.43e-03</rms_unc>
+         </dim>
+         <dim name="y" bins="1">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="9.23e-01">9.23e-01</mean>
+          <mean_unc ref="1.20e-03">1.20e-03</mean_unc>
+          <rms ref="2.66e-01">2.66e-01</rms>
+          <rms_unc ref="8.52e-04">8.52e-04</rms_unc>
+         </dim>
+         <pvalue test="meanY" status="OK">0.000</pvalue>
+        </stat>
+        <img src="plots/p1r_340f2585-4274-4557-b64d-c111d1aa033a.png" type="reg"/>
+        <img src="plots/p1d_9e024d66-7edc-40b9-8ee0-348f67698f30.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_nPixelOutliers_vs_offl_eta" plotopts="" tests="meany" type="TProfile" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="80">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="-1.07e-02">-1.07e-02</mean>
+          <mean_unc ref="6.26e-03">6.26e-03</mean_unc>
+          <rms ref="1.38e+00">1.38e+00</rms>
+          <rms_unc ref="4.43e-03">4.43e-03</rms_unc>
+         </dim>
+         <dim name="y" bins="1">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="9.40e-03">9.40e-03</mean>
+          <mean_unc ref="4.76e-04">4.76e-04</mean_unc>
+          <rms ref="1.05e-01">1.05e-01</rms>
+          <rms_unc ref="3.37e-04">3.37e-04</rms_unc>
+         </dim>
+         <pvalue test="meanY" status="OK">0.000</pvalue>
+        </stat>
+        <img src="plots/p1r_2381a298-13ca-4472-8875-026533dd9c0f.png" type="reg"/>
+        <img src="plots/p1d_0f4b732f-05a8-4621-865e-dbd420734e0f.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_nPixelContribLayers_vs_offl_eta" plotopts="" tests="meany" type="TProfile" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="7">7</underflow>
+         <overflow ref="7">7</overflow>
+         <dim name="x" bins="80">
+          <underflow ref="3">3</underflow>
+          <overflow ref="3">3</overflow>
+          <mean ref="-1.07e-02">-1.07e-02</mean>
+          <mean_unc ref="6.26e-03">6.26e-03</mean_unc>
+          <rms ref="1.38e+00">1.38e+00</rms>
+          <rms_unc ref="4.43e-03">4.43e-03</rms_unc>
+         </dim>
+         <dim name="y" bins="1">
+          <underflow ref="3">3</underflow>
+          <overflow ref="3">3</overflow>
+          <mean ref="3.73e+00">3.73e+00</mean>
+          <mean_unc ref="4.21e-03">4.21e-03</mean_unc>
+          <rms ref="9.29e-01">9.29e-01</rms>
+          <rms_unc ref="2.97e-03">2.97e-03</rms_unc>
+         </dim>
+         <pvalue test="meanY" status="OK">0.000</pvalue>
+        </stat>
+        <img src="plots/p1r_98069476-b165-4963-81cc-e3110eb01a34.png" type="reg"/>
+        <img src="plots/p1d_f1f721a4-1fd0-4792-9801-ce22ac5c5016.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_nPixelSharedHits_vs_offl_eta" plotopts="" tests="meany" type="TProfile" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="80">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="-1.07e-02">-1.07e-02</mean>
+          <mean_unc ref="6.26e-03">6.26e-03</mean_unc>
+          <rms ref="1.38e+00">1.38e+00</rms>
+          <rms_unc ref="4.43e-03">4.43e-03</rms_unc>
+         </dim>
+         <dim name="y" bins="1">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="1.71e-02">1.71e-02</mean>
+          <mean_unc ref="5.88e-04">5.88e-04</mean_unc>
+          <rms ref="1.30e-01">1.30e-01</rms>
+          <rms_unc ref="4.16e-04">4.16e-04</rms_unc>
+         </dim>
+         <pvalue test="meanY" status="OK">0.000</pvalue>
+        </stat>
+        <img src="plots/p1r_a0111ff6-4e72-4afb-92bc-e76f0b1b9646.png" type="reg"/>
+        <img src="plots/p1d_abaee1d2-7414-4d18-9898-7a27d48ea9d7.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_nPixelSplitHits_vs_offl_eta" plotopts="" tests="meany" type="TProfile" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="80">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="-1.07e-02">-1.07e-02</mean>
+          <mean_unc ref="6.26e-03">6.26e-03</mean_unc>
+          <rms ref="1.38e+00">1.38e+00</rms>
+          <rms_unc ref="4.43e-03">4.43e-03</rms_unc>
+         </dim>
+         <dim name="y" bins="1">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="6.47e-03">6.47e-03</mean>
+          <mean_unc ref="4.73e-04">4.73e-04</mean_unc>
+          <rms ref="1.05e-01">1.05e-01</rms>
+          <rms_unc ref="3.35e-04">3.35e-04</rms_unc>
+         </dim>
+         <pvalue test="meanY" status="OK">0.000</pvalue>
+        </stat>
+        <img src="plots/p1r_924069e3-4cd8-4dbe-8275-323363258c6c.png" type="reg"/>
+        <img src="plots/p1d_c81657df-e0cd-40a5-a0f9-ef1357748aee.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_nPixelGangedHits_vs_offl_eta" plotopts="" tests="meany" type="TProfile" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="80">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="-1.07e-02">-1.07e-02</mean>
+          <mean_unc ref="6.26e-03">6.26e-03</mean_unc>
+          <rms ref="1.38e+00">1.38e+00</rms>
+          <rms_unc ref="4.43e-03">4.43e-03</rms_unc>
+         </dim>
+         <dim name="y" bins="1">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="1.92e-01">1.92e-01</mean>
+          <mean_unc ref="2.00e-03">2.00e-03</mean_unc>
+          <rms ref="4.42e-01">4.42e-01</rms>
+          <rms_unc ref="1.41e-03">1.41e-03</rms_unc>
+         </dim>
+         <pvalue test="meanY" status="OK">0.000</pvalue>
+        </stat>
+        <img src="plots/p1r_c9309459-e9d8-4d34-a4f4-390b3670d622.png" type="reg"/>
+        <img src="plots/p1d_40e15952-78ab-4297-aecd-601f1ca24821.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_nPixelGangedHitsFlaggedFakes_vs_offl_eta" plotopts="" tests="meany" type="TProfile" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="80">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="-1.07e-02">-1.07e-02</mean>
+          <mean_unc ref="6.26e-03">6.26e-03</mean_unc>
+          <rms ref="1.38e+00">1.38e+00</rms>
+          <rms_unc ref="4.43e-03">4.43e-03</rms_unc>
+         </dim>
+         <dim name="y" bins="1">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="6.14e-03">6.14e-03</mean>
+          <mean_unc ref="3.62e-04">3.62e-04</mean_unc>
+          <rms ref="7.99e-02">7.99e-02</rms>
+          <rms_unc ref="2.56e-04">2.56e-04</rms_unc>
+         </dim>
+         <pvalue test="meanY" status="OK">0.000</pvalue>
+        </stat>
+        <img src="plots/p1r_0cd7db77-7f68-4a9e-b4bf-6baca19f8489.png" type="reg"/>
+        <img src="plots/p1d_8faa526d-054a-4acc-b676-72c9fcdedaa9.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_nSCTOutliers_vs_offl_eta" plotopts="" tests="meany" type="TProfile" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="80">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="-1.07e-02">-1.07e-02</mean>
+          <mean_unc ref="6.26e-03">6.26e-03</mean_unc>
+          <rms ref="1.38e+00">1.38e+00</rms>
+          <rms_unc ref="4.43e-03">4.43e-03</rms_unc>
+         </dim>
+         <dim name="y" bins="1">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="1.37e-02">1.37e-02</mean>
+          <mean_unc ref="6.11e-04">6.11e-04</mean_unc>
+          <rms ref="1.35e-01">1.35e-01</rms>
+          <rms_unc ref="4.32e-04">4.32e-04</rms_unc>
+         </dim>
+         <pvalue test="meanY" status="OK">0.000</pvalue>
+        </stat>
+        <img src="plots/p1r_86d1f3a3-834f-4063-95cb-39e3382af3fc.png" type="reg"/>
+        <img src="plots/p1d_40d1060a-f447-41d4-854d-7755fb98019d.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_nSCTDoubleHoles_vs_offl_eta" plotopts="" tests="meany" type="TProfile" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="80">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="-1.07e-02">-1.07e-02</mean>
+          <mean_unc ref="6.26e-03">6.26e-03</mean_unc>
+          <rms ref="1.38e+00">1.38e+00</rms>
+          <rms_unc ref="4.43e-03">4.43e-03</rms_unc>
+         </dim>
+         <dim name="y" bins="1">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="1.02e-02">1.02e-02</mean>
+          <mean_unc ref="4.55e-04">4.55e-04</mean_unc>
+          <rms ref="1.00e-01">1.00e-01</rms>
+          <rms_unc ref="3.21e-04">3.21e-04</rms_unc>
+         </dim>
+         <pvalue test="meanY" status="OK">0.000</pvalue>
+        </stat>
+        <img src="plots/p1r_b815fbb0-8752-4e31-8009-a47955d9c4d3.png" type="reg"/>
+        <img src="plots/p1d_a7acc1da-9833-4868-b581-540f79e90324.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_nSCTSharedHits_vs_offl_eta" plotopts="" tests="meany" type="TProfile" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="80">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="-1.07e-02">-1.07e-02</mean>
+          <mean_unc ref="6.26e-03">6.26e-03</mean_unc>
+          <rms ref="1.38e+00">1.38e+00</rms>
+          <rms_unc ref="4.43e-03">4.43e-03</rms_unc>
+         </dim>
+         <dim name="y" bins="1">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="6.44e-02">6.44e-02</mean>
+          <mean_unc ref="1.35e-03">1.35e-03</mean_unc>
+          <rms ref="2.98e-01">2.98e-01</rms>
+          <rms_unc ref="9.54e-04">9.54e-04</rms_unc>
+         </dim>
+         <pvalue test="meanY" status="OK">0.000</pvalue>
+        </stat>
+        <img src="plots/p1r_b1a12760-3c76-4447-b3cf-3691736da699.png" type="reg"/>
+        <img src="plots/p1d_3a29525f-3363-49a2-b373-83b2cb39cb8e.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_nPixelDeadSensors_vs_offl_eta" plotopts="" tests="meany" type="TProfile" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="80">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="-1.07e-02">-1.07e-02</mean>
+          <mean_unc ref="6.26e-03">6.26e-03</mean_unc>
+          <rms ref="1.38e+00">1.38e+00</rms>
+          <rms_unc ref="4.43e-03">4.43e-03</rms_unc>
+         </dim>
+         <dim name="y" bins="1">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="1.57e-01">1.57e-01</mean>
+          <mean_unc ref="1.81e-03">1.81e-03</mean_unc>
+          <rms ref="4.00e-01">4.00e-01</rms>
+          <rms_unc ref="1.28e-03">1.28e-03</rms_unc>
+         </dim>
+         <pvalue test="meanY" status="OK">0.000</pvalue>
+        </stat>
+        <img src="plots/p1r_552b720f-8779-409f-ac3b-ce93e3ce3eb4.png" type="reg"/>
+        <img src="plots/p1d_76756563-03d8-4ade-baf4-e515fd31665f.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_nSCTDeadSensors_vs_offl_eta" plotopts="" tests="meany" type="TProfile" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="80">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="-1.07e-02">-1.07e-02</mean>
+          <mean_unc ref="6.26e-03">6.26e-03</mean_unc>
+          <rms ref="1.38e+00">1.38e+00</rms>
+          <rms_unc ref="4.43e-03">4.43e-03</rms_unc>
+         </dim>
+         <dim name="y" bins="1">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="1.03e-01">1.03e-01</mean>
+          <mean_unc ref="1.88e-03">1.88e-03</mean_unc>
+          <rms ref="4.16e-01">4.16e-01</rms>
+          <rms_unc ref="1.33e-03">1.33e-03</rms_unc>
+         </dim>
+         <pvalue test="meanY" status="OK">0.000</pvalue>
+        </stat>
+        <img src="plots/p1r_8bfec94c-c4d2-4f74-8cc4-1f3ad4f10e7b.png" type="reg"/>
+        <img src="plots/p1d_e03b48b2-93eb-4623-bf09-35e06d7aa15b.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_nInnerMostPixelOutliers_vs_offl_phi" plotopts="" tests="meany" type="TProfile" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="80">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="1.85e-03">1.85e-03</mean>
+          <mean_unc ref="8.16e-03">8.16e-03</mean_unc>
+          <rms ref="1.81e+00">1.81e+00</rms>
+          <rms_unc ref="5.77e-03">5.77e-03</rms_unc>
+         </dim>
+         <dim name="y" bins="1">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="3.01e-03">3.01e-03</mean>
+          <mean_unc ref="2.48e-04">2.48e-04</mean_unc>
+          <rms ref="5.52e-02">5.52e-02</rms>
+          <rms_unc ref="1.75e-04">1.75e-04</rms_unc>
+         </dim>
+         <pvalue test="meanY" status="OK">0.000</pvalue>
+        </stat>
+        <img src="plots/p1r_875b96b5-55fe-471e-b873-87bab730c86c.png" type="reg"/>
+        <img src="plots/p1d_34a8c642-0d61-4a67-92c8-4c6eb64bdfcb.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_nInnerMostPixelSharedHits_vs_offl_phi" plotopts="" tests="meany" type="TProfile" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="80">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="1.85e-03">1.85e-03</mean>
+          <mean_unc ref="8.16e-03">8.16e-03</mean_unc>
+          <rms ref="1.81e+00">1.81e+00</rms>
+          <rms_unc ref="5.77e-03">5.77e-03</rms_unc>
+         </dim>
+         <dim name="y" bins="1">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="1.09e-02">1.09e-02</mean>
+          <mean_unc ref="4.66e-04">4.66e-04</mean_unc>
+          <rms ref="1.04e-01">1.04e-01</rms>
+          <rms_unc ref="3.30e-04">3.30e-04</rms_unc>
+         </dim>
+         <pvalue test="meanY" status="OK">0.000</pvalue>
+        </stat>
+        <img src="plots/p1r_eecf9660-029b-45bc-b4ed-946802e435b8.png" type="reg"/>
+        <img src="plots/p1d_8fe5e873-5b92-414f-a31d-4e34a7e5accd.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_nInnerMostPixelSplitHits_vs_offl_phi" plotopts="" tests="meany" type="TProfile" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="80">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="1.85e-03">1.85e-03</mean>
+          <mean_unc ref="8.16e-03">8.16e-03</mean_unc>
+          <rms ref="1.81e+00">1.81e+00</rms>
+          <rms_unc ref="5.77e-03">5.77e-03</rms_unc>
+         </dim>
+         <dim name="y" bins="1">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="2.75e-03">6.39e-03</mean>
+          <mean_unc ref="2.46e-04">4.67e-04</mean_unc>
+          <rms ref="5.46e-02">1.04e-01</rms>
+          <rms_unc ref="1.74e-04">3.30e-04</rms_unc>
+         </dim>
+         <pvalue test="meanY" status="OK">0.364</pvalue>
+        </stat>
+        <img src="plots/p1r_2920c6e3-219f-415d-bf45-a9b40fba2352.png" type="reg"/>
+        <img src="plots/p1d_185c73a0-61cc-4e37-901b-2d9fbad00237.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_nExpectedInnerMostPixelHits_vs_offl_phi" plotopts="" tests="meany" type="TProfile" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="80">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="1.85e-03">1.85e-03</mean>
+          <mean_unc ref="8.16e-03">8.16e-03</mean_unc>
+          <rms ref="1.81e+00">1.81e+00</rms>
+          <rms_unc ref="5.77e-03">5.77e-03</rms_unc>
+         </dim>
+         <dim name="y" bins="1">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="9.56e-01">9.56e-01</mean>
+          <mean_unc ref="9.23e-04">9.23e-04</mean_unc>
+          <rms ref="2.05e-01">2.05e-01</rms>
+          <rms_unc ref="6.52e-04">6.52e-04</rms_unc>
+         </dim>
+         <pvalue test="meanY" status="OK">0.000</pvalue>
+        </stat>
+        <img src="plots/p1r_07e1aa1d-e5d6-4038-8e0e-5730e7b0000a.png" type="reg"/>
+        <img src="plots/p1d_2c2eadef-c0e7-4fdc-9e14-44545c35a244.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_nExpectedNextToInnerMostPixelHits_vs_offl_phi" plotopts="" tests="meany" type="TProfile" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="80">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="1.85e-03">1.85e-03</mean>
+          <mean_unc ref="8.16e-03">8.16e-03</mean_unc>
+          <rms ref="1.81e+00">1.81e+00</rms>
+          <rms_unc ref="5.77e-03">5.77e-03</rms_unc>
+         </dim>
+         <dim name="y" bins="1">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="9.24e-01">9.24e-01</mean>
+          <mean_unc ref="1.19e-03">1.19e-03</mean_unc>
+          <rms ref="2.65e-01">2.65e-01</rms>
+          <rms_unc ref="8.44e-04">8.44e-04</rms_unc>
+         </dim>
+         <pvalue test="meanY" status="OK">0.000</pvalue>
+        </stat>
+        <img src="plots/p1r_f6eb1070-eeff-428c-88ce-d015fe521027.png" type="reg"/>
+        <img src="plots/p1d_0fe67f7b-3284-4c9d-97ed-1d7f2db07050.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_nPixelOutliers_vs_offl_phi" plotopts="" tests="meany" type="TProfile" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="80">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="1.85e-03">1.85e-03</mean>
+          <mean_unc ref="8.16e-03">8.16e-03</mean_unc>
+          <rms ref="1.81e+00">1.81e+00</rms>
+          <rms_unc ref="5.77e-03">5.77e-03</rms_unc>
+         </dim>
+         <dim name="y" bins="1">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="9.48e-03">9.48e-03</mean>
+          <mean_unc ref="4.75e-04">4.75e-04</mean_unc>
+          <rms ref="1.06e-01">1.06e-01</rms>
+          <rms_unc ref="3.36e-04">3.36e-04</rms_unc>
+         </dim>
+         <pvalue test="meanY" status="OK">0.000</pvalue>
+        </stat>
+        <img src="plots/p1r_6ba83de1-774b-4201-b210-23178f8444c6.png" type="reg"/>
+        <img src="plots/p1d_7e83c1ce-eca2-41e8-8c06-c04df2e27727.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_nPixelContribLayers_vs_offl_phi" plotopts="" tests="meany" type="TProfile" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="80">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="1.85e-03">1.85e-03</mean>
+          <mean_unc ref="8.16e-03">8.16e-03</mean_unc>
+          <rms ref="1.81e+00">1.81e+00</rms>
+          <rms_unc ref="5.77e-03">5.77e-03</rms_unc>
+         </dim>
+         <dim name="y" bins="1">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="3.73e+00">3.73e+00</mean>
+          <mean_unc ref="4.17e-03">4.17e-03</mean_unc>
+          <rms ref="9.26e-01">9.26e-01</rms>
+          <rms_unc ref="2.95e-03">2.95e-03</rms_unc>
+         </dim>
+         <pvalue test="meanY" status="OK">0.000</pvalue>
+        </stat>
+        <img src="plots/p1r_e8adbd57-e37b-422c-8baf-43186b903eae.png" type="reg"/>
+        <img src="plots/p1d_02174005-b50a-4206-887f-a981ae3176da.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_nPixelSharedHits_vs_offl_phi" plotopts="" tests="meany" type="TProfile" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="80">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="1.85e-03">1.85e-03</mean>
+          <mean_unc ref="8.16e-03">8.16e-03</mean_unc>
+          <rms ref="1.81e+00">1.81e+00</rms>
+          <rms_unc ref="5.77e-03">5.77e-03</rms_unc>
+         </dim>
+         <dim name="y" bins="1">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="1.72e-02">1.72e-02</mean>
+          <mean_unc ref="5.86e-04">5.86e-04</mean_unc>
+          <rms ref="1.30e-01">1.30e-01</rms>
+          <rms_unc ref="4.14e-04">4.14e-04</rms_unc>
+         </dim>
+         <pvalue test="meanY" status="OK">0.000</pvalue>
+        </stat>
+        <img src="plots/p1r_cc9bbf4c-18a3-499d-8802-0897f942acdb.png" type="reg"/>
+        <img src="plots/p1d_a8b40855-27ea-4c6a-9f82-d84767cae6ff.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_nPixelSplitHits_vs_offl_phi" plotopts="" tests="meany" type="TProfile" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="80">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="1.85e-03">1.85e-03</mean>
+          <mean_unc ref="8.16e-03">8.16e-03</mean_unc>
+          <rms ref="1.81e+00">1.81e+00</rms>
+          <rms_unc ref="5.77e-03">5.77e-03</rms_unc>
+         </dim>
+         <dim name="y" bins="1">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="6.39e-03">6.39e-03</mean>
+          <mean_unc ref="4.67e-04">4.67e-04</mean_unc>
+          <rms ref="1.04e-01">1.04e-01</rms>
+          <rms_unc ref="3.30e-04">3.30e-04</rms_unc>
+         </dim>
+         <pvalue test="meanY" status="OK">0.000</pvalue>
+        </stat>
+        <img src="plots/p1r_1d1a15aa-4574-43ce-b31b-0134753f6074.png" type="reg"/>
+        <img src="plots/p1d_57ae6649-cf0e-40fb-b9c1-c2d9703ab32d.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_nPixelGangedHits_vs_offl_phi" plotopts="" tests="meany" type="TProfile" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="80">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="1.85e-03">1.85e-03</mean>
+          <mean_unc ref="8.16e-03">8.16e-03</mean_unc>
+          <rms ref="1.81e+00">1.81e+00</rms>
+          <rms_unc ref="5.77e-03">5.77e-03</rms_unc>
+         </dim>
+         <dim name="y" bins="1">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="1.92e-01">1.92e-01</mean>
+          <mean_unc ref="1.99e-03">1.99e-03</mean_unc>
+          <rms ref="4.43e-01">4.43e-01</rms>
+          <rms_unc ref="1.41e-03">1.41e-03</rms_unc>
+         </dim>
+         <pvalue test="meanY" status="OK">0.000</pvalue>
+        </stat>
+        <img src="plots/p1r_f4b27afd-cc15-45ba-840d-8037b952b2cd.png" type="reg"/>
+        <img src="plots/p1d_c2c27d47-06e8-4769-ad8d-4fb9534dc784.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_nPixelGangedHitsFlaggedFakes_vs_offl_phi" plotopts="" tests="meany" type="TProfile" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="80">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="1.85e-03">1.85e-03</mean>
+          <mean_unc ref="8.16e-03">8.16e-03</mean_unc>
+          <rms ref="1.81e+00">1.81e+00</rms>
+          <rms_unc ref="5.77e-03">5.77e-03</rms_unc>
+         </dim>
+         <dim name="y" bins="1">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="6.17e-03">6.17e-03</mean>
+          <mean_unc ref="3.60e-04">3.60e-04</mean_unc>
+          <rms ref="8.01e-02">8.01e-02</rms>
+          <rms_unc ref="2.55e-04">2.55e-04</rms_unc>
+         </dim>
+         <pvalue test="meanY" status="OK">0.000</pvalue>
+        </stat>
+        <img src="plots/p1r_11b050a2-1f27-465c-ad15-6037da3c270e.png" type="reg"/>
+        <img src="plots/p1d_2e989831-5b9f-4bac-9c9a-f13c2baa835c.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_nSCTOutliers_vs_offl_phi" plotopts="" tests="meany" type="TProfile" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="80">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="1.85e-03">1.85e-03</mean>
+          <mean_unc ref="8.16e-03">8.16e-03</mean_unc>
+          <rms ref="1.81e+00">1.81e+00</rms>
+          <rms_unc ref="5.77e-03">5.77e-03</rms_unc>
+         </dim>
+         <dim name="y" bins="1">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="1.38e-02">1.38e-02</mean>
+          <mean_unc ref="6.07e-04">6.07e-04</mean_unc>
+          <rms ref="1.35e-01">1.35e-01</rms>
+          <rms_unc ref="4.29e-04">4.29e-04</rms_unc>
+         </dim>
+         <pvalue test="meanY" status="OK">0.000</pvalue>
+        </stat>
+        <img src="plots/p1r_7f21c0b5-5307-41be-8b89-9e1d077c89b0.png" type="reg"/>
+        <img src="plots/p1d_20c4aac1-9000-4aed-b3d0-ee3f4fbce033.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_nSCTDoubleHoles_vs_offl_phi" plotopts="" tests="meany" type="TProfile" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="80">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="1.85e-03">1.85e-03</mean>
+          <mean_unc ref="8.16e-03">8.16e-03</mean_unc>
+          <rms ref="1.81e+00">1.81e+00</rms>
+          <rms_unc ref="5.77e-03">5.77e-03</rms_unc>
+         </dim>
+         <dim name="y" bins="1">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="1.02e-02">1.02e-02</mean>
+          <mean_unc ref="4.51e-04">4.51e-04</mean_unc>
+          <rms ref="1.00e-01">1.00e-01</rms>
+          <rms_unc ref="3.19e-04">3.19e-04</rms_unc>
+         </dim>
+         <pvalue test="meanY" status="OK">0.000</pvalue>
+        </stat>
+        <img src="plots/p1r_ba926de0-9ccf-4843-8f3a-2f62bf8b3a18.png" type="reg"/>
+        <img src="plots/p1d_8340dac6-2e36-48ad-93ed-d7b22ea70a99.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_nSCTSharedHits_vs_offl_phi" plotopts="" tests="meany" type="TProfile" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="80">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="1.85e-03">1.85e-03</mean>
+          <mean_unc ref="8.16e-03">8.16e-03</mean_unc>
+          <rms ref="1.81e+00">1.81e+00</rms>
+          <rms_unc ref="5.77e-03">5.77e-03</rms_unc>
+         </dim>
+         <dim name="y" bins="1">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="6.43e-02">6.43e-02</mean>
+          <mean_unc ref="1.34e-03">1.34e-03</mean_unc>
+          <rms ref="2.98e-01">2.98e-01</rms>
+          <rms_unc ref="9.47e-04">9.47e-04</rms_unc>
+         </dim>
+         <pvalue test="meanY" status="OK">0.000</pvalue>
+        </stat>
+        <img src="plots/p1r_9d482748-206d-439c-848e-fed9c17a897d.png" type="reg"/>
+        <img src="plots/p1d_94096119-1b7e-455f-926e-f9e7b8fd75c4.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_nPixelDeadSensors_vs_offl_phi" plotopts="" tests="meany" type="TProfile" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="80">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="1.85e-03">1.85e-03</mean>
+          <mean_unc ref="8.16e-03">8.16e-03</mean_unc>
+          <rms ref="1.81e+00">1.81e+00</rms>
+          <rms_unc ref="5.77e-03">5.77e-03</rms_unc>
+         </dim>
+         <dim name="y" bins="1">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="1.57e-01">1.57e-01</mean>
+          <mean_unc ref="1.80e-03">1.80e-03</mean_unc>
+          <rms ref="4.00e-01">4.00e-01</rms>
+          <rms_unc ref="1.27e-03">1.27e-03</rms_unc>
+         </dim>
+         <pvalue test="meanY" status="OK">0.000</pvalue>
+        </stat>
+        <img src="plots/p1r_4eb8f893-4b92-482a-ac5e-a802f6e4d9e1.png" type="reg"/>
+        <img src="plots/p1d_9e30342e-3ef9-46b4-8f84-a2a2f276dec9.png" type="dif"/>
+       </hist1D>
+       <hist1D name="offl_nSCTDeadSensors_vs_offl_phi" plotopts="" tests="meany" type="TProfile" stest="OK" plots="OK">
+        <stat>
+         <entries ref="49452.0">49452.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="80">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="1.85e-03">1.85e-03</mean>
+          <mean_unc ref="8.16e-03">8.16e-03</mean_unc>
+          <rms ref="1.81e+00">1.81e+00</rms>
+          <rms_unc ref="5.77e-03">5.77e-03</rms_unc>
+         </dim>
+         <dim name="y" bins="1">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="1.04e-01">1.04e-01</mean>
+          <mean_unc ref="1.88e-03">1.88e-03</mean_unc>
+          <rms ref="4.17e-01">4.17e-01</rms>
+          <rms_unc ref="1.33e-03">1.33e-03</rms_unc>
+         </dim>
+         <pvalue test="meanY" status="OK">0.000</pvalue>
+        </stat>
+        <img src="plots/p1r_0bd2101f-47ea-4a60-baf5-f4f6ad8b01a8.png" type="reg"/>
+        <img src="plots/p1d_d5f57fe4-42e2-4c8b-a72b-ad562ba7e6dc.png" type="dif"/>
+       </hist1D>
+      </TDirectory>
+      <TDirectory name="Multiplicities" KSOK="3" status="OK">
+       <hist1D name="num_offl_all" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="100.0">100.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="500">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="4.95e+02">4.95e+02</mean>
+          <mean_unc ref="1.15e+01">1.15e+01</mean_unc>
+          <rms ref="1.15e+02">1.15e+02</rms>
+          <rms_unc ref="8.16e+00">8.16e+00</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_6d403d7e-54c4-49ae-b57e-dc4976562e3e.png" type="reg"/>
+        <img src="plots/h1d_5122696c-7183-435a-b2d6-5b7602f5ed2e.png" type="dif"/>
+       </hist1D>
+       <hist1D name="num_offl_selected" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="100.0">100.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="500">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="4.95e+02">4.95e+02</mean>
+          <mean_unc ref="1.15e+01">1.15e+01</mean_unc>
+          <rms ref="1.15e+02">1.15e+02</rms>
+          <rms_unc ref="8.16e+00">8.16e+00</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_a239b566-493d-4b0f-a9c0-9b738cb933aa.png" type="reg"/>
+        <img src="plots/h1d_efbe231d-a967-4d4b-b4ea-d4f6405da4da.png" type="dif"/>
+       </hist1D>
+       <hist1D name="num_truth_all" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="100.0">100.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="500">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="1.54e+03">1.54e+03</mean>
+          <mean_unc ref="5.20e+01">5.20e+01</mean_unc>
+          <rms ref="5.20e+02">5.20e+02</rms>
+          <rms_unc ref="3.68e+01">3.68e+01</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_b557b1cc-c074-494a-9459-4b73f92d789b.png" type="reg"/>
+        <img src="plots/h1d_85a1c288-c5d8-4203-907f-29229ca0bd1c.png" type="dif"/>
+       </hist1D>
+      </TDirectory>
+      <TDirectory name="Resolutions" KSOK="66" status="OK">
+       <hist1D name="pull_d0" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="6268.0">6268.0</entries>
+         <underflow ref="26">26</underflow>
+         <overflow ref="32">32</overflow>
+         <dim name="x" bins="100">
+          <underflow ref="26">26</underflow>
+          <overflow ref="32">32</overflow>
+          <mean ref="-1.99e-02">-1.99e-02</mean>
+          <mean_unc ref="1.70e-02">1.70e-02</mean_unc>
+          <rms ref="1.34e+00">1.34e+00</rms>
+          <rms_unc ref="1.20e-02">1.20e-02</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_19fb74c3-d9fa-43f5-a7f2-da5e6ccedb83.png" type="reg"/>
+        <img src="plots/h1d_2a06a81a-6704-4d21-9140-4933f05db9c1.png" type="dif"/>
+       </hist1D>
+       <hist1D name="res_d0" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="6268.0">6268.0</entries>
+         <underflow ref="21">21</underflow>
+         <overflow ref="35">35</overflow>
+         <dim name="x" bins="100">
+          <underflow ref="21">21</underflow>
+          <overflow ref="35">35</overflow>
+          <mean ref="-2.08e-03">-2.08e-03</mean>
+          <mean_unc ref="2.47e-03">2.47e-03</mean_unc>
+          <rms ref="1.95e-01">1.95e-01</rms>
+          <rms_unc ref="1.75e-03">1.75e-03</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_102a6071-172f-4b8a-8a9d-95c57b9f0ad3.png" type="reg"/>
+        <img src="plots/h1d_a1bda8c0-3a91-45ed-982b-54d31756b56c.png" type="dif"/>
+       </hist1D>
+       <hist1D name="sigma_offl_d0" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="6268.0">6268.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="10">10</overflow>
+         <dim name="x" bins="100">
+          <underflow ref="0">0</underflow>
+          <overflow ref="10">10</overflow>
+          <mean ref="8.45e-02">8.45e-02</mean>
+          <mean_unc ref="1.00e-03">1.00e-03</mean_unc>
+          <rms ref="7.94e-02">7.94e-02</rms>
+          <rms_unc ref="7.09e-04">7.09e-04</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_bb2a8a1a-1a75-43ed-a46d-ed8292a0c31b.png" type="reg"/>
+        <img src="plots/h1d_985039f5-eceb-44a7-94e5-b94f8eaea166.png" type="dif"/>
+       </hist1D>
+       <hist1D name="resolution_d0_vs_truth_eta" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="64.0">64.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="64">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="4.22e-02">4.22e-02</mean>
+          <mean_unc ref="1.97e-02">1.97e-02</mean_unc>
+          <rms ref="1.68e+00">1.68e+00</rms>
+          <rms_unc ref="1.39e-02">1.39e-02</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_18f86c3a-bf65-4f21-abdf-8e6ebeab5c00.png" type="reg"/>
+        <img src="plots/h1d_c5b09363-faa5-4110-a078-b84df0f932dc.png" type="dif"/>
+       </hist1D>
+       <hist1D name="resmean_d0_vs_truth_eta" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="64.0">64.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="64">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="-2.08e-01">-2.08e-01</mean>
+          <mean_unc ref="7.22e-01">7.22e-01</mean_unc>
+          <rms ref="2.08e+00">2.08e+00</rms>
+          <rms_unc ref="5.11e-01">5.11e-01</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_b0a8d2c8-648b-44ce-87a0-20c1c964f086.png" type="reg"/>
+        <img src="plots/h1d_6330c72c-8146-4eca-96e0-8cdb930b7e4d.png" type="dif"/>
+       </hist1D>
+       <hist1D name="resolution_d0_vs_truth_pt" type="TH1D" plotopts="logx" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="37.0">37.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="49">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="3.15e+01">3.15e+01</mean>
+          <mean_unc ref="2.34e+00">2.34e+00</mean_unc>
+          <rms ref="3.94e+01">3.94e+01</rms>
+          <rms_unc ref="1.66e+00">1.66e+00</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_26f104e3-b51e-464e-aadc-09cc2bf5c7f2.png" type="reg"/>
+        <img src="plots/h1d_97b58896-9319-48e1-8bb5-35cc0dedfb23.png" type="dif"/>
+       </hist1D>
+       <hist1D name="resmean_d0_vs_truth_pt" type="TH1D" plotopts="logx" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="37.0">37.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="49">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="1.03e+02">1.03e+02</mean>
+          <mean_unc ref="2.56e+01">2.56e+01</mean_unc>
+          <rms ref="3.79e+01">3.79e+01</rms>
+          <rms_unc ref="1.81e+01">1.81e+01</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_58214189-20ad-42f9-ae69-4148794bfbeb.png" type="reg"/>
+        <img src="plots/h1d_815cfdba-2bb9-41a2-b7c4-f566c0f9fff4.png" type="dif"/>
+       </hist1D>
+       <hist1D name="pullwidth_d0_vs_truth_eta" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="64.0">64.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="64">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="8.86e-03">8.86e-03</mean>
+          <mean_unc ref="2.96e-02">2.96e-02</mean_unc>
+          <rms ref="1.46e+00">1.46e+00</rms>
+          <rms_unc ref="2.09e-02">2.09e-02</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_aafede82-bd01-498d-81f4-e6f58a5629b2.png" type="reg"/>
+        <img src="plots/h1d_53d85bfc-491d-4a19-be6a-abe6e0b44c95.png" type="dif"/>
+       </hist1D>
+       <hist1D name="pullmean_d0_vs_truth_eta" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="64.0">64.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="64">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="-4.34e-01">-4.34e-01</mean>
+          <mean_unc ref="3.06e+00">3.06e+00</mean_unc>
+          <rms ref="1.85e+00">1.85e+00</rms>
+          <rms_unc ref="2.17e+00">2.17e+00</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_5008f492-f634-4f4f-9f1b-eb53e447796d.png" type="reg"/>
+        <img src="plots/h1d_e0614600-5409-4a78-9d21-805f569443e3.png" type="dif"/>
+       </hist1D>
+       <hist1D name="pullwidth_d0_vs_truth_pt" type="TH1D" plotopts="logx" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="37.0">37.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="49">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="3.93e+01">3.93e+01</mean>
+          <mean_unc ref="1.88e+00">1.88e+00</mean_unc>
+          <rms ref="4.09e+01">4.09e+01</rms>
+          <rms_unc ref="1.33e+00">1.33e+00</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_02d739a7-a417-4657-8cc6-b86719a1350e.png" type="reg"/>
+        <img src="plots/h1d_aa547b97-d924-4aec-b26b-ebb31eed6acb.png" type="dif"/>
+       </hist1D>
+       <hist1D name="pullmean_d0_vs_truth_pt" type="TH1D" plotopts="logx" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="37.0">37.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="49">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="1.40e+02">1.40e+02</mean>
+          <mean_unc ref="1.60e+01">1.60e+01</mean_unc>
+          <rms ref="3.74e+01">3.74e+01</rms>
+          <rms_unc ref="1.13e+01">1.13e+01</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_ea4e6f56-ee59-40d3-b3fa-a54140282546.png" type="reg"/>
+        <img src="plots/h1d_e869189e-57b5-4208-999a-382e6f45aef0.png" type="dif"/>
+       </hist1D>
+       <hist1D name="pull_z0" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="6268.0">6268.0</entries>
+         <underflow ref="33">33</underflow>
+         <overflow ref="40">40</overflow>
+         <dim name="x" bins="100">
+          <underflow ref="33">33</underflow>
+          <overflow ref="40">40</overflow>
+          <mean ref="-7.15e-04">-7.15e-04</mean>
+          <mean_unc ref="1.46e-02">1.46e-02</mean_unc>
+          <rms ref="1.15e+00">1.15e+00</rms>
+          <rms_unc ref="1.03e-02">1.03e-02</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_a73b4231-bbb4-4a93-9cd4-e7bd5f16aec3.png" type="reg"/>
+        <img src="plots/h1d_5cbd0b5f-5cbf-42a7-a13e-5883385c92d8.png" type="dif"/>
+       </hist1D>
+       <hist1D name="res_z0" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="6268.0">6268.0</entries>
+         <underflow ref="42">42</underflow>
+         <overflow ref="50">50</overflow>
+         <dim name="x" bins="100">
+          <underflow ref="42">42</underflow>
+          <overflow ref="50">50</overflow>
+          <mean ref="3.71e-03">3.71e-03</mean>
+          <mean_unc ref="5.39e-03">5.39e-03</mean_unc>
+          <rms ref="4.24e-01">4.24e-01</rms>
+          <rms_unc ref="3.81e-03">3.81e-03</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_57885d7b-3a51-47f9-8f66-3b9789750b00.png" type="reg"/>
+        <img src="plots/h1d_ef2081d3-7901-4b65-b541-8cfec3d67b07.png" type="dif"/>
+       </hist1D>
+       <hist1D name="sigma_offl_z0" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="6268.0">6268.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="16">16</overflow>
+         <dim name="x" bins="100">
+          <underflow ref="0">0</underflow>
+          <overflow ref="16">16</overflow>
+          <mean ref="2.60e-01">2.60e-01</mean>
+          <mean_unc ref="3.59e-03">3.59e-03</mean_unc>
+          <rms ref="2.84e-01">2.84e-01</rms>
+          <rms_unc ref="2.54e-03">2.54e-03</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_8f84078e-017a-44c7-807e-67579e438c4e.png" type="reg"/>
+        <img src="plots/h1d_800c9f0a-ec3d-4529-9873-690aeb5edb60.png" type="dif"/>
+       </hist1D>
+       <hist1D name="resolution_z0_vs_truth_eta" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="64.0">64.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="64">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="2.02e-03">2.02e-03</mean>
+          <mean_unc ref="2.79e-02">2.79e-02</mean_unc>
+          <rms ref="1.87e+00">1.87e+00</rms>
+          <rms_unc ref="1.97e-02">1.97e-02</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_72a91978-7291-41d4-8932-65a3d01f065a.png" type="reg"/>
+        <img src="plots/h1d_18cc310f-06b1-4785-9523-d08f1e9dd322.png" type="dif"/>
+       </hist1D>
+       <hist1D name="resmean_z0_vs_truth_eta" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="64.0">64.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="64">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="1.45e+01">1.45e+01</mean>
+          <mean_unc ref="0.00e+00">0.00e+00</mean_unc>
+          <rms ref="0.00e+00">0.00e+00</rms>
+          <rms_unc ref="0.00e+00">0.00e+00</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_f3387782-0fd6-43cb-89fc-6fcc93e7ffdd.png" type="reg"/>
+        <img src="plots/h1d_c05d40a5-f7af-4783-be92-edadb08c2214.png" type="dif"/>
+       </hist1D>
+       <hist1D name="resolution_z0_vs_truth_pt" type="TH1D" plotopts="logx" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="37.0">37.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="49">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="2.88e+01">2.88e+01</mean>
+          <mean_unc ref="1.70e+00">1.70e+00</mean_unc>
+          <rms ref="4.11e+01">4.11e+01</rms>
+          <rms_unc ref="1.20e+00">1.20e+00</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_a8d31648-8ee3-4f05-8fc3-3ee3655d8aab.png" type="reg"/>
+        <img src="plots/h1d_60e61b5c-7e18-4094-a06b-8b95a62caeab.png" type="dif"/>
+       </hist1D>
+       <hist1D name="resmean_z0_vs_truth_pt" type="TH1D" plotopts="logx" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="37.0">37.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="49">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="1.78e+02">1.78e+02</mean>
+          <mean_unc ref="0.00e+00">0.00e+00</mean_unc>
+          <rms ref="0.00e+00">0.00e+00</rms>
+          <rms_unc ref="0.00e+00">0.00e+00</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_4224966a-3cfb-4e32-96c1-a0c387715e7c.png" type="reg"/>
+        <img src="plots/h1d_662bef00-e097-4ea8-8a69-2a2fbdb64584.png" type="dif"/>
+       </hist1D>
+       <hist1D name="pullwidth_z0_vs_truth_eta" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="64.0">64.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="64">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="1.41e-02">1.41e-02</mean>
+          <mean_unc ref="4.84e-02">4.84e-02</mean_unc>
+          <rms ref="1.45e+00">1.45e+00</rms>
+          <rms_unc ref="3.42e-02">3.42e-02</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_257c44c1-87de-4705-9cf6-8124a3754a4d.png" type="reg"/>
+        <img src="plots/h1d_42f2e14b-4bd6-401e-90fa-bb79d2030de3.png" type="dif"/>
+       </hist1D>
+       <hist1D name="pullmean_z0_vs_truth_eta" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="64.0">64.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="64">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="-2.24e+00">-2.24e+00</mean>
+          <mean_unc ref="0.00e+00">0.00e+00</mean_unc>
+          <rms ref="0.00e+00">0.00e+00</rms>
+          <rms_unc ref="0.00e+00">0.00e+00</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_9bd0a552-bace-4411-8e8c-45c0ad61f2bc.png" type="reg"/>
+        <img src="plots/h1d_31de4df0-dc77-4d81-a18f-1d6ad216b8ae.png" type="dif"/>
+       </hist1D>
+       <hist1D name="pullwidth_z0_vs_truth_pt" type="TH1D" plotopts="logx" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="37.0">37.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="49">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="3.34e+01">3.34e+01</mean>
+          <mean_unc ref="1.87e+00">1.87e+00</mean_unc>
+          <rms ref="4.32e+01">4.32e+01</rms>
+          <rms_unc ref="1.32e+00">1.32e+00</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_d07e13a5-5b49-4968-bd7b-f87cfb26e8c3.png" type="reg"/>
+        <img src="plots/h1d_7682fe6e-05a5-4315-941c-bf66e1710ed5.png" type="dif"/>
+       </hist1D>
+       <hist1D name="pullmean_z0_vs_truth_pt" type="TH1D" plotopts="logx" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="37.0">37.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="49">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="1.33e+02">1.33e+02</mean>
+          <mean_unc ref="5.54e+00">5.54e+00</mean_unc>
+          <rms ref="1.37e+01">1.37e+01</rms>
+          <rms_unc ref="3.92e+00">3.92e+00</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_49bdcda7-fdca-4131-a7b1-74d82ebc83a0.png" type="reg"/>
+        <img src="plots/h1d_c8805f84-b272-4796-b637-24089f929689.png" type="dif"/>
+       </hist1D>
+       <hist1D name="pull_qoverp" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="6268.0">6268.0</entries>
+         <underflow ref="24">24</underflow>
+         <overflow ref="30">30</overflow>
+         <dim name="x" bins="100">
+          <underflow ref="24">24</underflow>
+          <overflow ref="30">30</overflow>
+          <mean ref="3.14e-02">3.14e-02</mean>
+          <mean_unc ref="2.08e-02">2.08e-02</mean_unc>
+          <rms ref="1.64e+00">1.64e+00</rms>
+          <rms_unc ref="1.47e-02">1.47e-02</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_d02ffd1b-38e7-42f1-91b2-db6d09e36d66.png" type="reg"/>
+        <img src="plots/h1d_77f4b0a1-f638-4a93-a8fb-69d2011338fd.png" type="dif"/>
+       </hist1D>
+       <hist1D name="res_qoverp" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="6268.0">6268.0</entries>
+         <underflow ref="2">2</underflow>
+         <overflow ref="3">3</overflow>
+         <dim name="x" bins="100">
+          <underflow ref="2">2</underflow>
+          <overflow ref="3">3</overflow>
+          <mean ref="5.94e-04">5.94e-04</mean>
+          <mean_unc ref="3.07e-04">3.07e-04</mean_unc>
+          <rms ref="2.43e-02">2.43e-02</rms>
+          <rms_unc ref="2.17e-04">2.17e-04</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_98371e22-4612-4821-9bd8-63cc799126ff.png" type="reg"/>
+        <img src="plots/h1d_fe0de3ec-5357-4260-ac8d-6e8ea1c1758d.png" type="dif"/>
+       </hist1D>
+       <hist1D name="sigma_offl_qoverp" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="6268.0">6268.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="100">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="9.16e-03">9.16e-03</mean>
+          <mean_unc ref="9.21e-05">9.21e-05</mean_unc>
+          <rms ref="7.29e-03">7.29e-03</rms>
+          <rms_unc ref="6.51e-05">6.51e-05</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_b609c29c-6f20-4bcb-930a-fc10ed099bac.png" type="reg"/>
+        <img src="plots/h1d_da7eb1f4-ef3e-4b01-bf3d-7ca159376fa0.png" type="dif"/>
+       </hist1D>
+       <hist1D name="resolution_qoverp_vs_truth_eta" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="64.0">64.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="64">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="2.01e-02">2.01e-02</mean>
+          <mean_unc ref="1.30e-02">1.30e-02</mean_unc>
+          <rms ref="1.39e+00">1.39e+00</rms>
+          <rms_unc ref="9.22e-03">9.22e-03</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_82df1583-8e8f-480c-bb98-5389427b6032.png" type="reg"/>
+        <img src="plots/h1d_2151c66b-9846-4d6f-921a-36090e818305.png" type="dif"/>
+       </hist1D>
+       <hist1D name="resmean_qoverp_vs_truth_eta" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="64.0">64.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="64">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="5.90e-01">5.90e-01</mean>
+          <mean_unc ref="0.00e+00">0.00e+00</mean_unc>
+          <rms ref="0.00e+00">0.00e+00</rms>
+          <rms_unc ref="0.00e+00">0.00e+00</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_60fef4b5-58e2-4ccd-9e14-6b2ea876e0eb.png" type="reg"/>
+        <img src="plots/h1d_8ff49a05-0bd4-458e-a94a-e2d81867a48e.png" type="dif"/>
+       </hist1D>
+       <hist1D name="resolution_qoverp_vs_truth_pt" type="TH1D" plotopts="logx" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="37.0">37.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="49">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="2.75e+01">2.75e+01</mean>
+          <mean_unc ref="1.45e+00">1.45e+00</mean_unc>
+          <rms ref="3.44e+01">3.44e+01</rms>
+          <rms_unc ref="1.03e+00">1.03e+00</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_530a648b-efcc-47a6-a519-e057d755735a.png" type="reg"/>
+        <img src="plots/h1d_d39cde60-6a17-4a86-8b96-381d19aea151.png" type="dif"/>
+       </hist1D>
+       <hist1D name="resmean_qoverp_vs_truth_pt" type="TH1D" plotopts="logx" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="37.0">37.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="49">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="9.18e+01">9.18e+01</mean>
+          <mean_unc ref="2.56e+01">2.56e+01</mean_unc>
+          <rms ref="3.16e+01">3.16e+01</rms>
+          <rms_unc ref="1.81e+01">1.81e+01</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_dfc72e76-fb94-4bf3-9b87-9c30e5f07e62.png" type="reg"/>
+        <img src="plots/h1d_20576e9a-9710-4b4c-97fd-5e14b192a749.png" type="dif"/>
+       </hist1D>
+       <hist1D name="pullwidth_qoverp_vs_truth_eta" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="64.0">64.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="64">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="-2.08e-03">-2.08e-03</mean>
+          <mean_unc ref="1.32e-02">1.32e-02</mean_unc>
+          <rms ref="1.41e+00">1.41e+00</rms>
+          <rms_unc ref="9.30e-03">9.30e-03</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_19911aa0-0411-4243-8d75-7bfcabbdb025.png" type="reg"/>
+        <img src="plots/h1d_edee5ed1-a9a6-4063-9c0c-e4c3cd958243.png" type="dif"/>
+       </hist1D>
+       <hist1D name="pullmean_qoverp_vs_truth_eta" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="64.0">64.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="64">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="-2.88e+00">-2.88e+00</mean>
+          <mean_unc ref="0.00e+00">0.00e+00</mean_unc>
+          <rms ref="0.00e+00">0.00e+00</rms>
+          <rms_unc ref="0.00e+00">0.00e+00</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_c07a3ba5-bc30-4aac-bef4-c5484d8b442c.png" type="reg"/>
+        <img src="plots/h1d_b6559f02-73c1-45db-9e84-12f2e222fe4b.png" type="dif"/>
+       </hist1D>
+       <hist1D name="pullwidth_qoverp_vs_truth_pt" type="TH1D" plotopts="logx" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="37.0">37.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="49">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="3.48e+01">3.48e+01</mean>
+          <mean_unc ref="1.58e+01">1.58e+01</mean_unc>
+          <rms ref="3.70e+01">3.70e+01</rms>
+          <rms_unc ref="1.12e+01">1.12e+01</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_73ca66f3-d89b-4f2f-b3dc-88484b17ae58.png" type="reg"/>
+        <img src="plots/h1d_9d4089b1-a24a-4cfc-bfe1-d3a1ab4a7d6c.png" type="dif"/>
+       </hist1D>
+       <hist1D name="pullmean_qoverp_vs_truth_pt" type="TH1D" plotopts="logx" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="37.0">37.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="49">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="2.17e+02">2.17e+02</mean>
+          <mean_unc ref="0.00e+00">0.00e+00</mean_unc>
+          <rms ref="0.00e+00">0.00e+00</rms>
+          <rms_unc ref="0.00e+00">0.00e+00</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_c5c9bfd6-8500-4ba8-ba50-4a2ff08d9f6b.png" type="reg"/>
+        <img src="plots/h1d_3ae608ff-c27e-4aaf-8b03-d5a7709a73f6.png" type="dif"/>
+       </hist1D>
+       <hist1D name="pull_ptqopt" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="6268.0">6268.0</entries>
+         <underflow ref="26">26</underflow>
+         <overflow ref="31">31</overflow>
+         <dim name="x" bins="100">
+          <underflow ref="26">26</underflow>
+          <overflow ref="31">31</overflow>
+          <mean ref="3.29e-02">3.29e-02</mean>
+          <mean_unc ref="2.13e-02">2.13e-02</mean_unc>
+          <rms ref="1.68e+00">1.68e+00</rms>
+          <rms_unc ref="1.51e-02">1.51e-02</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_e90b6915-c777-449e-90de-7dfe61ed3be5.png" type="reg"/>
+        <img src="plots/h1d_9663594a-cb00-49d1-92ce-dedcc6d93fb8.png" type="dif"/>
+       </hist1D>
+       <hist1D name="res_ptqopt" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="6268.0">6268.0</entries>
+         <underflow ref="8">8</underflow>
+         <overflow ref="44">44</overflow>
+         <dim name="x" bins="100">
+          <underflow ref="8">8</underflow>
+          <overflow ref="44">44</overflow>
+          <mean ref="2.66e-04">2.66e-04</mean>
+          <mean_unc ref="6.34e-04">6.34e-04</mean_unc>
+          <rms ref="5.00e-02">5.00e-02</rms>
+          <rms_unc ref="4.48e-04">4.48e-04</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_6714d17c-d5b4-413f-b7ea-432304a71649.png" type="reg"/>
+        <img src="plots/h1d_1e44f803-5139-436a-b619-163d04f6d89c.png" type="dif"/>
+       </hist1D>
+       <hist1D name="sigma_offl_ptqopt" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="6268.0">6268.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="3">3</overflow>
+         <dim name="x" bins="100">
+          <underflow ref="0">0</underflow>
+          <overflow ref="3">3</overflow>
+          <mean ref="2.34e-02">2.34e-02</mean>
+          <mean_unc ref="2.02e-04">2.02e-04</mean_unc>
+          <rms ref="1.60e-02">1.60e-02</rms>
+          <rms_unc ref="1.43e-04">1.43e-04</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_e368c5d2-1965-4c2d-ae4f-6c97f9f78a8e.png" type="reg"/>
+        <img src="plots/h1d_3a1e1806-c896-4f91-89e2-9147e4a97030.png" type="dif"/>
+       </hist1D>
+       <hist1D name="resolution_ptqopt_vs_truth_eta" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="64.0">64.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="64">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="9.46e-03">9.46e-03</mean>
+          <mean_unc ref="1.92e-02">1.92e-02</mean_unc>
+          <rms ref="1.69e+00">1.69e+00</rms>
+          <rms_unc ref="1.36e-02">1.36e-02</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_729b72b0-6be4-4bd3-9e94-42df739e191c.png" type="reg"/>
+        <img src="plots/h1d_295f6b2d-aa99-4ef8-b2e8-d4f6a09758b3.png" type="dif"/>
+       </hist1D>
+       <hist1D name="resmean_ptqopt_vs_truth_eta" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="64.0">64.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="64">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="-7.09e-01">-7.09e-01</mean>
+          <mean_unc ref="5.55e-01">5.55e-01</mean_unc>
+          <rms ref="1.71e+00">1.71e+00</rms>
+          <rms_unc ref="3.92e-01">3.92e-01</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_1986ecf8-3fc5-4e74-a20d-eaf712f45192.png" type="reg"/>
+        <img src="plots/h1d_5ac11743-2dac-4ad3-8453-413beaab11c4.png" type="dif"/>
+       </hist1D>
+       <hist1D name="resolution_ptqopt_vs_truth_pt" type="TH1D" plotopts="logx" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="37.0">37.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="49">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="5.09e+01">5.09e+01</mean>
+          <mean_unc ref="1.99e+01">1.99e+01</mean_unc>
+          <rms ref="4.13e+01">4.13e+01</rms>
+          <rms_unc ref="1.41e+01">1.41e+01</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_3f6a81e7-6cd5-4c22-a822-097a4ffd83af.png" type="reg"/>
+        <img src="plots/h1d_bc37791d-ae1d-4d34-8b27-d3a34c649d3d.png" type="dif"/>
+       </hist1D>
+       <hist1D name="resmean_ptqopt_vs_truth_pt" type="TH1D" plotopts="logx" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="37.0">37.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="49">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="5.78e+02">5.78e+02</mean>
+          <mean_unc ref="0.00e+00">0.00e+00</mean_unc>
+          <rms ref="0.00e+00">0.00e+00</rms>
+          <rms_unc ref="0.00e+00">0.00e+00</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_cc199e57-ab72-4309-88da-83a4e1638a66.png" type="reg"/>
+        <img src="plots/h1d_b4717bef-8c16-4337-8398-ac1a548111f9.png" type="dif"/>
+       </hist1D>
+       <hist1D name="pullwidth_ptqopt_vs_truth_eta" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="64.0">64.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="64">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="-2.70e-03">-2.70e-03</mean>
+          <mean_unc ref="1.32e-02">1.32e-02</mean_unc>
+          <rms ref="1.41e+00">1.41e+00</rms>
+          <rms_unc ref="9.35e-03">9.35e-03</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_06d21012-4e45-4242-b329-33b99072227a.png" type="reg"/>
+        <img src="plots/h1d_7cad23d5-b63e-4851-866d-7f2d3cba8b41.png" type="dif"/>
+       </hist1D>
+       <hist1D name="pullmean_ptqopt_vs_truth_eta" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="64.0">64.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="64">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="-1.66e+00">-1.66e+00</mean>
+          <mean_unc ref="0.00e+00">0.00e+00</mean_unc>
+          <rms ref="0.00e+00">0.00e+00</rms>
+          <rms_unc ref="0.00e+00">0.00e+00</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_9cdb8715-1238-4525-8363-69e345c3a23c.png" type="reg"/>
+        <img src="plots/h1d_0c5866ea-4402-43d3-8bd7-9188eec6f8a2.png" type="dif"/>
+       </hist1D>
+       <hist1D name="pullwidth_ptqopt_vs_truth_pt" type="TH1D" plotopts="logx" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="37.0">37.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="49">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="3.47e+01">3.47e+01</mean>
+          <mean_unc ref="1.58e+01">1.58e+01</mean_unc>
+          <rms ref="3.70e+01">3.70e+01</rms>
+          <rms_unc ref="1.12e+01">1.12e+01</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_c36ee12a-6554-46bc-b010-898de385c19b.png" type="reg"/>
+        <img src="plots/h1d_8e8b4bdb-0a4a-4c87-8aa8-e96751bd23b7.png" type="dif"/>
+       </hist1D>
+       <hist1D name="pullmean_ptqopt_vs_truth_pt" type="TH1D" plotopts="logx" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="37.0">37.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="49">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="2.11e+02">2.11e+02</mean>
+          <mean_unc ref="0.00e+00">0.00e+00</mean_unc>
+          <rms ref="0.00e+00">0.00e+00</rms>
+          <rms_unc ref="0.00e+00">0.00e+00</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_6620219c-4f30-435d-99f6-a5165dd35113.png" type="reg"/>
+        <img src="plots/h1d_6faacddf-b1b9-4183-a3e2-fd80017781f9.png" type="dif"/>
+       </hist1D>
+       <hist1D name="pull_theta" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="6268.0">6268.0</entries>
+         <underflow ref="32">32</underflow>
+         <overflow ref="39">39</overflow>
+         <dim name="x" bins="100">
+          <underflow ref="32">32</underflow>
+          <overflow ref="39">39</overflow>
+          <mean ref="8.51e-03">8.51e-03</mean>
+          <mean_unc ref="1.57e-02">1.57e-02</mean_unc>
+          <rms ref="1.23e+00">1.23e+00</rms>
+          <rms_unc ref="1.11e-02">1.11e-02</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_93b9aa0e-69c5-4fef-959f-0a741d15bcbd.png" type="reg"/>
+        <img src="plots/h1d_ebf8200a-9cd1-47e1-9318-964d04d3b9a7.png" type="dif"/>
+       </hist1D>
+       <hist1D name="res_theta" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="6268.0">6268.0</entries>
+         <underflow ref="15">15</underflow>
+         <overflow ref="24">24</overflow>
+         <dim name="x" bins="100">
+          <underflow ref="15">15</underflow>
+          <overflow ref="24">24</overflow>
+          <mean ref="6.33e-06">6.33e-06</mean>
+          <mean_unc ref="3.97e-05">3.97e-05</mean_unc>
+          <rms ref="3.13e-03">3.13e-03</rms>
+          <rms_unc ref="2.81e-05">2.81e-05</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_3f608c1c-2d36-4b23-9354-8f77fe7e137d.png" type="reg"/>
+        <img src="plots/h1d_f4bc0184-971d-495c-9fe5-b5b3c37fbcc8.png" type="dif"/>
+       </hist1D>
+       <hist1D name="sigma_offl_theta" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="6268.0">6268.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="1">1</overflow>
+         <dim name="x" bins="100">
+          <underflow ref="0">0</underflow>
+          <overflow ref="1">1</overflow>
+          <mean ref="1.63e-03">1.63e-03</mean>
+          <mean_unc ref="1.60e-05">1.60e-05</mean_unc>
+          <rms ref="1.27e-03">1.27e-03</rms>
+          <rms_unc ref="1.13e-05">1.13e-05</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_8e8eab92-7115-4e37-ba04-8859d62ef795.png" type="reg"/>
+        <img src="plots/h1d_7ed26807-7486-4606-ae35-e0979752692d.png" type="dif"/>
+       </hist1D>
+       <hist1D name="resolution_theta_vs_truth_eta" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="64.0">64.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="64">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="4.86e-03">4.86e-03</mean>
+          <mean_unc ref="1.12e-02">1.12e-02</mean_unc>
+          <rms ref="1.19e+00">1.19e+00</rms>
+          <rms_unc ref="7.95e-03">7.95e-03</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_5e92caef-9135-47c8-8371-4d0e86bd1894.png" type="reg"/>
+        <img src="plots/h1d_a3d955f9-abb6-4dcf-82ea-9f3ab136f0cc.png" type="dif"/>
+       </hist1D>
+       <hist1D name="resmean_theta_vs_truth_eta" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="64.0">64.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="64">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="-9.44e-01">-9.44e-01</mean>
+          <mean_unc ref="8.74e-01">8.74e-01</mean_unc>
+          <rms ref="4.49e-01">4.49e-01</rms>
+          <rms_unc ref="6.18e-01">6.18e-01</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_62a5d751-f158-4948-9c28-e06a109fa164.png" type="reg"/>
+        <img src="plots/h1d_41acfde7-9c0e-4fb6-92c7-1a22e3044a1e.png" type="dif"/>
+       </hist1D>
+       <hist1D name="resolution_theta_vs_truth_pt" type="TH1D" plotopts="logx" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="37.0">37.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="49">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="1.33e+01">1.33e+01</mean>
+          <mean_unc ref="3.99e-01">3.99e-01</mean_unc>
+          <rms ref="2.69e+01">2.69e+01</rms>
+          <rms_unc ref="2.82e-01">2.82e-01</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_6332d41c-fb61-499b-871d-2e4e6ec87f4c.png" type="reg"/>
+        <img src="plots/h1d_060ebf3b-dec6-4101-9f73-dc2825ec6a54.png" type="dif"/>
+       </hist1D>
+       <hist1D name="resmean_theta_vs_truth_pt" type="TH1D" plotopts="logx" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="37.0">37.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="49">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="1.19e+02">1.19e+02</mean>
+          <mean_unc ref="0.00e+00">0.00e+00</mean_unc>
+          <rms ref="0.00e+00">0.00e+00</rms>
+          <rms_unc ref="0.00e+00">0.00e+00</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_999a913e-cad7-4294-878e-d23480852c39.png" type="reg"/>
+        <img src="plots/h1d_4ea19175-6f5e-48ca-9740-1c96388aad52.png" type="dif"/>
+       </hist1D>
+       <hist1D name="pullwidth_theta_vs_truth_eta" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="64.0">64.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="64">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="-1.84e-02">-1.84e-02</mean>
+          <mean_unc ref="4.41e-02">4.41e-02</mean_unc>
+          <rms ref="1.43e+00">1.43e+00</rms>
+          <rms_unc ref="3.12e-02">3.12e-02</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_29acf61b-f741-4012-b947-c8527702d77b.png" type="reg"/>
+        <img src="plots/h1d_b54524ea-0325-44c8-bbdc-601651a63e43.png" type="dif"/>
+       </hist1D>
+       <hist1D name="pullmean_theta_vs_truth_eta" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="64.0">64.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="64">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="-1.06e+01">-1.06e+01</mean>
+          <mean_unc ref="0.00e+00">0.00e+00</mean_unc>
+          <rms ref="0.00e+00">0.00e+00</rms>
+          <rms_unc ref="0.00e+00">0.00e+00</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_0efb2963-cb09-4c44-9dbb-9957215c6510.png" type="reg"/>
+        <img src="plots/h1d_3ae91c1f-bd6d-4802-9743-883e76bcf2aa.png" type="dif"/>
+       </hist1D>
+       <hist1D name="pullwidth_theta_vs_truth_pt" type="TH1D" plotopts="logx" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="37.0">37.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="49">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="3.08e+01">3.08e+01</mean>
+          <mean_unc ref="1.68e+00">1.68e+00</mean_unc>
+          <rms ref="4.27e+01">4.27e+01</rms>
+          <rms_unc ref="1.19e+00">1.19e+00</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_82fda6f7-86bb-45c2-b066-629973be4edd.png" type="reg"/>
+        <img src="plots/h1d_7b12ef10-5dcb-4bb4-82d7-b9afbe91b1f7.png" type="dif"/>
+       </hist1D>
+       <hist1D name="pullmean_theta_vs_truth_pt" type="TH1D" plotopts="logx" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="37.0">37.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="49">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="1.12e+02">1.12e+02</mean>
+          <mean_unc ref="2.02e+01">2.02e+01</mean_unc>
+          <rms ref="3.73e+01">3.73e+01</rms>
+          <rms_unc ref="1.43e+01">1.43e+01</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_6161f733-79f7-48fa-be02-5c6b18b77328.png" type="reg"/>
+        <img src="plots/h1d_b4b0b2a9-cb85-4597-aa53-4dc920a84d03.png" type="dif"/>
+       </hist1D>
+       <hist1D name="pull_z0sin" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="6268.0">6268.0</entries>
+         <underflow ref="31">31</underflow>
+         <overflow ref="40">40</overflow>
+         <dim name="x" bins="100">
+          <underflow ref="31">31</underflow>
+          <overflow ref="40">40</overflow>
+          <mean ref="2.18e-03">2.18e-03</mean>
+          <mean_unc ref="1.46e-02">1.46e-02</mean_unc>
+          <rms ref="1.15e+00">1.15e+00</rms>
+          <rms_unc ref="1.03e-02">1.03e-02</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_3cc89538-3159-49d3-8851-3c958c5be910.png" type="reg"/>
+        <img src="plots/h1d_c6e0ebc7-3999-4b12-b7c4-6cb714cf50f9.png" type="dif"/>
+       </hist1D>
+       <hist1D name="res_z0sin" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="6268.0">6268.0</entries>
+         <underflow ref="34">34</underflow>
+         <overflow ref="43">43</overflow>
+         <dim name="x" bins="100">
+          <underflow ref="34">34</underflow>
+          <overflow ref="43">43</overflow>
+          <mean ref="1.66e-03">1.66e-03</mean>
+          <mean_unc ref="2.55e-03">2.55e-03</mean_unc>
+          <rms ref="2.01e-01">2.01e-01</rms>
+          <rms_unc ref="1.80e-03">1.80e-03</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_76f469b0-c117-49e4-8f65-3e8aec84f20a.png" type="reg"/>
+        <img src="plots/h1d_b5a19cde-3a19-4f03-bdda-7a4a6964fe37.png" type="dif"/>
+       </hist1D>
+       <hist1D name="sigma_offl_z0sin" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="6268.0">6268.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="14">14</overflow>
+         <dim name="x" bins="100">
+          <underflow ref="0">0</underflow>
+          <overflow ref="14">14</overflow>
+          <mean ref="1.21e-01">1.21e-01</mean>
+          <mean_unc ref="1.14e-03">1.14e-03</mean_unc>
+          <rms ref="9.01e-02">9.01e-02</rms>
+          <rms_unc ref="8.06e-04">8.06e-04</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_2ab78a56-57d5-4c5d-84a4-d0772dd182db.png" type="reg"/>
+        <img src="plots/h1d_e8954eaa-217f-4f0f-a50d-48d891afb278.png" type="dif"/>
+       </hist1D>
+       <hist1D name="resolution_z0sin_vs_truth_eta" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="64.0">64.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="64">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="-6.56e-02">-6.56e-02</mean>
+          <mean_unc ref="1.55e-02">1.55e-02</mean_unc>
+          <rms ref="1.51e+00">1.51e+00</rms>
+          <rms_unc ref="1.09e-02">1.09e-02</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_45e8d9ab-fa93-428c-9df5-42c2fee601d9.png" type="reg"/>
+        <img src="plots/h1d_3924000b-2fce-4cfb-a973-baf51d141063.png" type="dif"/>
+       </hist1D>
+       <hist1D name="resmean_z0sin_vs_truth_eta" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="64.0">64.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="64">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="-8.38e+00">-8.38e+00</mean>
+          <mean_unc ref="0.00e+00">0.00e+00</mean_unc>
+          <rms ref="0.00e+00">0.00e+00</rms>
+          <rms_unc ref="0.00e+00">0.00e+00</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_7dd1a298-0135-48d3-9456-533930fd9c32.png" type="reg"/>
+        <img src="plots/h1d_aafbd9ff-b5a2-49bf-9bb0-bf132558feca.png" type="dif"/>
+       </hist1D>
+       <hist1D name="resolution_z0sin_vs_truth_pt" type="TH1D" plotopts="logx" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="37.0">37.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="49">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="2.14e+01">2.14e+01</mean>
+          <mean_unc ref="8.59e-01">8.59e-01</mean_unc>
+          <rms ref="3.43e+01">3.43e+01</rms>
+          <rms_unc ref="6.08e-01">6.08e-01</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_cf88ac41-fdc4-4535-b0f0-199872092a15.png" type="reg"/>
+        <img src="plots/h1d_fe380fb4-5d53-4fe3-a65e-bad4bd9ad12a.png" type="dif"/>
+       </hist1D>
+       <hist1D name="resmean_z0sin_vs_truth_pt" type="TH1D" plotopts="logx" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="37.0">37.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="49">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="1.55e+02">1.55e+02</mean>
+          <mean_unc ref="0.00e+00">0.00e+00</mean_unc>
+          <rms ref="0.00e+00">0.00e+00</rms>
+          <rms_unc ref="0.00e+00">0.00e+00</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_31b632bf-f1e0-4ea2-a09c-c9a7847dbeb2.png" type="reg"/>
+        <img src="plots/h1d_26507c8a-5d83-4152-9db5-524483a0c17f.png" type="dif"/>
+       </hist1D>
+       <hist1D name="pullwidth_z0sin_vs_truth_eta" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="64.0">64.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="64">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="7.62e-03">7.62e-03</mean>
+          <mean_unc ref="4.81e-02">4.81e-02</mean_unc>
+          <rms ref="1.45e+00">1.45e+00</rms>
+          <rms_unc ref="3.40e-02">3.40e-02</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_2baf93e5-58c8-4b5c-81c2-230090716089.png" type="reg"/>
+        <img src="plots/h1d_a02959ea-8239-461c-a381-4be9459fd08b.png" type="dif"/>
+       </hist1D>
+       <hist1D name="pullmean_z0sin_vs_truth_eta" type="TH1D" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="64.0">64.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="64">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="-2.52e+00">-2.52e+00</mean>
+          <mean_unc ref="0.00e+00">0.00e+00</mean_unc>
+          <rms ref="0.00e+00">0.00e+00</rms>
+          <rms_unc ref="0.00e+00">0.00e+00</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_28ef6ab3-3705-49b5-aba4-c5c0bc2f2a70.png" type="reg"/>
+        <img src="plots/h1d_52441098-3ef5-42ea-885e-22f1704333cd.png" type="dif"/>
+       </hist1D>
+       <hist1D name="pullwidth_z0sin_vs_truth_pt" type="TH1D" plotopts="logx" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="37.0">37.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="49">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="3.33e+01">3.33e+01</mean>
+          <mean_unc ref="1.87e+00">1.87e+00</mean_unc>
+          <rms ref="4.31e+01">4.31e+01</rms>
+          <rms_unc ref="1.32e+00">1.32e+00</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_69967072-3da6-42a0-837d-e849cda0b1ba.png" type="reg"/>
+        <img src="plots/h1d_13b1484b-d1e2-45c0-a3e0-09187367d2f6.png" type="dif"/>
+       </hist1D>
+       <hist1D name="pullmean_z0sin_vs_truth_pt" type="TH1D" plotopts="logx" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <entries ref="37.0">37.0</entries>
+         <underflow ref="0">0</underflow>
+         <overflow ref="0">0</overflow>
+         <dim name="x" bins="49">
+          <underflow ref="0">0</underflow>
+          <overflow ref="0">0</overflow>
+          <mean ref="1.30e+02">1.30e+02</mean>
+          <mean_unc ref="9.71e+00">9.71e+00</mean_unc>
+          <rms ref="2.42e+01">2.42e+01</rms>
+          <rms_unc ref="6.86e+00">6.86e+00</rms_unc>
+         </dim>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/h1r_fbd69efd-7f96-42b5-8fd1-76c7a5963f99.png" type="reg"/>
+        <img src="plots/h1d_60ccb331-fa13-4817-a664-c7167a822eb8.png" type="dif"/>
+       </hist1D>
+      </TDirectory>
+      <TDirectory name="FakeRates" KSOK="5" status="OK">
+       <graph name="fakerate_vs_offl_eta" type="TEfficiency" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <points ref="20">20</points>
+         <mean ref="0.002">0.002</mean>
+         <rms ref="0.001">0.001</rms>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/gr_ae37ee57-68d7-4453-a2d6-f4b191952e7c.png" type="reg"/>
+        <img src="plots/gd_8d4768cc-983e-4e5e-af91-6d6e4fcfe99f.png" type="dif"/>
+       </graph>
+       <graph name="fakerate_vs_offl_pt" type="TEfficiency" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <points ref="92">92</points>
+         <mean ref="0.013">0.013</mean>
+         <rms ref="0.033">0.033</rms>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/gr_4668004d-d0ef-4855-a816-dd2467151fe2.png" type="reg"/>
+        <img src="plots/gd_cc166104-c891-415a-a202-4af73e86995a.png" type="dif"/>
+       </graph>
+       <graph name="fakerate_vs_offl_phi" type="TEfficiency" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <points ref="25">25</points>
+         <mean ref="0.002">0.002</mean>
+         <rms ref="0.001">0.001</rms>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/gr_843e3855-3db7-461e-8444-00bcdfd3ff7c.png" type="reg"/>
+        <img src="plots/gd_94e6dad3-edbd-496c-994b-6c50928c1e27.png" type="dif"/>
+       </graph>
+       <graph name="fakerate_vs_offl_d0" type="TEfficiency" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <points ref="83">83</points>
+         <mean ref="0.052">0.052</mean>
+         <rms ref="0.134">0.134</rms>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/gr_8ee41310-7838-47d8-bfd8-bb27a2694797.png" type="reg"/>
+        <img src="plots/gd_2b2e8628-4042-4b73-8f34-fd6981bc8f04.png" type="dif"/>
+       </graph>
+       <graph name="fakerate_vs_offl_z0" type="TEfficiency" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <points ref="80">80</points>
+         <mean ref="0.011">0.011</mean>
+         <rms ref="0.050">0.050</rms>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/gr_4817fc88-b9ce-471d-849c-08eea26153fb.png" type="reg"/>
+        <img src="plots/gd_bc9e33cd-7508-4ad8-95aa-5adb519f8845.png" type="dif"/>
+       </graph>
+      </TDirectory>
+      <TDirectory name="Efficiencies" KSOK="7" status="OK">
+       <graph name="eff_vs_truth_eta" type="TEfficiency" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <points ref="20">20</points>
+         <mean ref="0.832">0.832</mean>
+         <rms ref="0.062">0.062</rms>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/gr_88cdb873-7e18-4734-a2bd-1a12d2593b97.png" type="reg"/>
+        <img src="plots/gd_2f32d61d-975d-4350-8af8-0d839084ea91.png" type="dif"/>
+       </graph>
+       <graph name="eff_vs_truth_pt" type="TEfficiency" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <points ref="24">24</points>
+         <mean ref="0.926">0.926</mean>
+         <rms ref="0.055">0.055</rms>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/gr_e0e816d3-55f3-42c7-b9f1-9b049ba6fd6a.png" type="reg"/>
+        <img src="plots/gd_122426b5-b63a-473b-ad60-75b221d4e41e.png" type="dif"/>
+       </graph>
+       <graph name="eff_vs_truth_phi" type="TEfficiency" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <points ref="25">25</points>
+         <mean ref="0.842">0.842</mean>
+         <rms ref="0.022">0.022</rms>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/gr_cc6c025c-2f28-4779-9729-c91ae1f4feb2.png" type="reg"/>
+        <img src="plots/gd_5aa13477-c15c-415b-bad3-1803f9079c91.png" type="dif"/>
+       </graph>
+       <graph name="eff_vs_truth_d0" type="TEfficiency" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <points ref="26">26</points>
+         <mean ref="0.885">0.885</mean>
+         <rms ref="0.200">0.200</rms>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/gr_ed42f5e3-5cd0-4c39-9b8e-46a1fdd834dd.png" type="reg"/>
+        <img src="plots/gd_ce3d3658-ec4b-4735-a765-6bd09cd9fc66.png" type="dif"/>
+       </graph>
+       <graph name="eff_vs_truth_z0" type="TEfficiency" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <points ref="38">38</points>
+         <mean ref="0.866">0.866</mean>
+         <rms ref="0.072">0.072</rms>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/gr_1498e4ce-2e9c-4d3d-893f-875104cdbc8b.png" type="reg"/>
+        <img src="plots/gd_c6f85c0f-4654-4a02-83c9-c2b585418ee3.png" type="dif"/>
+       </graph>
+       <graph name="eff_vs_truth_prodR" type="TEfficiency" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <points ref="54">54</points>
+         <mean ref="0.912">0.912</mean>
+         <rms ref="0.160">0.160</rms>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/gr_fd3a31fb-992a-4205-9356-fca0d641e2f4.png" type="reg"/>
+        <img src="plots/gd_7c5dfaf4-6c8a-4aeb-871d-cb5488ea2d00.png" type="dif"/>
+       </graph>
+       <graph name="eff_vs_truth_prodZ" type="TEfficiency" plotopts="" tests="KSnorm" stest="OK" plots="OK">
+        <stat>
+         <points ref="36">36</points>
+         <mean ref="0.854">0.854</mean>
+         <rms ref="0.163">0.163</rms>
+         <pvalue test="KS" testopt="norm" status="OK">1.000</pvalue>
+        </stat>
+        <img src="plots/gr_a6111293-31d7-4ba5-b85b-1f52cad655f7.png" type="reg"/>
+        <img src="plots/gd_53af7c9b-81c1-466a-a4a0-421ee1832d27.png" type="dif"/>
+       </graph>
+      </TDirectory>
+     </TDirectory>
+     <TDirectory name="Vertices" KSOK="0" KSWARN="0" KSFAIL="0" chi2OK="0" chi2WARN="0" chi2FAIL="0" bbbOK="0" bbbWARN="0" bbbFAIL="0" status="FAIL">
+      <TDirectory name="AllPrimary" KSOK="0" KSWARN="0" KSFAIL="0" chi2OK="0" chi2WARN="0" chi2FAIL="0" bbbOK="0" bbbWARN="0" bbbFAIL="0" status="FAIL">
+       <TDirectory name="Parameters" status="FAIL">
+        <hist2D name="offline_nVtx_vs_truthMu_2D" plotopts="" tests="KS" type="TH2F" status="FAIL;monitored not found"/>
+        <hist2D name="offline_nVtx_vs_actualMu_2D" plotopts="" tests="KS" type="TH2F" status="FAIL;monitored not found"/>
+       </TDirectory>
+      </TDirectory>
+     </TDirectory>
+    </TDirectory>
+   </TDirectory>
+  </TDirectory>
+ </TDirectory>
+ <summary status="WARN" objs="149" errors="2" nbKS="2" nbKSnorm="103">
+  <table>
+   <tr>
+    <td>test</td>
+    <td>OK</td>
+    <td>WARN</td>
+    <td>FAIL</td>
+   </tr>
+   <tr>
+    <td>KS</td>
+    <td>105</td>
+    <td>0</td>
+    <td>0</td>
+   </tr>
+   <tr>
+    <td>chi2</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+   </tr>
+   <tr>
+    <td>bbb</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+   </tr>
+   <tr>
+    <td>meanY</td>
+    <td>42</td>
+    <td>0</td>
+    <td>0</td>
+   </tr>
+   <tr>
+    <td>sum</td>
+    <td>147</td>
+    <td>0</td>
+    <td>0</td>
+   </tr>
+   <tr>
+    <td>fraction</td>
+    <td>100.00</td>
+    <td>0.00</td>
+    <td>0.00</td>
+   </tr>
+  </table>
+  <errors nb="2">
+   <error times="2" what="FAIL monitored not found"/>
+  </errors>
+ </summary>
+</dcube>

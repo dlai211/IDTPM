@@ -1,0 +1,1686 @@
+DCubeApp     2026-07-28 13:03:19,338 INFO    : DCube 7.5.1 by Krzysztof Daniel Ciba (Krzysztof.Ciba@NOSPAMgmail.com)
+DCubeApp     2026-07-28 13:03:19,339 INFO    : using Python 3.13.11 (main, Feb  3 2026, 13:32:59) [GCC 14.3.0]
+DCubeApp     2026-07-28 13:03:19,344 INFO    : using ROOT 6.38.04
+DCubeApp     2026-07-28 13:03:19,345 INFO    : command line: /cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/dcube/current/DCubeClient/python/dcube.py -b -p -x dcube_idtpm_lrt -c /cvmfs/atlas-nightlies.cern.ch/repo/sw/main_Athena_x86_64-el9-gcc14-opt/2026-07-14T2100/Athena/25.0.68/InstallArea/x86_64-el9-gcc14-opt/share/dcube_IDTPMvsIDPVMPlots.xml -r physval_lrt.ntuple.IDTPMcnv.root -R ref=IDPVM -M mon=IDTPM idtpm.HIST.root
+DCubeApp     2026-07-28 13:03:19,345 INFO    : dumping parsed options...
+DCubeApp     2026-07-28 13:03:19,345 INFO    : [01] verbosity 3
+DCubeApp     2026-07-28 13:03:19,345 INFO    : [02] checkKnown False
+DCubeApp     2026-07-28 13:03:19,345 INFO    : [03] reference physval_lrt.ntuple.IDTPMcnv.root
+DCubeApp     2026-07-28 13:03:19,346 INFO    : [04] output dcube_idtpm_lrt/dcube.xml
+DCubeApp     2026-07-28 13:03:19,346 INFO    : [05] monitoredName mon=IDTPM
+DCubeApp     2026-07-28 13:03:19,346 INFO    : [06] referenceName ref=IDPVM
+DCubeApp     2026-07-28 13:03:19,346 INFO    : [07] config /cvmfs/atlas-nightlies.cern.ch/repo/sw/main_Athena_x86_64-el9-gcc14-opt/2026-07-14T2100/Athena/25.0.68/InstallArea/x86_64-el9-gcc14-opt/share/dcube_IDTPMvsIDPVMPlots.xml
+DCubeApp     2026-07-28 13:03:19,346 INFO    : [08] log dcube_idtpm_lrt/dcube.log
+DCubeApp     2026-07-28 13:03:19,346 INFO    : [09] tests ['KSnorm']
+DCubeApp     2026-07-28 13:03:19,346 INFO    : [10] pfail 0.75
+DCubeApp     2026-07-28 13:03:19,347 INFO    : [11] pwarn 0.95
+DCubeApp     2026-07-28 13:03:19,347 INFO    : [12] isodate 2026-07-28
+DCubeApp     2026-07-28 13:03:19,347 INFO    : [13] server None
+DCubeApp     2026-07-28 13:03:19,347 INFO    : [14] branch main
+DCubeApp     2026-07-28 13:03:19,347 INFO    : [15] cmtconfig x86_64-el9-gcc14-opt
+DCubeApp     2026-07-28 13:03:19,347 INFO    : [16] install 2026-07-14T2100
+DCubeApp     2026-07-28 13:03:19,348 INFO    : [17] project Athena
+DCubeApp     2026-07-28 13:03:19,348 INFO    : [18] jobId *
+DCubeApp     2026-07-28 13:03:19,348 INFO    : [19] generate False
+DCubeApp     2026-07-28 13:03:19,348 INFO    : [20] makeplots True
+DCubeApp     2026-07-28 13:03:19,348 INFO    : [21] plot_format png
+DCubeApp     2026-07-28 13:03:19,348 INFO    : [22] inline_plots False
+DCubeApp     2026-07-28 13:03:19,348 INFO    : [23] batch True
+DCubeApp     2026-07-28 13:03:19,349 INFO    : [24] useVarNameForPlotName False
+DCubeApp     2026-07-28 13:03:19,349 INFO    : [25] flat False
+DCubeApp     2026-07-28 13:03:19,349 INFO    : [26] meanYchi2 False
+DCubeApp     2026-07-28 13:03:19,349 INFO    : [27] webDisplay ['html', 'php']
+DCubeApp     2026-07-28 13:03:19,349 INFO    : [28] plotopts []
+DCubeApp     2026-07-28 13:03:19,349 INFO    : [29] reference_extra []
+DCubeApp     2026-07-28 13:03:19,350 INFO    : [30] referenceName_extra []
+DCubeApp     2026-07-28 13:03:19,350 INFO    : [31] supressReleaseLabel False
+DCubeApp     2026-07-28 13:03:19,350 INFO    : [32] tempdir /tmp/jlai/dcube_970wdofb
+DCubeApp     2026-07-28 13:03:19,350 INFO    : dumping not parsed arguments...
+DCubeApp     2026-07-28 13:03:19,350 INFO    : [01] /cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/dcube/current/DCubeClient/python/dcube.py
+DCubeApp     2026-07-28 13:03:19,350 INFO    : [02] idtpm.HIST.root
+DCubeApp     2026-07-28 13:03:19,351 INFO    : RUN: test suite execution
+DCubeConfig  2026-07-28 13:03:19,351 INFO    : constructing DCubeConfig...
+DCubeConfig  2026-07-28 13:03:19,351 DEBUG   : will try to read and parse configuration file /cvmfs/atlas-nightlies.cern.ch/repo/sw/main_Athena_x86_64-el9-gcc14-opt/2026-07-14T2100/Athena/25.0.68/InstallArea/x86_64-el9-gcc14-opt/share/dcube_IDTPMvsIDPVMPlots.xml
+DCubeConfig  2026-07-28 13:03:19,356 DEBUG   : will try to extract <config> tags...
+DCubeConfig  2026-07-28 13:03:19,357 DEBUG   : found 1 <dcube> tags
+DCubeConfig  2026-07-28 13:03:19,357 INFO    : found <dcube> tag for configuration */*/*/*/*
+DCubeConfig  2026-07-28 13:03:19,357 DEBUG   : done!
+DCubeConfig  2026-07-28 13:03:19,357 INFO    : will try to find CLI config='main/2026-07-14T2100/x86_64-el9-gcc14-opt/Athena/*' in DCubeClient configuration file /cvmfs/atlas-nightlies.cern.ch/repo/sw/main_Athena_x86_64-el9-gcc14-opt/2026-07-14T2100/Athena/25.0.68/InstallArea/x86_64-el9-gcc14-opt/share/dcube_IDTPMvsIDPVMPlots.xml
+DCubeConfig  2026-07-28 13:03:19,358 INFO    : maching config in regexp mode
+DCubeConfig  2026-07-28 13:03:19,358 DEBUG   : what=branch     fromCLI=main                    fromXML=*                      match (str to regexp)
+DCubeConfig  2026-07-28 13:03:19,358 DEBUG   : what=install    fromCLI=2026-07-14T2100         fromXML=*                      match (str to regexp)
+DCubeConfig  2026-07-28 13:03:19,358 DEBUG   : what=cmtconfig  fromCLI=x86_64-el9-gcc14-opt    fromXML=*                      match (str to regexp)
+DCubeConfig  2026-07-28 13:03:19,358 DEBUG   : what=project    fromCLI=Athena                  fromXML=*                      match (str to regexp)
+DCubeConfig  2026-07-28 13:03:19,358 DEBUG   : what=jobId      fromCLI=*                       fromXML=*                      match (str to str)
+DCubeConfig  2026-07-28 13:03:19,359 INFO    : runtime config='main/2026-07-14T2100/x86_64-el9-gcc14-opt/Athena/*' match to XML config='*/*/*/*/*'
+DCubeApp     2026-07-28 13:03:19,359 DEBUG   : updating option monitored to idtpm.HIST.root
+DCubeApp     2026-07-28 13:03:19,359 INFO    : will run test suite using xml configuration...
+DCubeApp     2026-07-28 13:03:19,359 DEBUG   : will overwrite xml config to match run config...
+DCubeApp     2026-07-28 13:03:19,360 DEBUG   : done!
+DCubeApp     2026-07-28 13:03:19,360 DEBUG   : the run config is main/2026-07-14T2100/x86_64-el9-gcc14-opt/Athena/*
+DCubeApp     2026-07-28 13:03:19,360 DEBUG   : tag <plimit> found, will user p-value limits from its attributes
+DCubeApp     2026-07-28 13:03:19,360 DEBUG   : updating option pfail to 0.75
+DCubeApp     2026-07-28 13:03:19,360 DEBUG   : updating option pwarn to 0.95
+DCubeApp     2026-07-28 13:03:19,360 DEBUG   : will use reference root file from CLI = /eos/home-j/jlai/idtpm_validation/build/physval_lrt.ntuple.IDTPMcnv.root
+DCubeTester  2026-07-28 13:03:19,362 INFO    : will produce plot files
+DCubePlotter 2026-07-28 13:03:19,362 DEBUG   : constructing DCubePlotter...
+DCubePlotter 2026-07-28 13:03:19,362 INFO    : will store all plots in directory dcube_idtpm_lrt/plots
+DCubePlotter 2026-07-28 13:03:19,363 DEBUG   : setting up DCube plot style...
+DCubePlotter 2026-07-28 13:03:19,521 DEBUG   : done!
+DCubeApp     2026-07-28 13:03:20,973 DEBUG   : now testing objects in path = /
+DCubeApp     2026-07-28 13:03:20,974 DEBUG   : child tagName TDirectory
+DCubeApp     2026-07-28 13:03:20,974 DEBUG   : now testing objects in path = /InDetTrackPerfMonPlots
+DCubeApp     2026-07-28 13:03:20,974 DEBUG   : child tagName TDirectory
+DCubeApp     2026-07-28 13:03:20,975 DEBUG   : now testing objects in path = /InDetTrackPerfMonPlots/TrkAnaOffl
+DCubeApp     2026-07-28 13:03:20,975 DEBUG   : child tagName TDirectory
+DCubeApp     2026-07-28 13:03:20,975 DEBUG   : now testing objects in path = /InDetTrackPerfMonPlots/TrkAnaOffl/Offline
+DCubeApp     2026-07-28 13:03:20,975 DEBUG   : child tagName TDirectory
+DCubeApp     2026-07-28 13:03:20,975 DEBUG   : now testing objects in path = /InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks
+DCubeApp     2026-07-28 13:03:20,975 DEBUG   : child tagName TDirectory
+DCubeApp     2026-07-28 13:03:20,976 DEBUG   : now testing objects in path = /InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Parameters
+DCubeApp     2026-07-28 13:03:20,976 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:20,976 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Parameters/offl_d0' [KSnorm]
+DCubeTester  2026-07-28 13:03:21,072 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:21,092 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=180 all equal non-empty bins=180
+DCubeTester  2026-07-28 13:03:21,093 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Parameters/offl_d0' histograms are equal!
+DCubeTester  2026-07-28 13:03:21,093 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:21,093 DEBUG   : plot called for object of name offl_d0
+DCubePlotter 2026-07-28 13:03:21,096 DEBUG   : plotting offl_d0 of type TH1D
+DCubePlotter 2026-07-28 13:03:21,501 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_2261bec3-f6b7-48da-bab6-32012815e073.png' has been created
+DCubePlotter 2026-07-28 13:03:21,567 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_fdca8e8c-26f5-4fb3-bd85-b687fd3f67b5.png' has been created
+DCubeApp     2026-07-28 13:03:21,568 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:21,568 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Parameters/offl_z0' [KSnorm]
+DCubeTester  2026-07-28 13:03:21,569 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:21,570 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=160 all equal non-empty bins=160
+DCubeTester  2026-07-28 13:03:21,570 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Parameters/offl_z0' histograms are equal!
+DCubeTester  2026-07-28 13:03:21,570 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:21,570 DEBUG   : plot called for object of name offl_z0
+DCubePlotter 2026-07-28 13:03:21,571 DEBUG   : plotting offl_z0 of type TH1D
+DCubePlotter 2026-07-28 13:03:21,622 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_0332a851-f415-4fd1-bb1e-e8531022bd88.png' has been created
+DCubePlotter 2026-07-28 13:03:21,669 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_36bc5616-0024-4ddc-bde1-76a51137d58a.png' has been created
+DCubeApp     2026-07-28 13:03:21,670 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:21,670 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Parameters/offl_z0sin' [KSnorm]
+DCubeTester  2026-07-28 13:03:21,672 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:21,672 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=202 all equal non-empty bins=202
+DCubeTester  2026-07-28 13:03:21,672 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Parameters/offl_z0sin' histograms are equal!
+DCubeTester  2026-07-28 13:03:21,673 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:21,673 DEBUG   : plot called for object of name offl_z0sin
+DCubePlotter 2026-07-28 13:03:21,673 DEBUG   : plotting offl_z0sin of type TH1D
+DCubePlotter 2026-07-28 13:03:21,749 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_1eff00fe-1e52-4ff7-a4ab-c31983b29772.png' has been created
+DCubePlotter 2026-07-28 13:03:21,788 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_62669348-7f52-472f-a590-f7080c1584d8.png' has been created
+DCubeApp     2026-07-28 13:03:21,788 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:21,788 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Parameters/offl_phi' [KSnorm]
+DCubeTester  2026-07-28 13:03:21,790 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:21,790 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=200 all equal non-empty bins=200
+DCubeTester  2026-07-28 13:03:21,790 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Parameters/offl_phi' histograms are equal!
+DCubeTester  2026-07-28 13:03:21,790 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:21,791 DEBUG   : plot called for object of name offl_phi
+DCubePlotter 2026-07-28 13:03:21,791 DEBUG   : plotting offl_phi of type TH1D
+DCubePlotter 2026-07-28 13:03:21,839 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_2611066b-53f2-4c1e-8882-9b5edae1420d.png' has been created
+DCubePlotter 2026-07-28 13:03:21,871 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_9457ef29-289c-4143-adc4-6d10bdf180a6.png' has been created
+DCubeApp     2026-07-28 13:03:21,872 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:21,872 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Parameters/offl_theta' [KSnorm]
+DCubeTester  2026-07-28 13:03:21,874 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:21,874 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=184 all equal non-empty bins=184
+DCubeTester  2026-07-28 13:03:21,874 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Parameters/offl_theta' histograms are equal!
+DCubeTester  2026-07-28 13:03:21,875 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:21,875 DEBUG   : plot called for object of name offl_theta
+DCubePlotter 2026-07-28 13:03:21,875 DEBUG   : plotting offl_theta of type TH1D
+DCubePlotter 2026-07-28 13:03:21,931 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_dfabe840-a6aa-4d64-8910-1cce6b1e7f40.png' has been created
+DCubePlotter 2026-07-28 13:03:21,973 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_5c11d077-96fe-4937-9b73-34f8b0543917.png' has been created
+DCubeApp     2026-07-28 13:03:21,974 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:21,974 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Parameters/offl_eta' [KSnorm]
+DCubeTester  2026-07-28 13:03:21,975 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:21,975 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=176 all equal non-empty bins=176
+DCubeTester  2026-07-28 13:03:21,976 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Parameters/offl_eta' histograms are equal!
+DCubeTester  2026-07-28 13:03:21,976 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:21,976 DEBUG   : plot called for object of name offl_eta
+DCubePlotter 2026-07-28 13:03:21,976 DEBUG   : plotting offl_eta of type TH1D
+DCubePlotter 2026-07-28 13:03:22,033 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_62f87a79-4815-4a36-b897-c86588ca1af8.png' has been created
+DCubePlotter 2026-07-28 13:03:22,072 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_704f8ba9-0f81-49ce-bd84-2a4436cdac6f.png' has been created
+DCubeApp     2026-07-28 13:03:22,072 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:22,072 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Parameters/offl_qoverp' [KSnorm]
+DCubeTester  2026-07-28 13:03:22,074 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:22,074 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=80 all equal non-empty bins=80
+DCubeTester  2026-07-28 13:03:22,075 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Parameters/offl_qoverp' histograms are equal!
+DCubeTester  2026-07-28 13:03:22,075 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:22,075 DEBUG   : plot called for object of name offl_qoverp
+DCubePlotter 2026-07-28 13:03:22,075 DEBUG   : plotting offl_qoverp of type TH1D
+DCubePlotter 2026-07-28 13:03:22,113 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_09351fd2-581a-4689-8dd9-4457974b01c1.png' has been created
+DCubePlotter 2026-07-28 13:03:22,140 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_55347df8-9752-4a04-8106-2e269f626eb0.png' has been created
+DCubeApp     2026-07-28 13:03:22,140 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:22,141 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Parameters/offl_pt' [KSnorm]
+DCubeTester  2026-07-28 13:03:22,143 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:22,143 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=160 all equal non-empty bins=160
+DCubeTester  2026-07-28 13:03:22,144 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Parameters/offl_pt' histograms are equal!
+DCubeTester  2026-07-28 13:03:22,144 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:22,144 DEBUG   : plot called for object of name offl_pt
+DCubePlotter 2026-07-28 13:03:22,144 DEBUG   : plotting offl_pt of type TH1D
+DCubePlotter 2026-07-28 13:03:22,186 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_e5fd6054-bbc5-499c-ad81-bafe26f9a5f1.png' has been created
+DCubePlotter 2026-07-28 13:03:22,218 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_d4ad263a-c1f8-4156-8e38-bcde14242837.png' has been created
+DCubeApp     2026-07-28 13:03:22,219 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:22,219 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Parameters/offl_chi2' [KSnorm]
+DCubeTester  2026-07-28 13:03:22,223 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:22,224 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=192 all equal non-empty bins=192
+DCubeTester  2026-07-28 13:03:22,224 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Parameters/offl_chi2' histograms are equal!
+DCubeTester  2026-07-28 13:03:22,224 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:22,225 DEBUG   : plot called for object of name offl_chi2
+DCubePlotter 2026-07-28 13:03:22,225 DEBUG   : plotting offl_chi2 of type TH1D
+DCubePlotter 2026-07-28 13:03:22,271 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_ac5cae80-9aa9-4f39-97a4-6c4d448938ff.png' has been created
+DCubePlotter 2026-07-28 13:03:22,303 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_366fce27-8c42-4b31-a520-f27fffe7b133.png' has been created
+DCubeApp     2026-07-28 13:03:22,303 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:22,303 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Parameters/offl_ndof' [KSnorm]
+DCubeTester  2026-07-28 13:03:22,305 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:22,306 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=102 all equal non-empty bins=102
+DCubeTester  2026-07-28 13:03:22,306 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Parameters/offl_ndof' histograms are equal!
+DCubeTester  2026-07-28 13:03:22,306 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:22,307 DEBUG   : plot called for object of name offl_ndof
+DCubePlotter 2026-07-28 13:03:22,307 DEBUG   : plotting offl_ndof of type TH1D
+DCubePlotter 2026-07-28 13:03:22,347 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_77747a65-fffc-439b-ad0c-39d8d617181e.png' has been created
+DCubePlotter 2026-07-28 13:03:22,374 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_f688b85d-e049-4a45-a6c6-1fd992f7ce51.png' has been created
+DCubeApp     2026-07-28 13:03:22,375 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:22,375 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Parameters/offl_chi2OverNdof' [KSnorm]
+DCubeTester  2026-07-28 13:03:22,376 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:22,377 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=198 all equal non-empty bins=198
+DCubeTester  2026-07-28 13:03:22,377 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Parameters/offl_chi2OverNdof' histograms are equal!
+DCubeTester  2026-07-28 13:03:22,377 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:22,377 DEBUG   : plot called for object of name offl_chi2OverNdof
+DCubePlotter 2026-07-28 13:03:22,377 DEBUG   : plotting offl_chi2OverNdof of type TH1D
+DCubePlotter 2026-07-28 13:03:22,437 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_5cd99bb8-eb8f-4952-8da8-0ea15f67ce78.png' has been created
+DCubePlotter 2026-07-28 13:03:22,479 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_5603b335-6771-45ba-bf60-1832fa30b33e.png' has been created
+DCubeApp     2026-07-28 13:03:22,480 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:22,480 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Parameters/offl_author' [KSnorm]
+DCubeTester  2026-07-28 13:03:22,482 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:22,482 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=12 all equal non-empty bins=12
+DCubeTester  2026-07-28 13:03:22,483 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Parameters/offl_author' histograms are equal!
+DCubeTester  2026-07-28 13:03:22,483 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:22,483 DEBUG   : plot called for object of name offl_author
+DCubePlotter 2026-07-28 13:03:22,483 DEBUG   : plotting offl_author of type TH1D
+DCubePlotter 2026-07-28 13:03:22,507 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_1264c633-8159-49a6-b20d-9c5935aae930.png' has been created
+DCubePlotter 2026-07-28 13:03:22,537 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_2cb1c685-4e3e-4fa3-93c1-dd36ca436c66.png' has been created
+DCubeApp     2026-07-28 13:03:22,537 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:22,537 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Parameters/truth_d0' [KSnorm]
+DCubeTester  2026-07-28 13:03:22,539 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:22,540 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=42 all equal non-empty bins=42
+DCubeTester  2026-07-28 13:03:22,540 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Parameters/truth_d0' histograms are equal!
+DCubeTester  2026-07-28 13:03:22,540 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:22,540 DEBUG   : plot called for object of name truth_d0
+DCubePlotter 2026-07-28 13:03:22,541 DEBUG   : plotting truth_d0 of type TH1D
+DCubePlotter 2026-07-28 13:03:22,568 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_89d74f40-9bb0-401a-9609-4ed337a6484a.png' has been created
+DCubePlotter 2026-07-28 13:03:22,592 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_366e5c79-2a61-46cf-b6f2-a24f1bca092b.png' has been created
+DCubeApp     2026-07-28 13:03:22,593 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:22,593 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Parameters/truth_z0' [KSnorm]
+DCubeTester  2026-07-28 13:03:22,594 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:22,595 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=80 all equal non-empty bins=80
+DCubeTester  2026-07-28 13:03:22,595 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Parameters/truth_z0' histograms are equal!
+DCubeTester  2026-07-28 13:03:22,595 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:22,595 DEBUG   : plot called for object of name truth_z0
+DCubePlotter 2026-07-28 13:03:22,596 DEBUG   : plotting truth_z0 of type TH1D
+DCubePlotter 2026-07-28 13:03:22,629 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_8f752fe3-0603-4365-9199-405361c5abce.png' has been created
+DCubePlotter 2026-07-28 13:03:22,655 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_05010e0d-df2e-46d5-a803-63fb61133b6c.png' has been created
+DCubeApp     2026-07-28 13:03:22,655 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:22,655 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Parameters/truth_z0sin' [KSnorm]
+DCubeTester  2026-07-28 13:03:22,657 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:22,657 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=202 all equal non-empty bins=202
+DCubeTester  2026-07-28 13:03:22,657 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Parameters/truth_z0sin' histograms are equal!
+DCubeTester  2026-07-28 13:03:22,658 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:22,658 DEBUG   : plot called for object of name truth_z0sin
+DCubePlotter 2026-07-28 13:03:22,658 DEBUG   : plotting truth_z0sin of type TH1D
+DCubePlotter 2026-07-28 13:03:22,706 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_03b802c1-c23c-4883-a1e2-1e23225aeac2.png' has been created
+DCubePlotter 2026-07-28 13:03:22,767 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_f69f82b2-5274-4ac2-8c11-689bfd318d42.png' has been created
+DCubeApp     2026-07-28 13:03:22,767 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:22,767 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Parameters/truth_phi' [KSnorm]
+DCubeTester  2026-07-28 13:03:22,769 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:22,770 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=200 all equal non-empty bins=154
+DCubeTester  2026-07-28 13:03:22,775 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:22,775 DEBUG   : plot called for object of name truth_phi
+DCubePlotter 2026-07-28 13:03:22,775 DEBUG   : plotting truth_phi of type TH1D
+DCubePlotter 2026-07-28 13:03:22,845 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_0f438dc4-41d3-44ba-aa80-3651f1e03c9e.png' has been created
+DCubePlotter 2026-07-28 13:03:22,899 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_8bc45ebb-447a-4ea8-95f2-163818f898a7.png' has been created
+DCubeApp     2026-07-28 13:03:22,899 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:22,900 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Parameters/truth_theta' [KSnorm]
+DCubeTester  2026-07-28 13:03:22,902 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:22,902 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=188 all equal non-empty bins=188
+DCubeTester  2026-07-28 13:03:22,902 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Parameters/truth_theta' histograms are equal!
+DCubeTester  2026-07-28 13:03:22,902 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:22,903 DEBUG   : plot called for object of name truth_theta
+DCubePlotter 2026-07-28 13:03:22,903 DEBUG   : plotting truth_theta of type TH1D
+DCubePlotter 2026-07-28 13:03:22,954 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_6f3f18ec-996a-4704-ab90-ef8a25342c5a.png' has been created
+DCubePlotter 2026-07-28 13:03:22,987 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_cb1da0f6-7148-430e-af99-75f32e4edda9.png' has been created
+DCubeApp     2026-07-28 13:03:22,987 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:22,987 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Parameters/truth_eta' [KSnorm]
+DCubeTester  2026-07-28 13:03:22,989 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:22,990 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=200 all equal non-empty bins=200
+DCubeTester  2026-07-28 13:03:22,990 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Parameters/truth_eta' histograms are equal!
+DCubeTester  2026-07-28 13:03:22,990 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:22,990 DEBUG   : plot called for object of name truth_eta
+DCubePlotter 2026-07-28 13:03:22,990 DEBUG   : plotting truth_eta of type TH1D
+DCubePlotter 2026-07-28 13:03:23,059 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_116bc705-5ccb-4089-b606-3c0b20dd019a.png' has been created
+DCubePlotter 2026-07-28 13:03:23,097 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_19d76e70-e809-41c0-ac0b-dd04c2f87f51.png' has been created
+DCubeApp     2026-07-28 13:03:23,097 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:23,097 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Parameters/truth_qoverp' [KSnorm]
+DCubeTester  2026-07-28 13:03:23,099 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:23,099 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=80 all equal non-empty bins=80
+DCubeTester  2026-07-28 13:03:23,099 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Parameters/truth_qoverp' histograms are equal!
+DCubeTester  2026-07-28 13:03:23,100 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:23,100 DEBUG   : plot called for object of name truth_qoverp
+DCubePlotter 2026-07-28 13:03:23,100 DEBUG   : plotting truth_qoverp of type TH1D
+DCubePlotter 2026-07-28 13:03:23,138 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_27d051f1-6f51-49ca-a9ae-1ab25cda7b47.png' has been created
+DCubePlotter 2026-07-28 13:03:23,176 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_d2dacd43-9fa1-4e95-90eb-32f10dd68131.png' has been created
+DCubeApp     2026-07-28 13:03:23,176 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:23,176 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Parameters/truth_pt' [KSnorm]
+DCubeTester  2026-07-28 13:03:23,181 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:23,182 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=144 all equal non-empty bins=144
+DCubeTester  2026-07-28 13:03:23,182 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Parameters/truth_pt' histograms are equal!
+DCubeTester  2026-07-28 13:03:23,182 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:23,182 DEBUG   : plot called for object of name truth_pt
+DCubePlotter 2026-07-28 13:03:23,183 DEBUG   : plotting truth_pt of type TH1D
+DCubePlotter 2026-07-28 13:03:23,225 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_b281ee42-8c05-4667-842e-c442b7acc8a2.png' has been created
+DCubePlotter 2026-07-28 13:03:23,256 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_3b1f731d-9ac8-476a-891c-0ecfc55208a5.png' has been created
+DCubeApp     2026-07-28 13:03:23,257 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:23,257 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Parameters/truth_prodR' [KSnorm]
+DCubeTester  2026-07-28 13:03:23,259 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:23,259 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=30 all equal non-empty bins=30
+DCubeTester  2026-07-28 13:03:23,259 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Parameters/truth_prodR' histograms are equal!
+DCubeTester  2026-07-28 13:03:23,260 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:23,260 DEBUG   : plot called for object of name truth_prodR
+DCubePlotter 2026-07-28 13:03:23,260 DEBUG   : plotting truth_prodR of type TH1D
+DCubePlotter 2026-07-28 13:03:23,287 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_467aeb3e-8ad7-4942-aa33-a2977f560475.png' has been created
+DCubePlotter 2026-07-28 13:03:23,310 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_9f5ae6f0-e53a-485e-802e-619b54495f95.png' has been created
+DCubeApp     2026-07-28 13:03:23,310 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:23,310 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Parameters/truth_prodZ' [KSnorm]
+DCubeTester  2026-07-28 13:03:23,312 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:23,312 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=88 all equal non-empty bins=88
+DCubeTester  2026-07-28 13:03:23,312 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Parameters/truth_prodZ' histograms are equal!
+DCubeTester  2026-07-28 13:03:23,312 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:23,313 DEBUG   : plot called for object of name truth_prodZ
+DCubePlotter 2026-07-28 13:03:23,313 DEBUG   : plotting truth_prodZ of type TH1D
+DCubePlotter 2026-07-28 13:03:23,346 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_e82c0498-4630-4fe2-90ec-de0d5c7d0ddc.png' has been created
+DCubePlotter 2026-07-28 13:03:23,370 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_b80561cb-b075-4e33-9710-75b5bec62a64.png' has been created
+DCubeApp     2026-07-28 13:03:23,371 DEBUG   : TDirectory /InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Parameters status OK
+DCubeApp     2026-07-28 13:03:23,371 DEBUG   : child tagName TDirectory
+DCubeApp     2026-07-28 13:03:23,371 DEBUG   : now testing objects in path = /InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/HitsOnTracks
+DCubeApp     2026-07-28 13:03:23,371 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:23,371 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/HitsOnTracks/offl_nPixelHits' [KS]
+DCubeTester  2026-07-28 13:03:23,500 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:23,501 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=20 all equal non-empty bins=20
+DCubeTester  2026-07-28 13:03:23,501 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/HitsOnTracks/offl_nPixelHits' histograms are equal!
+DCubeTester  2026-07-28 13:03:23,501 INFO    : *** Kolmogorov-Smirnoff *** () p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:23,502 DEBUG   : plot called for object of name offl_nPixelHits
+DCubePlotter 2026-07-28 13:03:23,502 DEBUG   : plotting offl_nPixelHits of type TH1D
+DCubePlotter 2026-07-28 13:03:23,532 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_a3946ad8-009f-4731-9e6b-8ab682a91f83.png' has been created
+DCubePlotter 2026-07-28 13:03:23,599 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_9462aa26-3513-4a02-9e53-47d94512ce7f.png' has been created
+DCubeApp     2026-07-28 13:03:23,599 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:23,600 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/HitsOnTracks/offl_nSCTHits' [KS]
+DCubeTester  2026-07-28 13:03:23,615 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:23,615 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=36 all equal non-empty bins=36
+DCubeTester  2026-07-28 13:03:23,616 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/HitsOnTracks/offl_nSCTHits' histograms are equal!
+DCubeTester  2026-07-28 13:03:23,616 INFO    : *** Kolmogorov-Smirnoff *** () p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:23,616 DEBUG   : plot called for object of name offl_nSCTHits
+DCubePlotter 2026-07-28 13:03:23,616 DEBUG   : plotting offl_nSCTHits of type TH1D
+DCubePlotter 2026-07-28 13:03:23,643 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_db71331e-b9b6-4917-847d-9b1b76604c1e.png' has been created
+DCubePlotter 2026-07-28 13:03:23,679 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_0ba87120-6671-4fb4-bd70-2a3a6eeb2cba.png' has been created
+DCubeApp     2026-07-28 13:03:23,679 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:23,679 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/HitsOnTracks/offl_nInnerMostPixelHits_vs_offl_eta' [meany]
+DCubeTester  2026-07-28 13:03:23,718 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:23,719 DEBUG   : gathering statistics along y axis
+DCubeTester  2026-07-28 13:03:23,719 DEBUG   : *** MeanY Test *** refMean=96.534 and monMean=96.534
+DCubeTester  2026-07-28 13:03:23,719 INFO    : *** Mean Test *** p-value=0.000 status=OK
+DCubePlotter 2026-07-28 13:03:23,720 DEBUG   : plot called for object of name offl_nInnerMostPixelHits_vs_offl_eta
+DCubePlotter 2026-07-28 13:03:23,720 DEBUG   : plotting offl_nInnerMostPixelHits_vs_offl_eta of type TProfile
+DCubePlotter 2026-07-28 13:03:23,764 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1r_ca08a461-1c58-4fac-b776-ddfc933de570.png' has been created
+DCubePlotter 2026-07-28 13:03:23,802 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1d_0a911d07-6daf-40db-ac19-44da9c815d0f.png' has been created
+DCubeApp     2026-07-28 13:03:23,803 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:23,803 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/HitsOnTracks/offl_nNextToInnerMostPixelHits_vs_offl_eta' [meany]
+DCubeTester  2026-07-28 13:03:23,812 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:23,812 DEBUG   : gathering statistics along y axis
+DCubeTester  2026-07-28 13:03:23,813 DEBUG   : *** MeanY Test *** refMean=97.319 and monMean=97.319
+DCubeTester  2026-07-28 13:03:23,813 INFO    : *** Mean Test *** p-value=0.000 status=OK
+DCubePlotter 2026-07-28 13:03:23,813 DEBUG   : plot called for object of name offl_nNextToInnerMostPixelHits_vs_offl_eta
+DCubePlotter 2026-07-28 13:03:23,813 DEBUG   : plotting offl_nNextToInnerMostPixelHits_vs_offl_eta of type TProfile
+DCubePlotter 2026-07-28 13:03:23,857 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1r_d91c388b-8708-40ec-8f4f-cf411d2d492a.png' has been created
+DCubePlotter 2026-07-28 13:03:23,887 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1d_eb275544-d3d4-47c8-8dc7-9c23611d17a3.png' has been created
+DCubeApp     2026-07-28 13:03:23,888 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:23,888 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/HitsOnTracks/offl_nPixelHits_vs_offl_eta' [meany]
+DCubeTester  2026-07-28 13:03:23,891 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:23,891 DEBUG   : gathering statistics along y axis
+DCubeTester  2026-07-28 13:03:23,892 DEBUG   : *** MeanY Test *** refMean=402.182 and monMean=402.182
+DCubeTester  2026-07-28 13:03:23,892 INFO    : *** Mean Test *** p-value=0.000 status=OK
+DCubePlotter 2026-07-28 13:03:23,892 DEBUG   : plot called for object of name offl_nPixelHits_vs_offl_eta
+DCubePlotter 2026-07-28 13:03:23,892 DEBUG   : plotting offl_nPixelHits_vs_offl_eta of type TProfile
+DCubePlotter 2026-07-28 13:03:23,933 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1r_50cc8a94-cf55-4be5-b971-091f3c8ee3ac.png' has been created
+DCubePlotter 2026-07-28 13:03:23,967 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1d_b967208d-dd7c-4cb9-9271-c7e891cb571e.png' has been created
+DCubeApp     2026-07-28 13:03:23,967 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:23,967 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/HitsOnTracks/offl_nSCTHits_vs_offl_eta' [meany]
+DCubeTester  2026-07-28 13:03:23,974 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:23,974 DEBUG   : gathering statistics along y axis
+DCubeTester  2026-07-28 13:03:23,974 DEBUG   : *** MeanY Test *** refMean=793.345 and monMean=793.345
+DCubeTester  2026-07-28 13:03:23,975 INFO    : *** Mean Test *** p-value=0.000 status=OK
+DCubePlotter 2026-07-28 13:03:23,975 DEBUG   : plot called for object of name offl_nSCTHits_vs_offl_eta
+DCubePlotter 2026-07-28 13:03:23,975 DEBUG   : plotting offl_nSCTHits_vs_offl_eta of type TProfile
+DCubePlotter 2026-07-28 13:03:24,036 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1r_7d790500-cde5-4b9d-bef3-507ccfe612cf.png' has been created
+DCubePlotter 2026-07-28 13:03:24,094 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1d_561df243-4cdf-4252-a956-ce56b3c2b5e5.png' has been created
+DCubeApp     2026-07-28 13:03:24,094 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:24,095 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/HitsOnTracks/offl_nPixelHoles_vs_offl_eta' [meany]
+DCubeTester  2026-07-28 13:03:24,096 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:24,096 DEBUG   : gathering statistics along y axis
+DCubeTester  2026-07-28 13:03:24,097 DEBUG   : *** MeanY Test *** refMean=4.685 and monMean=4.685
+DCubeTester  2026-07-28 13:03:24,097 INFO    : *** Mean Test *** p-value=0.000 status=OK
+DCubePlotter 2026-07-28 13:03:24,097 DEBUG   : plot called for object of name offl_nPixelHoles_vs_offl_eta
+DCubePlotter 2026-07-28 13:03:24,097 DEBUG   : plotting offl_nPixelHoles_vs_offl_eta of type TProfile
+DCubePlotter 2026-07-28 13:03:24,134 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1r_b367d826-8857-445f-9ded-70e1cb0fc885.png' has been created
+DCubePlotter 2026-07-28 13:03:24,166 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1d_16e091a0-b80a-4c74-91e3-42b8e84e4304.png' has been created
+DCubeApp     2026-07-28 13:03:24,166 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:24,166 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/HitsOnTracks/offl_nInnerMostPixelHits_vs_offl_phi' [meany]
+DCubeTester  2026-07-28 13:03:24,185 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:24,186 DEBUG   : gathering statistics along y axis
+DCubeTester  2026-07-28 13:03:24,186 DEBUG   : *** MeanY Test *** refMean=96.534 and monMean=96.534
+DCubeTester  2026-07-28 13:03:24,186 INFO    : *** Mean Test *** p-value=0.000 status=OK
+DCubePlotter 2026-07-28 13:03:24,186 DEBUG   : plot called for object of name offl_nInnerMostPixelHits_vs_offl_phi
+DCubePlotter 2026-07-28 13:03:24,186 DEBUG   : plotting offl_nInnerMostPixelHits_vs_offl_phi of type TProfile
+DCubePlotter 2026-07-28 13:03:24,227 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1r_7257ffcd-fe3c-4cc7-8225-35b366381ebe.png' has been created
+DCubePlotter 2026-07-28 13:03:24,285 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1d_a8d87a4e-680a-4e96-817a-c73acf64a83a.png' has been created
+DCubeApp     2026-07-28 13:03:24,285 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:24,285 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/HitsOnTracks/offl_nNextToInnerMostPixelHits_vs_offl_phi' [meany]
+DCubeTester  2026-07-28 13:03:24,287 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:24,287 DEBUG   : gathering statistics along y axis
+DCubeTester  2026-07-28 13:03:24,287 DEBUG   : *** MeanY Test *** refMean=97.319 and monMean=97.319
+DCubeTester  2026-07-28 13:03:24,287 INFO    : *** Mean Test *** p-value=0.000 status=OK
+DCubePlotter 2026-07-28 13:03:24,288 DEBUG   : plot called for object of name offl_nNextToInnerMostPixelHits_vs_offl_phi
+DCubePlotter 2026-07-28 13:03:24,288 DEBUG   : plotting offl_nNextToInnerMostPixelHits_vs_offl_phi of type TProfile
+DCubePlotter 2026-07-28 13:03:24,340 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1r_1e5cb0df-bdd8-487e-ab2c-ab2cb5b6745f.png' has been created
+DCubePlotter 2026-07-28 13:03:24,388 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1d_5be86355-3fc5-49f8-897e-7d67c4fcef65.png' has been created
+DCubeApp     2026-07-28 13:03:24,389 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:24,389 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/HitsOnTracks/offl_nPixelHits_vs_offl_phi' [meany]
+DCubeTester  2026-07-28 13:03:24,391 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:24,391 DEBUG   : gathering statistics along y axis
+DCubeTester  2026-07-28 13:03:24,391 DEBUG   : *** MeanY Test *** refMean=402.182 and monMean=402.182
+DCubeTester  2026-07-28 13:03:24,391 INFO    : *** Mean Test *** p-value=0.000 status=OK
+DCubePlotter 2026-07-28 13:03:24,392 DEBUG   : plot called for object of name offl_nPixelHits_vs_offl_phi
+DCubePlotter 2026-07-28 13:03:24,392 DEBUG   : plotting offl_nPixelHits_vs_offl_phi of type TProfile
+DCubePlotter 2026-07-28 13:03:24,445 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1r_dc0432cc-cc1a-4d67-87a4-291b2b6f473a.png' has been created
+DCubePlotter 2026-07-28 13:03:24,509 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1d_dd834659-560c-4c6b-94a6-2bf0870e2668.png' has been created
+DCubeApp     2026-07-28 13:03:24,509 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:24,510 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/HitsOnTracks/offl_nSCTHits_vs_offl_phi' [meany]
+DCubeTester  2026-07-28 13:03:24,512 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:24,512 DEBUG   : gathering statistics along y axis
+DCubeTester  2026-07-28 13:03:24,515 DEBUG   : *** MeanY Test *** refMean=793.345 and monMean=793.345
+DCubeTester  2026-07-28 13:03:24,515 INFO    : *** Mean Test *** p-value=0.000 status=OK
+DCubePlotter 2026-07-28 13:03:24,515 DEBUG   : plot called for object of name offl_nSCTHits_vs_offl_phi
+DCubePlotter 2026-07-28 13:03:24,516 DEBUG   : plotting offl_nSCTHits_vs_offl_phi of type TProfile
+DCubePlotter 2026-07-28 13:03:24,567 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1r_8bc7564f-6fd4-4aad-8e71-6af2e966e031.png' has been created
+DCubePlotter 2026-07-28 13:03:24,613 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1d_58cb7b72-c87b-43e7-85f9-55a3d79ec0a8.png' has been created
+DCubeApp     2026-07-28 13:03:24,614 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:24,614 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/HitsOnTracks/offl_nPixelHoles_vs_offl_phi' [meany]
+DCubeTester  2026-07-28 13:03:24,615 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:24,616 DEBUG   : gathering statistics along y axis
+DCubeTester  2026-07-28 13:03:24,616 DEBUG   : *** MeanY Test *** refMean=4.685 and monMean=4.685
+DCubeTester  2026-07-28 13:03:24,616 INFO    : *** Mean Test *** p-value=0.000 status=OK
+DCubePlotter 2026-07-28 13:03:24,616 DEBUG   : plot called for object of name offl_nPixelHoles_vs_offl_phi
+DCubePlotter 2026-07-28 13:03:24,617 DEBUG   : plotting offl_nPixelHoles_vs_offl_phi of type TProfile
+DCubePlotter 2026-07-28 13:03:24,666 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1r_4257d6b9-9316-49b5-b3d7-75da2587ec58.png' has been created
+DCubePlotter 2026-07-28 13:03:24,698 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1d_8fc48873-fc28-4edb-b41c-fea3cb5bee8d.png' has been created
+DCubeApp     2026-07-28 13:03:24,698 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:24,698 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/HitsOnTracks/offl_nInnerMostPixelOutliers_vs_offl_eta' [meany]
+DCubeTester  2026-07-28 13:03:24,718 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:24,719 DEBUG   : gathering statistics along y axis
+DCubeTester  2026-07-28 13:03:24,719 DEBUG   : *** MeanY Test *** refMean=0.301 and monMean=0.301
+DCubeTester  2026-07-28 13:03:24,720 INFO    : *** Mean Test *** p-value=0.000 status=OK
+DCubePlotter 2026-07-28 13:03:24,720 DEBUG   : plot called for object of name offl_nInnerMostPixelOutliers_vs_offl_eta
+DCubePlotter 2026-07-28 13:03:24,720 DEBUG   : plotting offl_nInnerMostPixelOutliers_vs_offl_eta of type TProfile
+DCubePlotter 2026-07-28 13:03:24,823 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1r_9dc26c32-a088-4a65-a631-1cd3fc1cc1cf.png' has been created
+DCubePlotter 2026-07-28 13:03:24,858 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1d_591de486-5ed0-4653-9f94-5f8c2aa07564.png' has been created
+DCubeApp     2026-07-28 13:03:24,859 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:24,859 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/HitsOnTracks/offl_nInnerMostPixelSharedHits_vs_offl_eta' [meany]
+DCubeTester  2026-07-28 13:03:24,860 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:24,861 DEBUG   : gathering statistics along y axis
+DCubeTester  2026-07-28 13:03:24,861 DEBUG   : *** MeanY Test *** refMean=1.088 and monMean=1.088
+DCubeTester  2026-07-28 13:03:24,861 INFO    : *** Mean Test *** p-value=0.000 status=OK
+DCubePlotter 2026-07-28 13:03:24,861 DEBUG   : plot called for object of name offl_nInnerMostPixelSharedHits_vs_offl_eta
+DCubePlotter 2026-07-28 13:03:24,862 DEBUG   : plotting offl_nInnerMostPixelSharedHits_vs_offl_eta of type TProfile
+DCubePlotter 2026-07-28 13:03:24,902 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1r_4d3ce6e0-ceda-43d4-b00c-12b7c0034683.png' has been created
+DCubePlotter 2026-07-28 13:03:24,936 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1d_83b3c7de-a2cf-4f25-86ce-c62a51a5edc3.png' has been created
+DCubeApp     2026-07-28 13:03:24,936 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:24,936 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/HitsOnTracks/offl_nInnerMostPixelSplitHits_vs_offl_eta' [meany]
+DCubeTester  2026-07-28 13:03:24,960 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:24,960 DEBUG   : gathering statistics along y axis
+DCubeTester  2026-07-28 13:03:24,961 DEBUG   : *** MeanY Test *** refMean=0.275 and monMean=0.639
+DCubeTester  2026-07-28 13:03:24,961 INFO    : *** Mean Test *** p-value=0.364 status=OK
+DCubePlotter 2026-07-28 13:03:24,961 DEBUG   : plot called for object of name offl_nInnerMostPixelSplitHits_vs_offl_eta
+DCubePlotter 2026-07-28 13:03:24,961 DEBUG   : plotting offl_nInnerMostPixelSplitHits_vs_offl_eta of type TProfile
+DCubePlotter 2026-07-28 13:03:25,018 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1r_e9001abc-0f17-4814-9e83-e9f5ae77e74a.png' has been created
+DCubePlotter 2026-07-28 13:03:25,078 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1d_b5ba7d13-57ad-46f5-ad7f-28381d7a9eb4.png' has been created
+DCubeApp     2026-07-28 13:03:25,079 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:25,079 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/HitsOnTracks/offl_nExpectedInnerMostPixelHits_vs_offl_eta' [meany]
+DCubeTester  2026-07-28 13:03:25,080 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:25,081 DEBUG   : gathering statistics along y axis
+DCubeTester  2026-07-28 13:03:25,081 DEBUG   : *** MeanY Test *** refMean=95.596 and monMean=95.596
+DCubeTester  2026-07-28 13:03:25,081 INFO    : *** Mean Test *** p-value=0.000 status=OK
+DCubePlotter 2026-07-28 13:03:25,082 DEBUG   : plot called for object of name offl_nExpectedInnerMostPixelHits_vs_offl_eta
+DCubePlotter 2026-07-28 13:03:25,082 DEBUG   : plotting offl_nExpectedInnerMostPixelHits_vs_offl_eta of type TProfile
+DCubePlotter 2026-07-28 13:03:25,122 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1r_c184ca23-fdd5-4976-a09e-e6b8bf598296.png' has been created
+DCubePlotter 2026-07-28 13:03:25,182 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1d_1dd71bcb-4e9d-431d-b408-511a844ec384.png' has been created
+DCubeApp     2026-07-28 13:03:25,182 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:25,182 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/HitsOnTracks/offl_nExpectedNextToInnerMostPixelHits_vs_offl_eta' [meany]
+DCubeTester  2026-07-28 13:03:25,184 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:25,184 DEBUG   : gathering statistics along y axis
+DCubeTester  2026-07-28 13:03:25,185 DEBUG   : *** MeanY Test *** refMean=92.374 and monMean=92.374
+DCubeTester  2026-07-28 13:03:25,185 INFO    : *** Mean Test *** p-value=0.000 status=OK
+DCubePlotter 2026-07-28 13:03:25,185 DEBUG   : plot called for object of name offl_nExpectedNextToInnerMostPixelHits_vs_offl_eta
+DCubePlotter 2026-07-28 13:03:25,185 DEBUG   : plotting offl_nExpectedNextToInnerMostPixelHits_vs_offl_eta of type TProfile
+DCubePlotter 2026-07-28 13:03:25,243 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1r_15ecf861-27c7-455d-8d2a-06a63172d60d.png' has been created
+DCubePlotter 2026-07-28 13:03:25,282 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1d_38b09d81-1456-4742-b12a-3446ecd6b5c3.png' has been created
+DCubeApp     2026-07-28 13:03:25,282 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:25,283 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/HitsOnTracks/offl_nPixelOutliers_vs_offl_eta' [meany]
+DCubeTester  2026-07-28 13:03:25,288 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:25,288 DEBUG   : gathering statistics along y axis
+DCubeTester  2026-07-28 13:03:25,289 DEBUG   : *** MeanY Test *** refMean=0.948 and monMean=0.948
+DCubeTester  2026-07-28 13:03:25,289 INFO    : *** Mean Test *** p-value=0.000 status=OK
+DCubePlotter 2026-07-28 13:03:25,289 DEBUG   : plot called for object of name offl_nPixelOutliers_vs_offl_eta
+DCubePlotter 2026-07-28 13:03:25,290 DEBUG   : plotting offl_nPixelOutliers_vs_offl_eta of type TProfile
+DCubePlotter 2026-07-28 13:03:25,351 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1r_af2f81b4-9944-48a9-a1e4-b838df90b445.png' has been created
+DCubePlotter 2026-07-28 13:03:25,382 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1d_722078de-60f2-478e-9d12-8c2a092e1997.png' has been created
+DCubeApp     2026-07-28 13:03:25,383 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:25,383 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/HitsOnTracks/offl_nPixelContribLayers_vs_offl_eta' [meany]
+DCubeTester  2026-07-28 13:03:25,385 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:25,385 DEBUG   : gathering statistics along y axis
+DCubeTester  2026-07-28 13:03:25,386 DEBUG   : *** MeanY Test *** refMean=373.091 and monMean=373.091
+DCubeTester  2026-07-28 13:03:25,386 INFO    : *** Mean Test *** p-value=0.000 status=OK
+DCubePlotter 2026-07-28 13:03:25,386 DEBUG   : plot called for object of name offl_nPixelContribLayers_vs_offl_eta
+DCubePlotter 2026-07-28 13:03:25,387 DEBUG   : plotting offl_nPixelContribLayers_vs_offl_eta of type TProfile
+DCubePlotter 2026-07-28 13:03:25,459 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1r_a0806d77-789d-4903-b381-ce1b1e12ae64.png' has been created
+DCubePlotter 2026-07-28 13:03:25,492 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1d_85aebb6d-fb9a-43be-a3c1-216ccbe7bde8.png' has been created
+DCubeApp     2026-07-28 13:03:25,492 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:25,493 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/HitsOnTracks/offl_nPixelSharedHits_vs_offl_eta' [meany]
+DCubeTester  2026-07-28 13:03:25,495 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:25,495 DEBUG   : gathering statistics along y axis
+DCubeTester  2026-07-28 13:03:25,495 DEBUG   : *** MeanY Test *** refMean=1.717 and monMean=1.717
+DCubeTester  2026-07-28 13:03:25,495 INFO    : *** Mean Test *** p-value=0.000 status=OK
+DCubePlotter 2026-07-28 13:03:25,496 DEBUG   : plot called for object of name offl_nPixelSharedHits_vs_offl_eta
+DCubePlotter 2026-07-28 13:03:25,496 DEBUG   : plotting offl_nPixelSharedHits_vs_offl_eta of type TProfile
+DCubePlotter 2026-07-28 13:03:25,541 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1r_c8cdf1ee-8545-479e-86c7-94cf50ea527f.png' has been created
+DCubePlotter 2026-07-28 13:03:25,572 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1d_928b498d-2893-45f8-9f7b-95b8eeb10b25.png' has been created
+DCubeApp     2026-07-28 13:03:25,572 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:25,573 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/HitsOnTracks/offl_nPixelSplitHits_vs_offl_eta' [meany]
+DCubeTester  2026-07-28 13:03:25,574 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:25,575 DEBUG   : gathering statistics along y axis
+DCubeTester  2026-07-28 13:03:25,575 DEBUG   : *** MeanY Test *** refMean=0.639 and monMean=0.639
+DCubeTester  2026-07-28 13:03:25,575 INFO    : *** Mean Test *** p-value=0.000 status=OK
+DCubePlotter 2026-07-28 13:03:25,576 DEBUG   : plot called for object of name offl_nPixelSplitHits_vs_offl_eta
+DCubePlotter 2026-07-28 13:03:25,576 DEBUG   : plotting offl_nPixelSplitHits_vs_offl_eta of type TProfile
+DCubePlotter 2026-07-28 13:03:25,625 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1r_5e278aae-2646-427c-b436-cebdc06d16ff.png' has been created
+DCubePlotter 2026-07-28 13:03:25,656 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1d_16bd5cbe-836d-4a5c-ab3d-1eac895db4e0.png' has been created
+DCubeApp     2026-07-28 13:03:25,656 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:25,656 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/HitsOnTracks/offl_nPixelGangedHits_vs_offl_eta' [meany]
+DCubeTester  2026-07-28 13:03:25,658 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:25,658 DEBUG   : gathering statistics along y axis
+DCubeTester  2026-07-28 13:03:25,658 DEBUG   : *** MeanY Test *** refMean=19.241 and monMean=19.241
+DCubeTester  2026-07-28 13:03:25,659 INFO    : *** Mean Test *** p-value=0.000 status=OK
+DCubePlotter 2026-07-28 13:03:25,659 DEBUG   : plot called for object of name offl_nPixelGangedHits_vs_offl_eta
+DCubePlotter 2026-07-28 13:03:25,659 DEBUG   : plotting offl_nPixelGangedHits_vs_offl_eta of type TProfile
+DCubePlotter 2026-07-28 13:03:25,776 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1r_71ddeb55-0e5b-4af1-b95d-921facfdf58b.png' has been created
+DCubePlotter 2026-07-28 13:03:25,805 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1d_0aeb77c3-d762-4f8c-ae49-4d18fb9815b1.png' has been created
+DCubeApp     2026-07-28 13:03:25,806 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:25,806 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/HitsOnTracks/offl_nPixelGangedHitsFlaggedFakes_vs_offl_eta' [meany]
+DCubeTester  2026-07-28 13:03:25,807 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:25,808 DEBUG   : gathering statistics along y axis
+DCubeTester  2026-07-28 13:03:25,808 DEBUG   : *** MeanY Test *** refMean=0.617 and monMean=0.617
+DCubeTester  2026-07-28 13:03:25,808 INFO    : *** Mean Test *** p-value=0.000 status=OK
+DCubePlotter 2026-07-28 13:03:25,808 DEBUG   : plot called for object of name offl_nPixelGangedHitsFlaggedFakes_vs_offl_eta
+DCubePlotter 2026-07-28 13:03:25,809 DEBUG   : plotting offl_nPixelGangedHitsFlaggedFakes_vs_offl_eta of type TProfile
+DCubePlotter 2026-07-28 13:03:25,848 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1r_469beb7d-c22b-4019-96c2-79640e2625f3.png' has been created
+DCubePlotter 2026-07-28 13:03:25,881 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1d_ff81773c-5d94-4041-9af0-5b29076d8e76.png' has been created
+DCubeApp     2026-07-28 13:03:25,882 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:25,882 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/HitsOnTracks/offl_nSCTOutliers_vs_offl_eta' [meany]
+DCubeTester  2026-07-28 13:03:25,884 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:25,884 DEBUG   : gathering statistics along y axis
+DCubeTester  2026-07-28 13:03:25,885 DEBUG   : *** MeanY Test *** refMean=1.375 and monMean=1.375
+DCubeTester  2026-07-28 13:03:25,885 INFO    : *** Mean Test *** p-value=0.000 status=OK
+DCubePlotter 2026-07-28 13:03:25,885 DEBUG   : plot called for object of name offl_nSCTOutliers_vs_offl_eta
+DCubePlotter 2026-07-28 13:03:25,885 DEBUG   : plotting offl_nSCTOutliers_vs_offl_eta of type TProfile
+DCubePlotter 2026-07-28 13:03:25,930 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1r_7e531d82-eeca-45f4-b2f9-065801553a59.png' has been created
+DCubePlotter 2026-07-28 13:03:26,004 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1d_678c1c30-b14c-410d-b773-39abd9041150.png' has been created
+DCubeApp     2026-07-28 13:03:26,004 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:26,005 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/HitsOnTracks/offl_nSCTDoubleHoles_vs_offl_eta' [meany]
+DCubeTester  2026-07-28 13:03:26,007 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:26,007 DEBUG   : gathering statistics along y axis
+DCubeTester  2026-07-28 13:03:26,007 DEBUG   : *** MeanY Test *** refMean=1.017 and monMean=1.017
+DCubeTester  2026-07-28 13:03:26,007 INFO    : *** Mean Test *** p-value=0.000 status=OK
+DCubePlotter 2026-07-28 13:03:26,008 DEBUG   : plot called for object of name offl_nSCTDoubleHoles_vs_offl_eta
+DCubePlotter 2026-07-28 13:03:26,008 DEBUG   : plotting offl_nSCTDoubleHoles_vs_offl_eta of type TProfile
+DCubePlotter 2026-07-28 13:03:26,056 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1r_50a53f67-66f9-4b83-a04e-b8754147530d.png' has been created
+DCubePlotter 2026-07-28 13:03:26,093 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1d_b3f282ff-3724-4b80-bdee-d192cc82ae06.png' has been created
+DCubeApp     2026-07-28 13:03:26,094 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:26,094 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/HitsOnTracks/offl_nSCTSharedHits_vs_offl_eta' [meany]
+DCubeTester  2026-07-28 13:03:26,096 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:26,096 DEBUG   : gathering statistics along y axis
+DCubeTester  2026-07-28 13:03:26,096 DEBUG   : *** MeanY Test *** refMean=6.435 and monMean=6.435
+DCubeTester  2026-07-28 13:03:26,096 INFO    : *** Mean Test *** p-value=0.000 status=OK
+DCubePlotter 2026-07-28 13:03:26,097 DEBUG   : plot called for object of name offl_nSCTSharedHits_vs_offl_eta
+DCubePlotter 2026-07-28 13:03:26,097 DEBUG   : plotting offl_nSCTSharedHits_vs_offl_eta of type TProfile
+DCubePlotter 2026-07-28 13:03:26,153 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1r_12008d02-99f3-4844-8b79-7b12cf32c2f1.png' has been created
+DCubePlotter 2026-07-28 13:03:26,191 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1d_a8ab42f4-785b-4e39-8337-5c98658d4c38.png' has been created
+DCubeApp     2026-07-28 13:03:26,192 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:26,192 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/HitsOnTracks/offl_nPixelDeadSensors_vs_offl_eta' [meany]
+DCubeTester  2026-07-28 13:03:26,194 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:26,194 DEBUG   : gathering statistics along y axis
+DCubeTester  2026-07-28 13:03:26,194 DEBUG   : *** MeanY Test *** refMean=15.678 and monMean=15.678
+DCubeTester  2026-07-28 13:03:26,194 INFO    : *** Mean Test *** p-value=0.000 status=OK
+DCubePlotter 2026-07-28 13:03:26,195 DEBUG   : plot called for object of name offl_nPixelDeadSensors_vs_offl_eta
+DCubePlotter 2026-07-28 13:03:26,195 DEBUG   : plotting offl_nPixelDeadSensors_vs_offl_eta of type TProfile
+DCubePlotter 2026-07-28 13:03:26,255 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1r_444bf137-4021-4318-96c9-80b88d89fbfe.png' has been created
+DCubePlotter 2026-07-28 13:03:26,333 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1d_61124398-e6f5-4168-8800-8e0c97129fa7.png' has been created
+DCubeApp     2026-07-28 13:03:26,334 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:26,334 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/HitsOnTracks/offl_nSCTDeadSensors_vs_offl_eta' [meany]
+DCubeTester  2026-07-28 13:03:26,336 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:26,336 DEBUG   : gathering statistics along y axis
+DCubeTester  2026-07-28 13:03:26,336 DEBUG   : *** MeanY Test *** refMean=10.364 and monMean=10.364
+DCubeTester  2026-07-28 13:03:26,336 INFO    : *** Mean Test *** p-value=0.000 status=OK
+DCubePlotter 2026-07-28 13:03:26,337 DEBUG   : plot called for object of name offl_nSCTDeadSensors_vs_offl_eta
+DCubePlotter 2026-07-28 13:03:26,337 DEBUG   : plotting offl_nSCTDeadSensors_vs_offl_eta of type TProfile
+DCubePlotter 2026-07-28 13:03:26,376 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1r_8102f5a3-7cc6-46f4-b360-1f60d14d9b80.png' has been created
+DCubePlotter 2026-07-28 13:03:26,405 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1d_c1d2c568-a884-41cf-b606-b6927ea2ce0c.png' has been created
+DCubeApp     2026-07-28 13:03:26,405 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:26,405 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/HitsOnTracks/offl_nInnerMostPixelOutliers_vs_offl_phi' [meany]
+DCubeTester  2026-07-28 13:03:26,407 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:26,407 DEBUG   : gathering statistics along y axis
+DCubeTester  2026-07-28 13:03:26,408 DEBUG   : *** MeanY Test *** refMean=0.301 and monMean=0.301
+DCubeTester  2026-07-28 13:03:26,408 INFO    : *** Mean Test *** p-value=0.000 status=OK
+DCubePlotter 2026-07-28 13:03:26,408 DEBUG   : plot called for object of name offl_nInnerMostPixelOutliers_vs_offl_phi
+DCubePlotter 2026-07-28 13:03:26,408 DEBUG   : plotting offl_nInnerMostPixelOutliers_vs_offl_phi of type TProfile
+DCubePlotter 2026-07-28 13:03:26,446 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1r_cd3ac0f6-bcc4-416f-89eb-e91f82a59f50.png' has been created
+DCubePlotter 2026-07-28 13:03:26,477 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1d_b2b93283-77b7-4e74-a884-a77c415150e5.png' has been created
+DCubeApp     2026-07-28 13:03:26,477 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:26,477 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/HitsOnTracks/offl_nInnerMostPixelSharedHits_vs_offl_phi' [meany]
+DCubeTester  2026-07-28 13:03:26,479 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:26,480 DEBUG   : gathering statistics along y axis
+DCubeTester  2026-07-28 13:03:26,480 DEBUG   : *** MeanY Test *** refMean=1.088 and monMean=1.088
+DCubeTester  2026-07-28 13:03:26,480 INFO    : *** Mean Test *** p-value=0.000 status=OK
+DCubePlotter 2026-07-28 13:03:26,480 DEBUG   : plot called for object of name offl_nInnerMostPixelSharedHits_vs_offl_phi
+DCubePlotter 2026-07-28 13:03:26,480 DEBUG   : plotting offl_nInnerMostPixelSharedHits_vs_offl_phi of type TProfile
+DCubePlotter 2026-07-28 13:03:26,530 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1r_1fe607e4-7fcf-4c2e-908a-27e951e629c1.png' has been created
+DCubePlotter 2026-07-28 13:03:26,571 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1d_e5fcb543-21a9-49e9-a8e2-1feb4865ae5d.png' has been created
+DCubeApp     2026-07-28 13:03:26,571 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:26,571 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/HitsOnTracks/offl_nInnerMostPixelSplitHits_vs_offl_phi' [meany]
+DCubeTester  2026-07-28 13:03:26,574 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:26,574 DEBUG   : gathering statistics along y axis
+DCubeTester  2026-07-28 13:03:26,575 DEBUG   : *** MeanY Test *** refMean=0.275 and monMean=0.639
+DCubeTester  2026-07-28 13:03:26,575 INFO    : *** Mean Test *** p-value=0.364 status=OK
+DCubePlotter 2026-07-28 13:03:26,575 DEBUG   : plot called for object of name offl_nInnerMostPixelSplitHits_vs_offl_phi
+DCubePlotter 2026-07-28 13:03:26,575 DEBUG   : plotting offl_nInnerMostPixelSplitHits_vs_offl_phi of type TProfile
+DCubePlotter 2026-07-28 13:03:26,615 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1r_6a84fad3-8bd1-49e8-825e-850f413474b9.png' has been created
+DCubePlotter 2026-07-28 13:03:26,644 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1d_5934f906-a5d9-42a2-acfb-73981696ec63.png' has been created
+DCubeApp     2026-07-28 13:03:26,644 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:26,645 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/HitsOnTracks/offl_nExpectedInnerMostPixelHits_vs_offl_phi' [meany]
+DCubeTester  2026-07-28 13:03:26,646 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:26,646 DEBUG   : gathering statistics along y axis
+DCubeTester  2026-07-28 13:03:26,647 DEBUG   : *** MeanY Test *** refMean=95.596 and monMean=95.596
+DCubeTester  2026-07-28 13:03:26,647 INFO    : *** Mean Test *** p-value=0.000 status=OK
+DCubePlotter 2026-07-28 13:03:26,647 DEBUG   : plot called for object of name offl_nExpectedInnerMostPixelHits_vs_offl_phi
+DCubePlotter 2026-07-28 13:03:26,647 DEBUG   : plotting offl_nExpectedInnerMostPixelHits_vs_offl_phi of type TProfile
+DCubePlotter 2026-07-28 13:03:26,693 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1r_5f176537-3800-4597-8090-199817d06657.png' has been created
+DCubePlotter 2026-07-28 13:03:26,722 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1d_14f2a8d6-c689-4b0d-a34a-fd3ec545fe5d.png' has been created
+DCubeApp     2026-07-28 13:03:26,723 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:26,723 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/HitsOnTracks/offl_nExpectedNextToInnerMostPixelHits_vs_offl_phi' [meany]
+DCubeTester  2026-07-28 13:03:26,724 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:26,724 DEBUG   : gathering statistics along y axis
+DCubeTester  2026-07-28 13:03:26,725 DEBUG   : *** MeanY Test *** refMean=92.374 and monMean=92.374
+DCubeTester  2026-07-28 13:03:26,725 INFO    : *** Mean Test *** p-value=0.000 status=OK
+DCubePlotter 2026-07-28 13:03:26,725 DEBUG   : plot called for object of name offl_nExpectedNextToInnerMostPixelHits_vs_offl_phi
+DCubePlotter 2026-07-28 13:03:26,725 DEBUG   : plotting offl_nExpectedNextToInnerMostPixelHits_vs_offl_phi of type TProfile
+DCubePlotter 2026-07-28 13:03:26,769 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1r_59cc0ff8-614b-4358-9b36-8b32de041029.png' has been created
+DCubePlotter 2026-07-28 13:03:26,809 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1d_72d61a8d-6dab-436f-9bfe-b8a88029945a.png' has been created
+DCubeApp     2026-07-28 13:03:26,809 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:26,809 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/HitsOnTracks/offl_nPixelOutliers_vs_offl_phi' [meany]
+DCubeTester  2026-07-28 13:03:26,811 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:26,812 DEBUG   : gathering statistics along y axis
+DCubeTester  2026-07-28 13:03:26,812 DEBUG   : *** MeanY Test *** refMean=0.948 and monMean=0.948
+DCubeTester  2026-07-28 13:03:26,813 INFO    : *** Mean Test *** p-value=0.000 status=OK
+DCubePlotter 2026-07-28 13:03:26,813 DEBUG   : plot called for object of name offl_nPixelOutliers_vs_offl_phi
+DCubePlotter 2026-07-28 13:03:26,813 DEBUG   : plotting offl_nPixelOutliers_vs_offl_phi of type TProfile
+DCubePlotter 2026-07-28 13:03:26,857 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1r_4fd1a202-8115-4f47-9e77-5650d3f33901.png' has been created
+DCubePlotter 2026-07-28 13:03:26,887 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1d_d4597919-9077-44ab-bf79-2f57eb5bcdc7.png' has been created
+DCubeApp     2026-07-28 13:03:26,888 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:26,888 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/HitsOnTracks/offl_nPixelContribLayers_vs_offl_phi' [meany]
+DCubeTester  2026-07-28 13:03:26,890 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:26,891 DEBUG   : gathering statistics along y axis
+DCubeTester  2026-07-28 13:03:26,891 DEBUG   : *** MeanY Test *** refMean=373.091 and monMean=373.091
+DCubeTester  2026-07-28 13:03:26,892 INFO    : *** Mean Test *** p-value=0.000 status=OK
+DCubePlotter 2026-07-28 13:03:26,892 DEBUG   : plot called for object of name offl_nPixelContribLayers_vs_offl_phi
+DCubePlotter 2026-07-28 13:03:26,892 DEBUG   : plotting offl_nPixelContribLayers_vs_offl_phi of type TProfile
+DCubePlotter 2026-07-28 13:03:26,939 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1r_7da570c8-f9a0-4c43-837c-73f930d1a29a.png' has been created
+DCubePlotter 2026-07-28 13:03:26,975 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1d_cdb37ef1-f7b3-4dff-8ee5-6c4b9fba258f.png' has been created
+DCubeApp     2026-07-28 13:03:26,976 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:26,976 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/HitsOnTracks/offl_nPixelSharedHits_vs_offl_phi' [meany]
+DCubeTester  2026-07-28 13:03:26,978 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:26,978 DEBUG   : gathering statistics along y axis
+DCubeTester  2026-07-28 13:03:26,979 DEBUG   : *** MeanY Test *** refMean=1.717 and monMean=1.717
+DCubeTester  2026-07-28 13:03:26,979 INFO    : *** Mean Test *** p-value=0.000 status=OK
+DCubePlotter 2026-07-28 13:03:26,979 DEBUG   : plot called for object of name offl_nPixelSharedHits_vs_offl_phi
+DCubePlotter 2026-07-28 13:03:26,980 DEBUG   : plotting offl_nPixelSharedHits_vs_offl_phi of type TProfile
+DCubePlotter 2026-07-28 13:03:27,025 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1r_bf8acf4f-6315-43ce-a210-a611cde36f35.png' has been created
+DCubePlotter 2026-07-28 13:03:27,056 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1d_925a27ec-87ed-434e-8230-3d6f98bf75d9.png' has been created
+DCubeApp     2026-07-28 13:03:27,057 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:27,057 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/HitsOnTracks/offl_nPixelSplitHits_vs_offl_phi' [meany]
+DCubeTester  2026-07-28 13:03:27,058 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:27,058 DEBUG   : gathering statistics along y axis
+DCubeTester  2026-07-28 13:03:27,059 DEBUG   : *** MeanY Test *** refMean=0.639 and monMean=0.639
+DCubeTester  2026-07-28 13:03:27,059 INFO    : *** Mean Test *** p-value=0.000 status=OK
+DCubePlotter 2026-07-28 13:03:27,059 DEBUG   : plot called for object of name offl_nPixelSplitHits_vs_offl_phi
+DCubePlotter 2026-07-28 13:03:27,059 DEBUG   : plotting offl_nPixelSplitHits_vs_offl_phi of type TProfile
+DCubePlotter 2026-07-28 13:03:27,099 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1r_40c0f06e-1b73-4fab-860b-f4dbca9268d3.png' has been created
+DCubePlotter 2026-07-28 13:03:27,132 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1d_63827016-38eb-4309-b972-1824d5d4857e.png' has been created
+DCubeApp     2026-07-28 13:03:27,132 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:27,132 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/HitsOnTracks/offl_nPixelGangedHits_vs_offl_phi' [meany]
+DCubeTester  2026-07-28 13:03:27,134 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:27,135 DEBUG   : gathering statistics along y axis
+DCubeTester  2026-07-28 13:03:27,135 DEBUG   : *** MeanY Test *** refMean=19.241 and monMean=19.241
+DCubeTester  2026-07-28 13:03:27,135 INFO    : *** Mean Test *** p-value=0.000 status=OK
+DCubePlotter 2026-07-28 13:03:27,136 DEBUG   : plot called for object of name offl_nPixelGangedHits_vs_offl_phi
+DCubePlotter 2026-07-28 13:03:27,136 DEBUG   : plotting offl_nPixelGangedHits_vs_offl_phi of type TProfile
+DCubePlotter 2026-07-28 13:03:27,177 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1r_fca636f2-f5c2-4740-a23d-da2b979705c7.png' has been created
+DCubePlotter 2026-07-28 13:03:27,212 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1d_b78975f9-b619-4389-945d-4728bb983ae6.png' has been created
+DCubeApp     2026-07-28 13:03:27,212 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:27,212 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/HitsOnTracks/offl_nPixelGangedHitsFlaggedFakes_vs_offl_phi' [meany]
+DCubeTester  2026-07-28 13:03:27,214 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:27,214 DEBUG   : gathering statistics along y axis
+DCubeTester  2026-07-28 13:03:27,215 DEBUG   : *** MeanY Test *** refMean=0.617 and monMean=0.617
+DCubeTester  2026-07-28 13:03:27,215 INFO    : *** Mean Test *** p-value=0.000 status=OK
+DCubePlotter 2026-07-28 13:03:27,215 DEBUG   : plot called for object of name offl_nPixelGangedHitsFlaggedFakes_vs_offl_phi
+DCubePlotter 2026-07-28 13:03:27,215 DEBUG   : plotting offl_nPixelGangedHitsFlaggedFakes_vs_offl_phi of type TProfile
+DCubePlotter 2026-07-28 13:03:27,257 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1r_fcfa784f-a230-4c2b-bb35-e51adeb159e9.png' has been created
+DCubePlotter 2026-07-28 13:03:27,293 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1d_192e6380-aa96-41d2-a5b2-d0b1913b7cf0.png' has been created
+DCubeApp     2026-07-28 13:03:27,293 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:27,294 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/HitsOnTracks/offl_nSCTOutliers_vs_offl_phi' [meany]
+DCubeTester  2026-07-28 13:03:27,295 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:27,296 DEBUG   : gathering statistics along y axis
+DCubeTester  2026-07-28 13:03:27,296 DEBUG   : *** MeanY Test *** refMean=1.375 and monMean=1.375
+DCubeTester  2026-07-28 13:03:27,297 INFO    : *** Mean Test *** p-value=0.000 status=OK
+DCubePlotter 2026-07-28 13:03:27,297 DEBUG   : plot called for object of name offl_nSCTOutliers_vs_offl_phi
+DCubePlotter 2026-07-28 13:03:27,297 DEBUG   : plotting offl_nSCTOutliers_vs_offl_phi of type TProfile
+DCubePlotter 2026-07-28 13:03:27,339 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1r_4b1d6936-8efc-4c75-91c8-4b6fcdd2604e.png' has been created
+DCubePlotter 2026-07-28 13:03:27,367 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1d_f913dd69-36f0-4c1a-ad9e-99a5eb556eac.png' has been created
+DCubeApp     2026-07-28 13:03:27,367 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:27,368 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/HitsOnTracks/offl_nSCTDoubleHoles_vs_offl_phi' [meany]
+DCubeTester  2026-07-28 13:03:27,370 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:27,370 DEBUG   : gathering statistics along y axis
+DCubeTester  2026-07-28 13:03:27,370 DEBUG   : *** MeanY Test *** refMean=1.017 and monMean=1.017
+DCubeTester  2026-07-28 13:03:27,370 INFO    : *** Mean Test *** p-value=0.000 status=OK
+DCubePlotter 2026-07-28 13:03:27,371 DEBUG   : plot called for object of name offl_nSCTDoubleHoles_vs_offl_phi
+DCubePlotter 2026-07-28 13:03:27,371 DEBUG   : plotting offl_nSCTDoubleHoles_vs_offl_phi of type TProfile
+DCubePlotter 2026-07-28 13:03:27,425 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1r_b68c59fc-afde-45ce-8491-cbecb9960890.png' has been created
+DCubePlotter 2026-07-28 13:03:27,455 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1d_b6106094-de0e-4b60-b20c-6f67acb9a49d.png' has been created
+DCubeApp     2026-07-28 13:03:27,455 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:27,455 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/HitsOnTracks/offl_nSCTSharedHits_vs_offl_phi' [meany]
+DCubeTester  2026-07-28 13:03:27,456 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:27,457 DEBUG   : gathering statistics along y axis
+DCubeTester  2026-07-28 13:03:27,457 DEBUG   : *** MeanY Test *** refMean=6.435 and monMean=6.435
+DCubeTester  2026-07-28 13:03:27,457 INFO    : *** Mean Test *** p-value=0.000 status=OK
+DCubePlotter 2026-07-28 13:03:27,457 DEBUG   : plot called for object of name offl_nSCTSharedHits_vs_offl_phi
+DCubePlotter 2026-07-28 13:03:27,458 DEBUG   : plotting offl_nSCTSharedHits_vs_offl_phi of type TProfile
+DCubePlotter 2026-07-28 13:03:27,499 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1r_e94dca4c-be2c-4428-baa3-ab332c6a1e04.png' has been created
+DCubePlotter 2026-07-28 13:03:27,527 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1d_efba05a4-4921-4195-b70f-79d91d071692.png' has been created
+DCubeApp     2026-07-28 13:03:27,527 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:27,527 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/HitsOnTracks/offl_nPixelDeadSensors_vs_offl_phi' [meany]
+DCubeTester  2026-07-28 13:03:27,529 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:27,529 DEBUG   : gathering statistics along y axis
+DCubeTester  2026-07-28 13:03:27,529 DEBUG   : *** MeanY Test *** refMean=15.678 and monMean=15.678
+DCubeTester  2026-07-28 13:03:27,529 INFO    : *** Mean Test *** p-value=0.000 status=OK
+DCubePlotter 2026-07-28 13:03:27,530 DEBUG   : plot called for object of name offl_nPixelDeadSensors_vs_offl_phi
+DCubePlotter 2026-07-28 13:03:27,530 DEBUG   : plotting offl_nPixelDeadSensors_vs_offl_phi of type TProfile
+DCubePlotter 2026-07-28 13:03:27,572 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1r_d5d5b314-6a09-449f-8b83-83b2ae406700.png' has been created
+DCubePlotter 2026-07-28 13:03:27,601 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1d_1a2a3172-b0af-4f79-b8ce-2c6f4cea70cb.png' has been created
+DCubeApp     2026-07-28 13:03:27,602 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:27,602 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/HitsOnTracks/offl_nSCTDeadSensors_vs_offl_phi' [meany]
+DCubeTester  2026-07-28 13:03:27,603 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:27,604 DEBUG   : gathering statistics along y axis
+DCubeTester  2026-07-28 13:03:27,604 DEBUG   : *** MeanY Test *** refMean=10.364 and monMean=10.364
+DCubeTester  2026-07-28 13:03:27,604 INFO    : *** Mean Test *** p-value=0.000 status=OK
+DCubePlotter 2026-07-28 13:03:27,604 DEBUG   : plot called for object of name offl_nSCTDeadSensors_vs_offl_phi
+DCubePlotter 2026-07-28 13:03:27,605 DEBUG   : plotting offl_nSCTDeadSensors_vs_offl_phi of type TProfile
+DCubePlotter 2026-07-28 13:03:27,649 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1r_2b93f040-ed46-47b4-a6c2-240d0be5f8b2.png' has been created
+DCubePlotter 2026-07-28 13:03:27,681 DEBUG   : plot 'dcube_idtpm_lrt/plots/p1d_9bcb26a5-8bfd-4ced-a635-43ff773e714a.png' has been created
+DCubeApp     2026-07-28 13:03:27,682 DEBUG   : TDirectory /InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/HitsOnTracks status OK
+DCubeApp     2026-07-28 13:03:27,682 DEBUG   : child tagName TDirectory
+DCubeApp     2026-07-28 13:03:27,682 DEBUG   : now testing objects in path = /InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Multiplicities
+DCubeApp     2026-07-28 13:03:27,682 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:27,683 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Multiplicities/num_offl_all' [KSnorm]
+DCubeTester  2026-07-28 13:03:27,706 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:27,707 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=86 all equal non-empty bins=86
+DCubeTester  2026-07-28 13:03:27,707 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Multiplicities/num_offl_all' histograms are equal!
+DCubeTester  2026-07-28 13:03:27,707 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:27,707 DEBUG   : plot called for object of name num_offl_all
+DCubePlotter 2026-07-28 13:03:27,708 DEBUG   : plotting num_offl_all of type TH1D
+DCubePlotter 2026-07-28 13:03:27,773 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_4458af0d-f110-4dee-89a7-ac47f585b978.png' has been created
+DCubePlotter 2026-07-28 13:03:27,839 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_2162d927-d841-4c67-9023-341bf5b84605.png' has been created
+DCubeApp     2026-07-28 13:03:27,840 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:27,840 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Multiplicities/num_offl_selected' [KSnorm]
+DCubeTester  2026-07-28 13:03:27,842 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:27,843 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=86 all equal non-empty bins=86
+DCubeTester  2026-07-28 13:03:27,843 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Multiplicities/num_offl_selected' histograms are equal!
+DCubeTester  2026-07-28 13:03:27,844 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:27,844 DEBUG   : plot called for object of name num_offl_selected
+DCubePlotter 2026-07-28 13:03:27,844 DEBUG   : plotting num_offl_selected of type TH1D
+DCubePlotter 2026-07-28 13:03:27,981 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_cebe2cc5-c39b-4c79-a57e-c3badfaa3535.png' has been created
+DCubePlotter 2026-07-28 13:03:28,064 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_8083ebd7-dc13-4b10-9044-29fecc8fe021.png' has been created
+DCubeApp     2026-07-28 13:03:28,064 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:28,065 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Multiplicities/num_truth_all' [KSnorm]
+DCubeTester  2026-07-28 13:03:28,066 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:28,067 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=144 all equal non-empty bins=144
+DCubeTester  2026-07-28 13:03:28,067 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Multiplicities/num_truth_all' histograms are equal!
+DCubeTester  2026-07-28 13:03:28,067 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:28,068 DEBUG   : plot called for object of name num_truth_all
+DCubePlotter 2026-07-28 13:03:28,068 DEBUG   : plotting num_truth_all of type TH1D
+DCubePlotter 2026-07-28 13:03:28,133 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_335bfb48-99b7-435b-b50a-f9e51f953d0d.png' has been created
+DCubePlotter 2026-07-28 13:03:28,161 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_d3d20928-6d08-42f5-8017-bf82bceaacd9.png' has been created
+DCubeApp     2026-07-28 13:03:28,162 DEBUG   : TDirectory /InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Multiplicities status OK
+DCubeApp     2026-07-28 13:03:28,162 DEBUG   : child tagName TDirectory
+DCubeApp     2026-07-28 13:03:28,162 DEBUG   : now testing objects in path = /InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions
+DCubeApp     2026-07-28 13:03:28,162 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:28,163 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pull_d0' [KSnorm]
+DCubeTester  2026-07-28 13:03:28,167 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:28,168 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=176 all equal non-empty bins=176
+DCubeTester  2026-07-28 13:03:28,168 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pull_d0' histograms are equal!
+DCubeTester  2026-07-28 13:03:28,168 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:28,168 DEBUG   : plot called for object of name pull_d0
+DCubePlotter 2026-07-28 13:03:28,168 DEBUG   : plotting pull_d0 of type TH1D
+DCubePlotter 2026-07-28 13:03:28,212 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_3a637ad4-d9f1-41cd-af11-39ef28f0c2bb.png' has been created
+DCubePlotter 2026-07-28 13:03:28,246 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_ffa61c14-7b0e-42bf-95dc-c90ab806ce2d.png' has been created
+DCubeApp     2026-07-28 13:03:28,246 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:28,246 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/res_d0' [KSnorm]
+DCubeTester  2026-07-28 13:03:28,248 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:28,248 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=164 all equal non-empty bins=164
+DCubeTester  2026-07-28 13:03:28,248 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/res_d0' histograms are equal!
+DCubeTester  2026-07-28 13:03:28,248 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:28,249 DEBUG   : plot called for object of name res_d0
+DCubePlotter 2026-07-28 13:03:28,249 DEBUG   : plotting res_d0 of type TH1D
+DCubePlotter 2026-07-28 13:03:28,290 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_2c092615-6ef8-4854-b9f7-b3b7c6f0f921.png' has been created
+DCubePlotter 2026-07-28 13:03:28,408 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_f751b515-2ba6-4839-b3bb-85e2178e271d.png' has been created
+DCubeApp     2026-07-28 13:03:28,408 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:28,408 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/sigma_offl_d0' [KSnorm]
+DCubeTester  2026-07-28 13:03:28,410 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:28,411 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=78 all equal non-empty bins=78
+DCubeTester  2026-07-28 13:03:28,411 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/sigma_offl_d0' histograms are equal!
+DCubeTester  2026-07-28 13:03:28,411 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:28,411 DEBUG   : plot called for object of name sigma_offl_d0
+DCubePlotter 2026-07-28 13:03:28,411 DEBUG   : plotting sigma_offl_d0 of type TH1D
+DCubePlotter 2026-07-28 13:03:28,502 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_ea013316-b9ea-41db-a96d-1475a823c0e7.png' has been created
+DCubePlotter 2026-07-28 13:03:28,530 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_43101a8b-1271-4235-bfca-cd7c78a7cbeb.png' has been created
+DCubeApp     2026-07-28 13:03:28,530 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:28,530 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/resolution_d0_vs_truth_eta' [KSnorm]
+DCubeTester  2026-07-28 13:03:28,532 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:28,532 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=112 all equal non-empty bins=112
+DCubeTester  2026-07-28 13:03:28,533 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/resolution_d0_vs_truth_eta' histograms are equal!
+DCubeTester  2026-07-28 13:03:28,533 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:28,533 DEBUG   : plot called for object of name resolution_d0_vs_truth_eta
+DCubePlotter 2026-07-28 13:03:28,533 DEBUG   : plotting resolution_d0_vs_truth_eta of type TH1D
+DCubePlotter 2026-07-28 13:03:28,600 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_cffc8de7-f0fa-4407-9a48-c0611505e6ec.png' has been created
+DCubePlotter 2026-07-28 13:03:28,626 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_c1e48044-6cb9-48d6-a77c-da4c910b7435.png' has been created
+DCubeApp     2026-07-28 13:03:28,627 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:28,627 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/resmean_d0_vs_truth_eta' [KSnorm]
+DCubeTester  2026-07-28 13:03:28,629 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:28,629 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=114 all equal non-empty bins=114
+DCubeTester  2026-07-28 13:03:28,629 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/resmean_d0_vs_truth_eta' histograms are equal!
+DCubeTester  2026-07-28 13:03:28,630 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:28,630 DEBUG   : plot called for object of name resmean_d0_vs_truth_eta
+DCubePlotter 2026-07-28 13:03:28,630 DEBUG   : plotting resmean_d0_vs_truth_eta of type TH1D
+DCubePlotter 2026-07-28 13:03:28,671 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_c0909aa6-b196-4eef-bdd4-807004c3ede6.png' has been created
+DCubePlotter 2026-07-28 13:03:28,697 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_5c3f80f8-0263-4901-a731-4b94733c9c40.png' has been created
+DCubeApp     2026-07-28 13:03:28,698 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:28,698 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/resolution_d0_vs_truth_pt' [KSnorm]
+DCubeTester  2026-07-28 13:03:28,699 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:28,700 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=72 all equal non-empty bins=72
+DCubeTester  2026-07-28 13:03:28,701 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/resolution_d0_vs_truth_pt' histograms are equal!
+DCubeTester  2026-07-28 13:03:28,701 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:28,701 DEBUG   : plot called for object of name resolution_d0_vs_truth_pt
+DCubePlotter 2026-07-28 13:03:28,701 DEBUG   : additional plot options are: 'logx'
+DCubePlotter 2026-07-28 13:03:28,701 DEBUG   : plotting resolution_d0_vs_truth_pt of type TH1D
+DCubePlotter 2026-07-28 13:03:28,735 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_83cd3ffa-a7a1-4773-81cb-475d0b4f29a4.png' has been created
+DCubePlotter 2026-07-28 13:03:28,859 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_ab36fd5c-f71e-48eb-b9a8-131e536822f3.png' has been created
+DCubeApp     2026-07-28 13:03:28,859 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:28,860 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/resmean_d0_vs_truth_pt' [KSnorm]
+DCubeTester  2026-07-28 13:03:28,861 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:28,861 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=70 all equal non-empty bins=70
+DCubeTester  2026-07-28 13:03:28,862 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/resmean_d0_vs_truth_pt' histograms are equal!
+DCubeTester  2026-07-28 13:03:28,862 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:28,862 DEBUG   : plot called for object of name resmean_d0_vs_truth_pt
+DCubePlotter 2026-07-28 13:03:28,862 DEBUG   : additional plot options are: 'logx'
+DCubePlotter 2026-07-28 13:03:28,862 DEBUG   : plotting resmean_d0_vs_truth_pt of type TH1D
+DCubePlotter 2026-07-28 13:03:28,903 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_1d434bf5-ffc9-4e2c-bcfb-c5f09230fa6c.png' has been created
+DCubePlotter 2026-07-28 13:03:28,965 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_27b41b14-5cdb-4e6d-8616-74a31bf162a0.png' has been created
+DCubeApp     2026-07-28 13:03:28,966 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:28,966 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pullwidth_d0_vs_truth_eta' [KSnorm]
+DCubeTester  2026-07-28 13:03:28,967 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:28,968 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=112 all equal non-empty bins=112
+DCubeTester  2026-07-28 13:03:28,968 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pullwidth_d0_vs_truth_eta' histograms are equal!
+DCubeTester  2026-07-28 13:03:28,968 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:28,968 DEBUG   : plot called for object of name pullwidth_d0_vs_truth_eta
+DCubePlotter 2026-07-28 13:03:28,969 DEBUG   : plotting pullwidth_d0_vs_truth_eta of type TH1D
+DCubePlotter 2026-07-28 13:03:29,010 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_77e818e9-ee64-431c-87fd-d4484a0ce21c.png' has been created
+DCubePlotter 2026-07-28 13:03:29,047 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_9d7909a6-d087-489d-b2f3-b40aa6259608.png' has been created
+DCubeApp     2026-07-28 13:03:29,048 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:29,048 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pullmean_d0_vs_truth_eta' [KSnorm]
+DCubeTester  2026-07-28 13:03:29,050 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:29,051 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=114 all equal non-empty bins=114
+DCubeTester  2026-07-28 13:03:29,051 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pullmean_d0_vs_truth_eta' histograms are equal!
+DCubeTester  2026-07-28 13:03:29,051 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:29,052 DEBUG   : plot called for object of name pullmean_d0_vs_truth_eta
+DCubePlotter 2026-07-28 13:03:29,052 DEBUG   : plotting pullmean_d0_vs_truth_eta of type TH1D
+DCubePlotter 2026-07-28 13:03:29,240 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_0658d2d8-5350-4cbf-beb1-18812f71e554.png' has been created
+DCubePlotter 2026-07-28 13:03:29,278 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_24b4e046-df93-4be1-8b84-0713f9f8ce8a.png' has been created
+DCubeApp     2026-07-28 13:03:29,278 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:29,279 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pullwidth_d0_vs_truth_pt' [KSnorm]
+DCubeTester  2026-07-28 13:03:29,281 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:29,281 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=72 all equal non-empty bins=72
+DCubeTester  2026-07-28 13:03:29,281 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pullwidth_d0_vs_truth_pt' histograms are equal!
+DCubeTester  2026-07-28 13:03:29,282 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:29,282 DEBUG   : plot called for object of name pullwidth_d0_vs_truth_pt
+DCubePlotter 2026-07-28 13:03:29,282 DEBUG   : additional plot options are: 'logx'
+DCubePlotter 2026-07-28 13:03:29,282 DEBUG   : plotting pullwidth_d0_vs_truth_pt of type TH1D
+DCubePlotter 2026-07-28 13:03:29,323 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_cd633b22-1cce-49b9-b2a5-36d9f1b1420d.png' has been created
+DCubePlotter 2026-07-28 13:03:29,375 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_9ecdbe43-3031-44dc-b239-56e906205ab7.png' has been created
+DCubeApp     2026-07-28 13:03:29,376 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:29,376 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pullmean_d0_vs_truth_pt' [KSnorm]
+DCubeTester  2026-07-28 13:03:29,377 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:29,378 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=74 all equal non-empty bins=74
+DCubeTester  2026-07-28 13:03:29,378 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pullmean_d0_vs_truth_pt' histograms are equal!
+DCubeTester  2026-07-28 13:03:29,378 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:29,378 DEBUG   : plot called for object of name pullmean_d0_vs_truth_pt
+DCubePlotter 2026-07-28 13:03:29,378 DEBUG   : additional plot options are: 'logx'
+DCubePlotter 2026-07-28 13:03:29,379 DEBUG   : plotting pullmean_d0_vs_truth_pt of type TH1D
+DCubePlotter 2026-07-28 13:03:29,409 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_0cfc3167-5f2f-4350-856a-7c29f5777565.png' has been created
+DCubePlotter 2026-07-28 13:03:29,453 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_8af2e011-90c9-4247-b3d5-c33bff55f239.png' has been created
+DCubeApp     2026-07-28 13:03:29,453 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:29,454 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pull_z0' [KSnorm]
+DCubeTester  2026-07-28 13:03:29,456 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:29,457 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=154 all equal non-empty bins=154
+DCubeTester  2026-07-28 13:03:29,457 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pull_z0' histograms are equal!
+DCubeTester  2026-07-28 13:03:29,457 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:29,458 DEBUG   : plot called for object of name pull_z0
+DCubePlotter 2026-07-28 13:03:29,458 DEBUG   : plotting pull_z0 of type TH1D
+DCubePlotter 2026-07-28 13:03:29,522 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_096840e9-e42f-40ee-8136-f3359955abbd.png' has been created
+DCubePlotter 2026-07-28 13:03:29,559 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_37c47096-24f3-428a-93c7-dc41dbe31116.png' has been created
+DCubeApp     2026-07-28 13:03:29,560 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:29,560 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/res_z0' [KSnorm]
+DCubeTester  2026-07-28 13:03:29,563 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:29,563 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=170 all equal non-empty bins=170
+DCubeTester  2026-07-28 13:03:29,564 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/res_z0' histograms are equal!
+DCubeTester  2026-07-28 13:03:29,564 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:29,564 DEBUG   : plot called for object of name res_z0
+DCubePlotter 2026-07-28 13:03:29,564 DEBUG   : plotting res_z0 of type TH1D
+DCubePlotter 2026-07-28 13:03:29,622 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_34f88455-6523-4edb-8c3b-c25da460bf7c.png' has been created
+DCubePlotter 2026-07-28 13:03:29,666 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_12e2d7e0-b17c-44ea-af10-c110e015e74c.png' has been created
+DCubeApp     2026-07-28 13:03:29,667 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:29,667 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/sigma_offl_z0' [KSnorm]
+DCubeTester  2026-07-28 13:03:29,669 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:29,669 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=126 all equal non-empty bins=126
+DCubeTester  2026-07-28 13:03:29,670 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/sigma_offl_z0' histograms are equal!
+DCubeTester  2026-07-28 13:03:29,670 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:29,670 DEBUG   : plot called for object of name sigma_offl_z0
+DCubePlotter 2026-07-28 13:03:29,670 DEBUG   : plotting sigma_offl_z0 of type TH1D
+DCubePlotter 2026-07-28 13:03:29,714 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_3b2e45ce-963f-481a-89fa-ad3181a381b5.png' has been created
+DCubePlotter 2026-07-28 13:03:29,743 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_d49b5efc-04fa-4e11-b94f-b13b4c8cfa28.png' has been created
+DCubeApp     2026-07-28 13:03:29,744 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:29,745 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/resolution_z0_vs_truth_eta' [KSnorm]
+DCubeTester  2026-07-28 13:03:29,747 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:29,747 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=112 all equal non-empty bins=112
+DCubeTester  2026-07-28 13:03:29,748 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/resolution_z0_vs_truth_eta' histograms are equal!
+DCubeTester  2026-07-28 13:03:29,748 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:29,748 DEBUG   : plot called for object of name resolution_z0_vs_truth_eta
+DCubePlotter 2026-07-28 13:03:29,748 DEBUG   : plotting resolution_z0_vs_truth_eta of type TH1D
+DCubePlotter 2026-07-28 13:03:29,796 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_596a5ac1-85a7-47c8-823b-f44b054f6765.png' has been created
+DCubePlotter 2026-07-28 13:03:29,827 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_09989d0f-5c86-4818-b12e-798197e80f85.png' has been created
+DCubeApp     2026-07-28 13:03:29,828 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:29,828 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/resmean_z0_vs_truth_eta' [KSnorm]
+DCubeTester  2026-07-28 13:03:29,830 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:29,831 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=112 all equal non-empty bins=112
+DCubeTester  2026-07-28 13:03:29,831 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/resmean_z0_vs_truth_eta' histograms are equal!
+DCubeTester  2026-07-28 13:03:29,831 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:29,831 DEBUG   : plot called for object of name resmean_z0_vs_truth_eta
+DCubePlotter 2026-07-28 13:03:29,832 DEBUG   : plotting resmean_z0_vs_truth_eta of type TH1D
+DCubePlotter 2026-07-28 13:03:29,873 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_a6d208f1-9009-4dab-a0bb-271214c60ea9.png' has been created
+DCubePlotter 2026-07-28 13:03:29,925 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_dec52325-4a84-4d7e-8e1a-f18e7fc9a0e5.png' has been created
+DCubeApp     2026-07-28 13:03:29,926 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:29,929 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/resolution_z0_vs_truth_pt' [KSnorm]
+DCubeTester  2026-07-28 13:03:29,931 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:29,931 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=72 all equal non-empty bins=72
+DCubeTester  2026-07-28 13:03:29,932 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/resolution_z0_vs_truth_pt' histograms are equal!
+DCubeTester  2026-07-28 13:03:29,932 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:29,932 DEBUG   : plot called for object of name resolution_z0_vs_truth_pt
+DCubePlotter 2026-07-28 13:03:29,932 DEBUG   : additional plot options are: 'logx'
+DCubePlotter 2026-07-28 13:03:29,933 DEBUG   : plotting resolution_z0_vs_truth_pt of type TH1D
+DCubePlotter 2026-07-28 13:03:29,974 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_19bfe371-6c4d-4af1-a94f-227daf51d0e2.png' has been created
+DCubePlotter 2026-07-28 13:03:30,041 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_3431d8eb-0b8f-4675-b460-8dec50a80ad1.png' has been created
+DCubeApp     2026-07-28 13:03:30,042 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:30,042 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/resmean_z0_vs_truth_pt' [KSnorm]
+DCubeTester  2026-07-28 13:03:30,044 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:30,044 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=74 all equal non-empty bins=74
+DCubeTester  2026-07-28 13:03:30,045 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/resmean_z0_vs_truth_pt' histograms are equal!
+DCubeTester  2026-07-28 13:03:30,045 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:30,045 DEBUG   : plot called for object of name resmean_z0_vs_truth_pt
+DCubePlotter 2026-07-28 13:03:30,045 DEBUG   : additional plot options are: 'logx'
+DCubePlotter 2026-07-28 13:03:30,046 DEBUG   : plotting resmean_z0_vs_truth_pt of type TH1D
+DCubePlotter 2026-07-28 13:03:30,097 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_d6003f04-367e-47ed-aa61-c1434675b34e.png' has been created
+DCubePlotter 2026-07-28 13:03:30,144 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_547e611c-02f3-46ea-ab1f-a901e6649d5b.png' has been created
+DCubeApp     2026-07-28 13:03:30,144 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:30,144 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pullwidth_z0_vs_truth_eta' [KSnorm]
+DCubeTester  2026-07-28 13:03:30,147 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:30,147 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=112 all equal non-empty bins=112
+DCubeTester  2026-07-28 13:03:30,148 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pullwidth_z0_vs_truth_eta' histograms are equal!
+DCubeTester  2026-07-28 13:03:30,148 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:30,148 DEBUG   : plot called for object of name pullwidth_z0_vs_truth_eta
+DCubePlotter 2026-07-28 13:03:30,148 DEBUG   : plotting pullwidth_z0_vs_truth_eta of type TH1D
+DCubePlotter 2026-07-28 13:03:30,207 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_c68b5dcf-b8e9-4ca6-9939-0736704c6d0b.png' has been created
+DCubePlotter 2026-07-28 13:03:30,244 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_c1a3fc0a-dd1e-4992-971a-286928e868b4.png' has been created
+DCubeApp     2026-07-28 13:03:30,244 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:30,244 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pullmean_z0_vs_truth_eta' [KSnorm]
+DCubeTester  2026-07-28 13:03:30,247 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:30,247 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=112 all equal non-empty bins=112
+DCubeTester  2026-07-28 13:03:30,247 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pullmean_z0_vs_truth_eta' histograms are equal!
+DCubeTester  2026-07-28 13:03:30,247 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:30,248 DEBUG   : plot called for object of name pullmean_z0_vs_truth_eta
+DCubePlotter 2026-07-28 13:03:30,248 DEBUG   : plotting pullmean_z0_vs_truth_eta of type TH1D
+DCubePlotter 2026-07-28 13:03:30,301 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_e266a8ae-ddb9-4154-a9f1-6b10dbb1cf81.png' has been created
+DCubePlotter 2026-07-28 13:03:30,337 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_0139cc19-1539-409d-8d8e-697a76529f2d.png' has been created
+DCubeApp     2026-07-28 13:03:30,338 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:30,338 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pullwidth_z0_vs_truth_pt' [KSnorm]
+DCubeTester  2026-07-28 13:03:30,340 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:30,340 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=72 all equal non-empty bins=72
+DCubeTester  2026-07-28 13:03:30,340 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pullwidth_z0_vs_truth_pt' histograms are equal!
+DCubeTester  2026-07-28 13:03:30,341 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:30,341 DEBUG   : plot called for object of name pullwidth_z0_vs_truth_pt
+DCubePlotter 2026-07-28 13:03:30,341 DEBUG   : additional plot options are: 'logx'
+DCubePlotter 2026-07-28 13:03:30,341 DEBUG   : plotting pullwidth_z0_vs_truth_pt of type TH1D
+DCubePlotter 2026-07-28 13:03:30,386 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_e8036480-da61-4e78-bd13-ed54d9edabb8.png' has been created
+DCubePlotter 2026-07-28 13:03:30,479 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_17dc912d-59d1-4d45-9ed6-35d522980bf0.png' has been created
+DCubeApp     2026-07-28 13:03:30,480 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:30,480 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pullmean_z0_vs_truth_pt' [KSnorm]
+DCubeTester  2026-07-28 13:03:30,482 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:30,482 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=74 all equal non-empty bins=74
+DCubeTester  2026-07-28 13:03:30,482 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pullmean_z0_vs_truth_pt' histograms are equal!
+DCubeTester  2026-07-28 13:03:30,482 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:30,482 DEBUG   : plot called for object of name pullmean_z0_vs_truth_pt
+DCubePlotter 2026-07-28 13:03:30,483 DEBUG   : additional plot options are: 'logx'
+DCubePlotter 2026-07-28 13:03:30,483 DEBUG   : plotting pullmean_z0_vs_truth_pt of type TH1D
+DCubePlotter 2026-07-28 13:03:30,513 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_68df62d6-3b3e-4bd3-85ae-105245348a13.png' has been created
+DCubePlotter 2026-07-28 13:03:30,582 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_008d5dce-4847-47ef-9d35-81923ba13c14.png' has been created
+DCubeApp     2026-07-28 13:03:30,583 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:30,583 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pull_qoverp' [KSnorm]
+DCubeTester  2026-07-28 13:03:30,585 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:30,586 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=176 all equal non-empty bins=176
+DCubeTester  2026-07-28 13:03:30,586 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pull_qoverp' histograms are equal!
+DCubeTester  2026-07-28 13:03:30,586 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:30,586 DEBUG   : plot called for object of name pull_qoverp
+DCubePlotter 2026-07-28 13:03:30,587 DEBUG   : plotting pull_qoverp of type TH1D
+DCubePlotter 2026-07-28 13:03:30,628 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_a515ec49-f25e-448b-ad76-32b149da4350.png' has been created
+DCubePlotter 2026-07-28 13:03:30,660 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_3a50b8b2-3564-4ab8-8fbe-fc3f5098174c.png' has been created
+DCubeApp     2026-07-28 13:03:30,661 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:30,661 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/res_qoverp' [KSnorm]
+DCubeTester  2026-07-28 13:03:30,663 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:30,664 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=96 all equal non-empty bins=96
+DCubeTester  2026-07-28 13:03:30,664 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/res_qoverp' histograms are equal!
+DCubeTester  2026-07-28 13:03:30,665 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:30,665 DEBUG   : plot called for object of name res_qoverp
+DCubePlotter 2026-07-28 13:03:30,665 DEBUG   : plotting res_qoverp of type TH1D
+DCubePlotter 2026-07-28 13:03:30,698 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_c76e9c2e-8952-435f-a680-88cd0aba820a.png' has been created
+DCubePlotter 2026-07-28 13:03:30,725 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_a0196ecd-710c-42ac-86c6-4f502bc6cf08.png' has been created
+DCubeApp     2026-07-28 13:03:30,725 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:30,725 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/sigma_offl_qoverp' [KSnorm]
+DCubeTester  2026-07-28 13:03:30,727 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:30,727 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=26 all equal non-empty bins=26
+DCubeTester  2026-07-28 13:03:30,728 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/sigma_offl_qoverp' histograms are equal!
+DCubeTester  2026-07-28 13:03:30,728 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:30,728 DEBUG   : plot called for object of name sigma_offl_qoverp
+DCubePlotter 2026-07-28 13:03:30,728 DEBUG   : plotting sigma_offl_qoverp of type TH1D
+DCubePlotter 2026-07-28 13:03:30,753 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_20a055d8-943c-4379-b5aa-1076d303a1ac.png' has been created
+DCubePlotter 2026-07-28 13:03:30,775 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_65a2fcf4-c596-4fbf-bdd0-a04867f51dab.png' has been created
+DCubeApp     2026-07-28 13:03:30,775 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:30,775 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/resolution_qoverp_vs_truth_eta' [KSnorm]
+DCubeTester  2026-07-28 13:03:30,777 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:30,777 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=112 all equal non-empty bins=112
+DCubeTester  2026-07-28 13:03:30,777 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/resolution_qoverp_vs_truth_eta' histograms are equal!
+DCubeTester  2026-07-28 13:03:30,777 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:30,778 DEBUG   : plot called for object of name resolution_qoverp_vs_truth_eta
+DCubePlotter 2026-07-28 13:03:30,778 DEBUG   : plotting resolution_qoverp_vs_truth_eta of type TH1D
+DCubePlotter 2026-07-28 13:03:30,811 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_f19e531b-b5fe-4b4d-9a79-446c661ba047.png' has been created
+DCubePlotter 2026-07-28 13:03:30,836 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_99e97f5d-5293-4e55-81da-1250091789b2.png' has been created
+DCubeApp     2026-07-28 13:03:30,837 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:30,837 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/resmean_qoverp_vs_truth_eta' [KSnorm]
+DCubeTester  2026-07-28 13:03:30,839 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:30,839 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=114 all equal non-empty bins=114
+DCubeTester  2026-07-28 13:03:30,839 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/resmean_qoverp_vs_truth_eta' histograms are equal!
+DCubeTester  2026-07-28 13:03:30,839 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:30,839 DEBUG   : plot called for object of name resmean_qoverp_vs_truth_eta
+DCubePlotter 2026-07-28 13:03:30,840 DEBUG   : plotting resmean_qoverp_vs_truth_eta of type TH1D
+DCubePlotter 2026-07-28 13:03:30,883 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_bdb8503a-4553-4558-b896-cbc10cf87470.png' has been created
+DCubePlotter 2026-07-28 13:03:30,909 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_c102bcfd-d9be-4c93-b34a-dbaa22a5ce4c.png' has been created
+DCubeApp     2026-07-28 13:03:30,909 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:30,909 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/resolution_qoverp_vs_truth_pt' [KSnorm]
+DCubeTester  2026-07-28 13:03:30,911 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:30,911 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=70 all equal non-empty bins=70
+DCubeTester  2026-07-28 13:03:30,911 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/resolution_qoverp_vs_truth_pt' histograms are equal!
+DCubeTester  2026-07-28 13:03:30,911 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:30,912 DEBUG   : plot called for object of name resolution_qoverp_vs_truth_pt
+DCubePlotter 2026-07-28 13:03:30,912 DEBUG   : additional plot options are: 'logx'
+DCubePlotter 2026-07-28 13:03:30,912 DEBUG   : plotting resolution_qoverp_vs_truth_pt of type TH1D
+DCubePlotter 2026-07-28 13:03:30,951 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_7b248173-d178-4a50-8006-c7da17b6e9a4.png' has been created
+DCubePlotter 2026-07-28 13:03:31,039 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_e692c2b8-e27a-45a6-9c53-2b2e3e59994a.png' has been created
+DCubeApp     2026-07-28 13:03:31,040 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:31,040 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/resmean_qoverp_vs_truth_pt' [KSnorm]
+DCubeTester  2026-07-28 13:03:31,050 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:31,050 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=74 all equal non-empty bins=74
+DCubeTester  2026-07-28 13:03:31,051 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/resmean_qoverp_vs_truth_pt' histograms are equal!
+DCubeTester  2026-07-28 13:03:31,051 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:31,051 DEBUG   : plot called for object of name resmean_qoverp_vs_truth_pt
+DCubePlotter 2026-07-28 13:03:31,051 DEBUG   : additional plot options are: 'logx'
+DCubePlotter 2026-07-28 13:03:31,052 DEBUG   : plotting resmean_qoverp_vs_truth_pt of type TH1D
+DCubePlotter 2026-07-28 13:03:31,088 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_4addc411-3004-43e0-b7e1-05a981be0a68.png' has been created
+DCubePlotter 2026-07-28 13:03:31,132 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_1814af5c-6fa6-4435-9161-56c71d216ca5.png' has been created
+DCubeApp     2026-07-28 13:03:31,133 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:31,133 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pullwidth_qoverp_vs_truth_eta' [KSnorm]
+DCubeTester  2026-07-28 13:03:31,135 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:31,136 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=112 all equal non-empty bins=112
+DCubeTester  2026-07-28 13:03:31,136 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pullwidth_qoverp_vs_truth_eta' histograms are equal!
+DCubeTester  2026-07-28 13:03:31,136 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:31,137 DEBUG   : plot called for object of name pullwidth_qoverp_vs_truth_eta
+DCubePlotter 2026-07-28 13:03:31,137 DEBUG   : plotting pullwidth_qoverp_vs_truth_eta of type TH1D
+DCubePlotter 2026-07-28 13:03:31,176 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_b0c95c7c-110f-405b-8fcc-e1e740aeba34.png' has been created
+DCubePlotter 2026-07-28 13:03:31,227 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_1287f705-55d2-46ca-8eac-06a36175086c.png' has been created
+DCubeApp     2026-07-28 13:03:31,227 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:31,228 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pullmean_qoverp_vs_truth_eta' [KSnorm]
+DCubeTester  2026-07-28 13:03:31,230 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:31,230 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=114 all equal non-empty bins=114
+DCubeTester  2026-07-28 13:03:31,230 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pullmean_qoverp_vs_truth_eta' histograms are equal!
+DCubeTester  2026-07-28 13:03:31,230 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:31,231 DEBUG   : plot called for object of name pullmean_qoverp_vs_truth_eta
+DCubePlotter 2026-07-28 13:03:31,231 DEBUG   : plotting pullmean_qoverp_vs_truth_eta of type TH1D
+DCubePlotter 2026-07-28 13:03:31,268 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_60cb6019-bc64-4fbf-93dd-abf67235ae22.png' has been created
+DCubePlotter 2026-07-28 13:03:31,294 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_fb2f86e8-b21a-4527-8894-019955d96464.png' has been created
+DCubeApp     2026-07-28 13:03:31,295 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:31,295 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pullwidth_qoverp_vs_truth_pt' [KSnorm]
+DCubeTester  2026-07-28 13:03:31,297 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:31,298 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=72 all equal non-empty bins=72
+DCubeTester  2026-07-28 13:03:31,298 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pullwidth_qoverp_vs_truth_pt' histograms are equal!
+DCubeTester  2026-07-28 13:03:31,298 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:31,298 DEBUG   : plot called for object of name pullwidth_qoverp_vs_truth_pt
+DCubePlotter 2026-07-28 13:03:31,299 DEBUG   : additional plot options are: 'logx'
+DCubePlotter 2026-07-28 13:03:31,299 DEBUG   : plotting pullwidth_qoverp_vs_truth_pt of type TH1D
+DCubePlotter 2026-07-28 13:03:31,353 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_2eb08197-a983-4c5e-8168-d29b6644e216.png' has been created
+DCubePlotter 2026-07-28 13:03:31,436 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_88cea0f1-a844-4589-a4d8-24d22319cfdd.png' has been created
+DCubeApp     2026-07-28 13:03:31,436 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:31,436 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pullmean_qoverp_vs_truth_pt' [KSnorm]
+DCubeTester  2026-07-28 13:03:31,438 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:31,439 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=74 all equal non-empty bins=74
+DCubeTester  2026-07-28 13:03:31,439 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pullmean_qoverp_vs_truth_pt' histograms are equal!
+DCubeTester  2026-07-28 13:03:31,439 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:31,439 DEBUG   : plot called for object of name pullmean_qoverp_vs_truth_pt
+DCubePlotter 2026-07-28 13:03:31,439 DEBUG   : additional plot options are: 'logx'
+DCubePlotter 2026-07-28 13:03:31,439 DEBUG   : plotting pullmean_qoverp_vs_truth_pt of type TH1D
+DCubePlotter 2026-07-28 13:03:31,470 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_aa321ec9-c4cd-4d3f-8387-13bf8efb93a9.png' has been created
+DCubePlotter 2026-07-28 13:03:31,527 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_d1373d53-7cdd-43b8-86f6-ec8f73f9b5d0.png' has been created
+DCubeApp     2026-07-28 13:03:31,527 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:31,527 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pull_ptqopt' [KSnorm]
+DCubeTester  2026-07-28 13:03:31,529 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:31,530 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=184 all equal non-empty bins=184
+DCubeTester  2026-07-28 13:03:31,530 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pull_ptqopt' histograms are equal!
+DCubeTester  2026-07-28 13:03:31,530 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:31,531 DEBUG   : plot called for object of name pull_ptqopt
+DCubePlotter 2026-07-28 13:03:31,531 DEBUG   : plotting pull_ptqopt of type TH1D
+DCubePlotter 2026-07-28 13:03:31,606 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_b9becc74-6477-44f9-b2af-cd2ab9c84ac1.png' has been created
+DCubePlotter 2026-07-28 13:03:31,646 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_e5845ffb-87ec-471d-94ad-8b4d3aaa2809.png' has been created
+DCubeApp     2026-07-28 13:03:31,647 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:31,647 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/res_ptqopt' [KSnorm]
+DCubeTester  2026-07-28 13:03:31,649 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:31,649 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=160 all equal non-empty bins=160
+DCubeTester  2026-07-28 13:03:31,649 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/res_ptqopt' histograms are equal!
+DCubeTester  2026-07-28 13:03:31,650 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:31,650 DEBUG   : plot called for object of name res_ptqopt
+DCubePlotter 2026-07-28 13:03:31,650 DEBUG   : plotting res_ptqopt of type TH1D
+DCubePlotter 2026-07-28 13:03:31,691 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_3ffb0578-7ed5-4004-a288-de3eb4fb3a58.png' has been created
+DCubePlotter 2026-07-28 13:03:31,721 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_b3ec3126-9801-44fe-81a1-eaea43d25b49.png' has been created
+DCubeApp     2026-07-28 13:03:31,722 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:31,722 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/sigma_offl_ptqopt' [KSnorm]
+DCubeTester  2026-07-28 13:03:31,724 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:31,725 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=74 all equal non-empty bins=74
+DCubeTester  2026-07-28 13:03:31,725 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/sigma_offl_ptqopt' histograms are equal!
+DCubeTester  2026-07-28 13:03:31,725 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:31,726 DEBUG   : plot called for object of name sigma_offl_ptqopt
+DCubePlotter 2026-07-28 13:03:31,726 DEBUG   : plotting sigma_offl_ptqopt of type TH1D
+DCubePlotter 2026-07-28 13:03:31,758 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_6e2fda9b-f3ce-419e-b96f-18fd90404348.png' has been created
+DCubePlotter 2026-07-28 13:03:31,801 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_2360f4a9-29e3-407c-ab46-2e8efdae7858.png' has been created
+DCubeApp     2026-07-28 13:03:31,802 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:31,803 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/resolution_ptqopt_vs_truth_eta' [KSnorm]
+DCubeTester  2026-07-28 13:03:31,804 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:31,805 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=112 all equal non-empty bins=112
+DCubeTester  2026-07-28 13:03:31,805 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/resolution_ptqopt_vs_truth_eta' histograms are equal!
+DCubeTester  2026-07-28 13:03:31,805 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:31,806 DEBUG   : plot called for object of name resolution_ptqopt_vs_truth_eta
+DCubePlotter 2026-07-28 13:03:31,806 DEBUG   : plotting resolution_ptqopt_vs_truth_eta of type TH1D
+DCubePlotter 2026-07-28 13:03:31,845 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_80209b75-b09c-42c9-8ee0-c80553c22332.png' has been created
+DCubePlotter 2026-07-28 13:03:31,870 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_65ca4835-1e24-4a20-81f6-99b38432787f.png' has been created
+DCubeApp     2026-07-28 13:03:31,870 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:31,871 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/resmean_ptqopt_vs_truth_eta' [KSnorm]
+DCubeTester  2026-07-28 13:03:31,872 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:31,872 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=114 all equal non-empty bins=114
+DCubeTester  2026-07-28 13:03:31,876 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/resmean_ptqopt_vs_truth_eta' histograms are equal!
+DCubeTester  2026-07-28 13:03:31,876 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:31,876 DEBUG   : plot called for object of name resmean_ptqopt_vs_truth_eta
+DCubePlotter 2026-07-28 13:03:31,876 DEBUG   : plotting resmean_ptqopt_vs_truth_eta of type TH1D
+DCubePlotter 2026-07-28 13:03:31,910 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_75ffdd87-240b-4a8f-bdff-16771011ce4d.png' has been created
+DCubePlotter 2026-07-28 13:03:31,939 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_0a7efabe-ec1b-45d2-a07e-e78d33d5e6ad.png' has been created
+DCubeApp     2026-07-28 13:03:31,939 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:31,939 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/resolution_ptqopt_vs_truth_pt' [KSnorm]
+DCubeTester  2026-07-28 13:03:31,940 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:31,941 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=72 all equal non-empty bins=72
+DCubeTester  2026-07-28 13:03:31,941 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/resolution_ptqopt_vs_truth_pt' histograms are equal!
+DCubeTester  2026-07-28 13:03:31,941 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:31,941 DEBUG   : plot called for object of name resolution_ptqopt_vs_truth_pt
+DCubePlotter 2026-07-28 13:03:31,942 DEBUG   : additional plot options are: 'logx'
+DCubePlotter 2026-07-28 13:03:31,942 DEBUG   : plotting resolution_ptqopt_vs_truth_pt of type TH1D
+DCubePlotter 2026-07-28 13:03:31,971 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_4071ce5d-859b-4740-9f56-8a47a8147e99.png' has been created
+DCubePlotter 2026-07-28 13:03:32,080 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_3f136073-84ea-4344-b3b2-87575bf0bd12.png' has been created
+DCubeApp     2026-07-28 13:03:32,080 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:32,080 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/resmean_ptqopt_vs_truth_pt' [KSnorm]
+DCubeTester  2026-07-28 13:03:32,084 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:32,084 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=74 all equal non-empty bins=74
+DCubeTester  2026-07-28 13:03:32,085 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/resmean_ptqopt_vs_truth_pt' histograms are equal!
+DCubeTester  2026-07-28 13:03:32,085 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:32,085 DEBUG   : plot called for object of name resmean_ptqopt_vs_truth_pt
+DCubePlotter 2026-07-28 13:03:32,085 DEBUG   : additional plot options are: 'logx'
+DCubePlotter 2026-07-28 13:03:32,086 DEBUG   : plotting resmean_ptqopt_vs_truth_pt of type TH1D
+DCubePlotter 2026-07-28 13:03:32,125 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_1258bcbf-eabd-4b76-b8dd-94bf9de121ce.png' has been created
+DCubePlotter 2026-07-28 13:03:32,189 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_35f94bd6-4fec-430a-a0f9-09047871f363.png' has been created
+DCubeApp     2026-07-28 13:03:32,189 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:32,189 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pullwidth_ptqopt_vs_truth_eta' [KSnorm]
+DCubeTester  2026-07-28 13:03:32,194 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:32,195 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=112 all equal non-empty bins=112
+DCubeTester  2026-07-28 13:03:32,196 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pullwidth_ptqopt_vs_truth_eta' histograms are equal!
+DCubeTester  2026-07-28 13:03:32,196 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:32,197 DEBUG   : plot called for object of name pullwidth_ptqopt_vs_truth_eta
+DCubePlotter 2026-07-28 13:03:32,197 DEBUG   : plotting pullwidth_ptqopt_vs_truth_eta of type TH1D
+DCubePlotter 2026-07-28 13:03:32,242 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_26bce8f9-9767-4da7-a9c9-3dce63582840.png' has been created
+DCubePlotter 2026-07-28 13:03:32,329 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_74720bb6-1f37-47ea-8370-f9f64958915f.png' has been created
+DCubeApp     2026-07-28 13:03:32,330 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:32,330 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pullmean_ptqopt_vs_truth_eta' [KSnorm]
+DCubeTester  2026-07-28 13:03:32,332 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:32,332 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=114 all equal non-empty bins=114
+DCubeTester  2026-07-28 13:03:32,332 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pullmean_ptqopt_vs_truth_eta' histograms are equal!
+DCubeTester  2026-07-28 13:03:32,332 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:32,333 DEBUG   : plot called for object of name pullmean_ptqopt_vs_truth_eta
+DCubePlotter 2026-07-28 13:03:32,333 DEBUG   : plotting pullmean_ptqopt_vs_truth_eta of type TH1D
+DCubePlotter 2026-07-28 13:03:32,376 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_ed7c8e89-09d3-4745-98d9-a12cd720410e.png' has been created
+DCubePlotter 2026-07-28 13:03:32,401 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_49497bc6-0ef7-4e06-bba8-695fb20c4bc6.png' has been created
+DCubeApp     2026-07-28 13:03:32,402 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:32,402 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pullwidth_ptqopt_vs_truth_pt' [KSnorm]
+DCubeTester  2026-07-28 13:03:32,403 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:32,404 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=72 all equal non-empty bins=72
+DCubeTester  2026-07-28 13:03:32,404 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pullwidth_ptqopt_vs_truth_pt' histograms are equal!
+DCubeTester  2026-07-28 13:03:32,404 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:32,404 DEBUG   : plot called for object of name pullwidth_ptqopt_vs_truth_pt
+DCubePlotter 2026-07-28 13:03:32,404 DEBUG   : additional plot options are: 'logx'
+DCubePlotter 2026-07-28 13:03:32,405 DEBUG   : plotting pullwidth_ptqopt_vs_truth_pt of type TH1D
+DCubePlotter 2026-07-28 13:03:32,434 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_899e9e6d-0035-41c1-89ba-69e512e9eee4.png' has been created
+DCubePlotter 2026-07-28 13:03:32,490 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_7d6c2358-48ad-4d8b-a9f2-971901a3be78.png' has been created
+DCubeApp     2026-07-28 13:03:32,491 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:32,491 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pullmean_ptqopt_vs_truth_pt' [KSnorm]
+DCubeTester  2026-07-28 13:03:32,492 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:32,493 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=74 all equal non-empty bins=74
+DCubeTester  2026-07-28 13:03:32,493 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pullmean_ptqopt_vs_truth_pt' histograms are equal!
+DCubeTester  2026-07-28 13:03:32,493 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:32,493 DEBUG   : plot called for object of name pullmean_ptqopt_vs_truth_pt
+DCubePlotter 2026-07-28 13:03:32,493 DEBUG   : additional plot options are: 'logx'
+DCubePlotter 2026-07-28 13:03:32,494 DEBUG   : plotting pullmean_ptqopt_vs_truth_pt of type TH1D
+DCubePlotter 2026-07-28 13:03:32,526 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_dee763ba-6574-4b10-8a45-ff1f9b69e521.png' has been created
+DCubePlotter 2026-07-28 13:03:32,577 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_cc8a64a9-6040-40a7-9739-3244d0d7528b.png' has been created
+DCubeApp     2026-07-28 13:03:32,577 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:32,577 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pull_theta' [KSnorm]
+DCubeTester  2026-07-28 13:03:32,579 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:32,579 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=158 all equal non-empty bins=158
+DCubeTester  2026-07-28 13:03:32,580 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pull_theta' histograms are equal!
+DCubeTester  2026-07-28 13:03:32,580 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:32,580 DEBUG   : plot called for object of name pull_theta
+DCubePlotter 2026-07-28 13:03:32,581 DEBUG   : plotting pull_theta of type TH1D
+DCubePlotter 2026-07-28 13:03:32,636 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_8b1b2bcf-4af1-41bb-a8ad-b3cbebbb59ee.png' has been created
+DCubePlotter 2026-07-28 13:03:32,665 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_9c413131-df6a-465a-98e2-1c2537e7b795.png' has been created
+DCubeApp     2026-07-28 13:03:32,666 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:32,666 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/res_theta' [KSnorm]
+DCubeTester  2026-07-28 13:03:32,667 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:32,668 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=134 all equal non-empty bins=134
+DCubeTester  2026-07-28 13:03:32,668 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/res_theta' histograms are equal!
+DCubeTester  2026-07-28 13:03:32,668 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:32,668 DEBUG   : plot called for object of name res_theta
+DCubePlotter 2026-07-28 13:03:32,669 DEBUG   : plotting res_theta of type TH1D
+DCubePlotter 2026-07-28 13:03:32,707 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_e39ac5ea-83df-42c2-b75f-37fa1c67aea9.png' has been created
+DCubePlotter 2026-07-28 13:03:32,734 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_2adfaea9-4f58-4ea5-84be-8e0dd3ebdfc3.png' has been created
+DCubeApp     2026-07-28 13:03:32,735 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:32,735 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/sigma_offl_theta' [KSnorm]
+DCubeTester  2026-07-28 13:03:32,740 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:32,741 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=46 all equal non-empty bins=46
+DCubeTester  2026-07-28 13:03:32,741 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/sigma_offl_theta' histograms are equal!
+DCubeTester  2026-07-28 13:03:32,741 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:32,741 DEBUG   : plot called for object of name sigma_offl_theta
+DCubePlotter 2026-07-28 13:03:32,741 DEBUG   : plotting sigma_offl_theta of type TH1D
+DCubePlotter 2026-07-28 13:03:32,778 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_966718e3-69dd-4b09-b027-3e1bf5dddb47.png' has been created
+DCubePlotter 2026-07-28 13:03:32,801 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_d746db16-a2b0-49a8-aa5c-236c9b12d712.png' has been created
+DCubeApp     2026-07-28 13:03:32,801 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:32,801 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/resolution_theta_vs_truth_eta' [KSnorm]
+DCubeTester  2026-07-28 13:03:32,803 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:32,803 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=112 all equal non-empty bins=112
+DCubeTester  2026-07-28 13:03:32,804 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/resolution_theta_vs_truth_eta' histograms are equal!
+DCubeTester  2026-07-28 13:03:32,804 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:32,804 DEBUG   : plot called for object of name resolution_theta_vs_truth_eta
+DCubePlotter 2026-07-28 13:03:32,804 DEBUG   : plotting resolution_theta_vs_truth_eta of type TH1D
+DCubePlotter 2026-07-28 13:03:32,838 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_ff8a0db0-e822-4d73-a3e6-69a4a4644a01.png' has been created
+DCubePlotter 2026-07-28 13:03:32,863 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_3cc0f491-b2e9-47e3-b407-71d47339e92c.png' has been created
+DCubeApp     2026-07-28 13:03:32,864 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:32,864 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/resmean_theta_vs_truth_eta' [KSnorm]
+DCubeTester  2026-07-28 13:03:32,866 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:32,866 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=114 all equal non-empty bins=114
+DCubeTester  2026-07-28 13:03:32,866 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/resmean_theta_vs_truth_eta' histograms are equal!
+DCubeTester  2026-07-28 13:03:32,866 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:32,867 DEBUG   : plot called for object of name resmean_theta_vs_truth_eta
+DCubePlotter 2026-07-28 13:03:32,867 DEBUG   : plotting resmean_theta_vs_truth_eta of type TH1D
+DCubePlotter 2026-07-28 13:03:32,902 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_02420a34-18fe-4afa-9dbd-48169dc4ca25.png' has been created
+DCubePlotter 2026-07-28 13:03:32,952 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_7de7476d-9e9c-4db8-8e72-32ecc1b5977b.png' has been created
+DCubeApp     2026-07-28 13:03:32,953 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:32,953 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/resolution_theta_vs_truth_pt' [KSnorm]
+DCubeTester  2026-07-28 13:03:32,955 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:32,956 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=72 all equal non-empty bins=72
+DCubeTester  2026-07-28 13:03:32,956 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/resolution_theta_vs_truth_pt' histograms are equal!
+DCubeTester  2026-07-28 13:03:32,956 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:32,956 DEBUG   : plot called for object of name resolution_theta_vs_truth_pt
+DCubePlotter 2026-07-28 13:03:32,956 DEBUG   : additional plot options are: 'logx'
+DCubePlotter 2026-07-28 13:03:32,957 DEBUG   : plotting resolution_theta_vs_truth_pt of type TH1D
+DCubePlotter 2026-07-28 13:03:32,985 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_25e4cbf4-0a2d-42af-a290-c6c279e59226.png' has been created
+DCubePlotter 2026-07-28 13:03:33,023 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_a52192a7-fc93-4d39-96f4-9b17a73eddf9.png' has been created
+DCubeApp     2026-07-28 13:03:33,023 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:33,023 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/resmean_theta_vs_truth_pt' [KSnorm]
+DCubeTester  2026-07-28 13:03:33,027 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:33,027 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=74 all equal non-empty bins=74
+DCubeTester  2026-07-28 13:03:33,027 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/resmean_theta_vs_truth_pt' histograms are equal!
+DCubeTester  2026-07-28 13:03:33,027 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:33,028 DEBUG   : plot called for object of name resmean_theta_vs_truth_pt
+DCubePlotter 2026-07-28 13:03:33,028 DEBUG   : additional plot options are: 'logx'
+DCubePlotter 2026-07-28 13:03:33,028 DEBUG   : plotting resmean_theta_vs_truth_pt of type TH1D
+DCubePlotter 2026-07-28 13:03:33,058 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_d746f18c-75cc-42f4-8eb4-02d348dde778.png' has been created
+DCubePlotter 2026-07-28 13:03:33,099 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_e694f7a6-0678-44ad-8594-284ee8467c84.png' has been created
+DCubeApp     2026-07-28 13:03:33,100 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:33,100 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pullwidth_theta_vs_truth_eta' [KSnorm]
+DCubeTester  2026-07-28 13:03:33,110 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:33,110 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=112 all equal non-empty bins=112
+DCubeTester  2026-07-28 13:03:33,111 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pullwidth_theta_vs_truth_eta' histograms are equal!
+DCubeTester  2026-07-28 13:03:33,111 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:33,111 DEBUG   : plot called for object of name pullwidth_theta_vs_truth_eta
+DCubePlotter 2026-07-28 13:03:33,111 DEBUG   : plotting pullwidth_theta_vs_truth_eta of type TH1D
+DCubePlotter 2026-07-28 13:03:33,149 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_b3b7b01a-1cbc-4877-879b-581475fdd32d.png' has been created
+DCubePlotter 2026-07-28 13:03:33,184 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_37b88b64-94cf-463f-8028-743f027b2952.png' has been created
+DCubeApp     2026-07-28 13:03:33,184 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:33,184 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pullmean_theta_vs_truth_eta' [KSnorm]
+DCubeTester  2026-07-28 13:03:33,186 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:33,187 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=112 all equal non-empty bins=112
+DCubeTester  2026-07-28 13:03:33,187 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pullmean_theta_vs_truth_eta' histograms are equal!
+DCubeTester  2026-07-28 13:03:33,187 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:33,188 DEBUG   : plot called for object of name pullmean_theta_vs_truth_eta
+DCubePlotter 2026-07-28 13:03:33,188 DEBUG   : plotting pullmean_theta_vs_truth_eta of type TH1D
+DCubePlotter 2026-07-28 13:03:33,246 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_948d1206-e692-4ffc-8fec-0dfc37ed6aa8.png' has been created
+DCubePlotter 2026-07-28 13:03:33,271 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_32344af1-ff5f-4939-acc2-e37b92be8b2c.png' has been created
+DCubeApp     2026-07-28 13:03:33,272 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:33,272 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pullwidth_theta_vs_truth_pt' [KSnorm]
+DCubeTester  2026-07-28 13:03:33,274 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:33,274 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=72 all equal non-empty bins=72
+DCubeTester  2026-07-28 13:03:33,274 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pullwidth_theta_vs_truth_pt' histograms are equal!
+DCubeTester  2026-07-28 13:03:33,274 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:33,275 DEBUG   : plot called for object of name pullwidth_theta_vs_truth_pt
+DCubePlotter 2026-07-28 13:03:33,275 DEBUG   : additional plot options are: 'logx'
+DCubePlotter 2026-07-28 13:03:33,275 DEBUG   : plotting pullwidth_theta_vs_truth_pt of type TH1D
+DCubePlotter 2026-07-28 13:03:33,304 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_c31ef84d-fbd6-452d-b4a1-576999cabeab.png' has been created
+DCubePlotter 2026-07-28 13:03:33,348 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_9216dace-b8c9-4be6-8f4f-b066642cf4cb.png' has been created
+DCubeApp     2026-07-28 13:03:33,349 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:33,349 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pullmean_theta_vs_truth_pt' [KSnorm]
+DCubeTester  2026-07-28 13:03:33,350 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:33,351 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=74 all equal non-empty bins=74
+DCubeTester  2026-07-28 13:03:33,351 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pullmean_theta_vs_truth_pt' histograms are equal!
+DCubeTester  2026-07-28 13:03:33,351 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:33,351 DEBUG   : plot called for object of name pullmean_theta_vs_truth_pt
+DCubePlotter 2026-07-28 13:03:33,352 DEBUG   : additional plot options are: 'logx'
+DCubePlotter 2026-07-28 13:03:33,352 DEBUG   : plotting pullmean_theta_vs_truth_pt of type TH1D
+DCubePlotter 2026-07-28 13:03:33,388 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_4fc0227d-dd92-4d75-83ee-d713378b90ad.png' has been created
+DCubePlotter 2026-07-28 13:03:33,435 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_758bb26e-e9f6-464d-ae84-d091c49715c2.png' has been created
+DCubeApp     2026-07-28 13:03:33,436 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:33,436 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pull_z0sin' [KSnorm]
+DCubeTester  2026-07-28 13:03:33,449 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:33,449 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=154 all equal non-empty bins=154
+DCubeTester  2026-07-28 13:03:33,450 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pull_z0sin' histograms are equal!
+DCubeTester  2026-07-28 13:03:33,450 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:33,450 DEBUG   : plot called for object of name pull_z0sin
+DCubePlotter 2026-07-28 13:03:33,450 DEBUG   : plotting pull_z0sin of type TH1D
+DCubePlotter 2026-07-28 13:03:33,513 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_f4d43b0c-27a4-4d80-91af-447361a537ab.png' has been created
+DCubePlotter 2026-07-28 13:03:33,558 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_44d91564-fa46-46f8-bf8e-6193899d57a5.png' has been created
+DCubeApp     2026-07-28 13:03:33,558 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:33,558 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/res_z0sin' [KSnorm]
+DCubeTester  2026-07-28 13:03:33,561 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:33,561 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=148 all equal non-empty bins=148
+DCubeTester  2026-07-28 13:03:33,562 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/res_z0sin' histograms are equal!
+DCubeTester  2026-07-28 13:03:33,562 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:33,562 DEBUG   : plot called for object of name res_z0sin
+DCubePlotter 2026-07-28 13:03:33,562 DEBUG   : plotting res_z0sin of type TH1D
+DCubePlotter 2026-07-28 13:03:33,613 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_8b51cf8a-0ad3-4f74-8f4a-fef727168691.png' has been created
+DCubePlotter 2026-07-28 13:03:33,643 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_856788e6-49d9-470b-951b-ce4dd442fb93.png' has been created
+DCubeApp     2026-07-28 13:03:33,644 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:33,644 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/sigma_offl_z0sin' [KSnorm]
+DCubeTester  2026-07-28 13:03:33,645 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:33,646 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=72 all equal non-empty bins=72
+DCubeTester  2026-07-28 13:03:33,646 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/sigma_offl_z0sin' histograms are equal!
+DCubeTester  2026-07-28 13:03:33,646 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:33,646 DEBUG   : plot called for object of name sigma_offl_z0sin
+DCubePlotter 2026-07-28 13:03:33,647 DEBUG   : plotting sigma_offl_z0sin of type TH1D
+DCubePlotter 2026-07-28 13:03:33,702 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_8e2a9e8e-6618-4518-b7ab-bf5344293f48.png' has been created
+DCubePlotter 2026-07-28 13:03:33,726 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_0b30262c-2687-457e-8e27-47fa1f2b6216.png' has been created
+DCubeApp     2026-07-28 13:03:33,727 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:33,727 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/resolution_z0sin_vs_truth_eta' [KSnorm]
+DCubeTester  2026-07-28 13:03:33,728 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:33,729 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=112 all equal non-empty bins=112
+DCubeTester  2026-07-28 13:03:33,729 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/resolution_z0sin_vs_truth_eta' histograms are equal!
+DCubeTester  2026-07-28 13:03:33,729 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:33,729 DEBUG   : plot called for object of name resolution_z0sin_vs_truth_eta
+DCubePlotter 2026-07-28 13:03:33,729 DEBUG   : plotting resolution_z0sin_vs_truth_eta of type TH1D
+DCubePlotter 2026-07-28 13:03:33,765 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_0960b14f-437a-4bc0-abe5-f7e30eaadb23.png' has been created
+DCubePlotter 2026-07-28 13:03:33,790 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_49f6b6ef-60f3-4c3f-97b0-bead0b4f5dbf.png' has been created
+DCubeApp     2026-07-28 13:03:33,791 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:33,791 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/resmean_z0sin_vs_truth_eta' [KSnorm]
+DCubeTester  2026-07-28 13:03:33,792 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:33,793 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=114 all equal non-empty bins=114
+DCubeTester  2026-07-28 13:03:33,793 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/resmean_z0sin_vs_truth_eta' histograms are equal!
+DCubeTester  2026-07-28 13:03:33,793 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:33,793 DEBUG   : plot called for object of name resmean_z0sin_vs_truth_eta
+DCubePlotter 2026-07-28 13:03:33,794 DEBUG   : plotting resmean_z0sin_vs_truth_eta of type TH1D
+DCubePlotter 2026-07-28 13:03:33,834 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_69d68a04-4512-49c5-95b0-b474f94ac789.png' has been created
+DCubePlotter 2026-07-28 13:03:33,871 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_6ffa0ee3-5c34-4fcb-b7a1-c9996263fda8.png' has been created
+DCubeApp     2026-07-28 13:03:33,872 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:33,872 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/resolution_z0sin_vs_truth_pt' [KSnorm]
+DCubeTester  2026-07-28 13:03:33,873 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:33,874 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=72 all equal non-empty bins=72
+DCubeTester  2026-07-28 13:03:33,874 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/resolution_z0sin_vs_truth_pt' histograms are equal!
+DCubeTester  2026-07-28 13:03:33,875 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:33,875 DEBUG   : plot called for object of name resolution_z0sin_vs_truth_pt
+DCubePlotter 2026-07-28 13:03:33,875 DEBUG   : additional plot options are: 'logx'
+DCubePlotter 2026-07-28 13:03:33,875 DEBUG   : plotting resolution_z0sin_vs_truth_pt of type TH1D
+DCubePlotter 2026-07-28 13:03:33,909 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_c8b152a9-4d64-47f0-85ea-6fb07e276280.png' has been created
+DCubePlotter 2026-07-28 13:03:33,958 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_ee4498b2-66c0-4fcd-a034-6c5879367dd8.png' has been created
+DCubeApp     2026-07-28 13:03:33,959 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:33,959 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/resmean_z0sin_vs_truth_pt' [KSnorm]
+DCubeTester  2026-07-28 13:03:33,961 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:33,961 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=74 all equal non-empty bins=74
+DCubeTester  2026-07-28 13:03:33,961 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/resmean_z0sin_vs_truth_pt' histograms are equal!
+DCubeTester  2026-07-28 13:03:33,961 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:33,962 DEBUG   : plot called for object of name resmean_z0sin_vs_truth_pt
+DCubePlotter 2026-07-28 13:03:33,962 DEBUG   : additional plot options are: 'logx'
+DCubePlotter 2026-07-28 13:03:33,962 DEBUG   : plotting resmean_z0sin_vs_truth_pt of type TH1D
+DCubePlotter 2026-07-28 13:03:33,993 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_dc192ef6-b9d6-4c2a-a3db-a9055da279ac.png' has been created
+DCubePlotter 2026-07-28 13:03:34,049 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_e3c5d52f-1e1b-4937-8e02-884259a79f4d.png' has been created
+DCubeApp     2026-07-28 13:03:34,050 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:34,050 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pullwidth_z0sin_vs_truth_eta' [KSnorm]
+DCubeTester  2026-07-28 13:03:34,052 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:34,052 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=112 all equal non-empty bins=112
+DCubeTester  2026-07-28 13:03:34,052 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pullwidth_z0sin_vs_truth_eta' histograms are equal!
+DCubeTester  2026-07-28 13:03:34,053 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:34,053 DEBUG   : plot called for object of name pullwidth_z0sin_vs_truth_eta
+DCubePlotter 2026-07-28 13:03:34,053 DEBUG   : plotting pullwidth_z0sin_vs_truth_eta of type TH1D
+DCubePlotter 2026-07-28 13:03:34,091 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_5737b752-8d11-4e77-a67a-8a65283c8718.png' has been created
+DCubePlotter 2026-07-28 13:03:34,117 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_a80fd255-4625-4a87-b535-2a59c6b50bb4.png' has been created
+DCubeApp     2026-07-28 13:03:34,118 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:34,118 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pullmean_z0sin_vs_truth_eta' [KSnorm]
+DCubeTester  2026-07-28 13:03:34,122 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:34,122 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=112 all equal non-empty bins=112
+DCubeTester  2026-07-28 13:03:34,123 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pullmean_z0sin_vs_truth_eta' histograms are equal!
+DCubeTester  2026-07-28 13:03:34,123 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:34,123 DEBUG   : plot called for object of name pullmean_z0sin_vs_truth_eta
+DCubePlotter 2026-07-28 13:03:34,123 DEBUG   : plotting pullmean_z0sin_vs_truth_eta of type TH1D
+DCubePlotter 2026-07-28 13:03:34,173 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_4d2da2c2-7561-42ec-b30f-d9f4cf532158.png' has been created
+DCubePlotter 2026-07-28 13:03:34,209 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_b7d8de5c-37b1-44ab-b236-02fd33c7a8d8.png' has been created
+DCubeApp     2026-07-28 13:03:34,209 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:34,209 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pullwidth_z0sin_vs_truth_pt' [KSnorm]
+DCubeTester  2026-07-28 13:03:34,211 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:34,212 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=72 all equal non-empty bins=72
+DCubeTester  2026-07-28 13:03:34,212 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pullwidth_z0sin_vs_truth_pt' histograms are equal!
+DCubeTester  2026-07-28 13:03:34,212 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:34,213 DEBUG   : plot called for object of name pullwidth_z0sin_vs_truth_pt
+DCubePlotter 2026-07-28 13:03:34,213 DEBUG   : additional plot options are: 'logx'
+DCubePlotter 2026-07-28 13:03:34,213 DEBUG   : plotting pullwidth_z0sin_vs_truth_pt of type TH1D
+DCubePlotter 2026-07-28 13:03:34,254 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_72dfadcc-645b-45e3-adee-402fda539bef.png' has been created
+DCubePlotter 2026-07-28 13:03:34,297 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_e6492db3-e5c3-4e64-a627-05c726013efa.png' has been created
+DCubeApp     2026-07-28 13:03:34,298 DEBUG   : child tagName hist1D
+DCubeApp     2026-07-28 13:03:34,298 INFO    : test hist1D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pullmean_z0sin_vs_truth_pt' [KSnorm]
+DCubeTester  2026-07-28 13:03:34,299 DEBUG   : gathering statistics along x axis
+DCubeTester  2026-07-28 13:03:34,300 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=74 all equal non-empty bins=74
+DCubeTester  2026-07-28 13:03:34,300 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions/pullmean_z0sin_vs_truth_pt' histograms are equal!
+DCubeTester  2026-07-28 13:03:34,300 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:34,300 DEBUG   : plot called for object of name pullmean_z0sin_vs_truth_pt
+DCubePlotter 2026-07-28 13:03:34,300 DEBUG   : additional plot options are: 'logx'
+DCubePlotter 2026-07-28 13:03:34,300 DEBUG   : plotting pullmean_z0sin_vs_truth_pt of type TH1D
+DCubePlotter 2026-07-28 13:03:34,335 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1r_80978ed7-8998-434f-b41b-e9ae1cbf0240.png' has been created
+DCubePlotter 2026-07-28 13:03:34,377 DEBUG   : plot 'dcube_idtpm_lrt/plots/h1d_acf09823-7000-4b12-b979-01ddc1041afa.png' has been created
+DCubeApp     2026-07-28 13:03:34,378 DEBUG   : TDirectory /InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Resolutions status OK
+DCubeApp     2026-07-28 13:03:34,378 DEBUG   : child tagName TDirectory
+DCubeApp     2026-07-28 13:03:34,378 DEBUG   : now testing objects in path = /InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/FakeRates
+DCubeApp     2026-07-28 13:03:34,378 DEBUG   : child tagName graph
+DCubeApp     2026-07-28 13:03:34,378 INFO    : test graph '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/FakeRates/fakerate_vs_offl_eta' [KSnorm]
+DCubeTester  2026-07-28 13:03:34,442 DEBUG   : monitored TGraphAsymmErrors '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/FakeRates/fakerate_vs_offl_eta' has the same 18 points as reference graph
+DCubeTester  2026-07-28 13:03:34,443 INFO    : monitored TGraphAsymmErrors '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/FakeRates/fakerate_vs_offl_eta' has 18 evenly 0.3-spaced points
+DCubeTester  2026-07-28 13:03:34,459 DEBUG   : reference TGraphAsymmErrors '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/FakeRates/fakerate_vs_offl_eta' has the same 18 points as monitored graph
+DCubeTester  2026-07-28 13:03:34,459 INFO    : reference TGraphAsymmErrors '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/FakeRates/fakerate_vs_offl_eta' has 18 evenly 0.3-spaced points
+DCubeTester  2026-07-28 13:03:34,460 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=26 all equal non-empty bins=26
+DCubeTester  2026-07-28 13:03:34,460 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/FakeRates/fakerate_vs_offl_eta' histograms are equal!
+DCubeTester  2026-07-28 13:03:34,460 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:34,460 DEBUG   : plot called for object of name fakerate_vs_offl_eta
+DCubePlotter 2026-07-28 13:03:34,461 DEBUG   : plotting fakerate_vs_offl_eta of type TGraphAsymmErrors
+DCubePlotter 2026-07-28 13:03:34,521 DEBUG   : plot 'dcube_idtpm_lrt/plots/gr_45286440-b9c6-4db6-b775-f1151bd3d0aa.png' has been created
+DCubePlotter 2026-07-28 13:03:34,582 DEBUG   : plot 'dcube_idtpm_lrt/plots/gd_055cc340-cdab-44f9-ade1-f3b52d208fc9.png' has been created
+DCubeApp     2026-07-28 13:03:34,583 DEBUG   : child tagName graph
+DCubeApp     2026-07-28 13:03:34,583 INFO    : test graph '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/FakeRates/fakerate_vs_offl_pt' [KSnorm]
+DCubeTester  2026-07-28 13:03:34,585 DEBUG   : monitored TGraphAsymmErrors '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/FakeRates/fakerate_vs_offl_pt' has the same 92 points as reference graph
+DCubeTester  2026-07-28 13:03:34,586 WARNING : monitored TGraphAsymmErrors '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/FakeRates/fakerate_vs_offl_pt' has 99 evenly 0.5-spaced points after adding missing 7 at x=32.75,35.75,41.75,44.75,48.25,48.75,49.25
+DCubeTester  2026-07-28 13:03:34,586 DEBUG   : reference TGraphAsymmErrors '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/FakeRates/fakerate_vs_offl_pt' has the same 92 points as monitored graph
+DCubeTester  2026-07-28 13:03:34,586 WARNING : reference TGraphAsymmErrors '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/FakeRates/fakerate_vs_offl_pt' has 99 evenly 0.5-spaced points after adding missing 7 at x=32.75,35.75,41.75,44.75,48.25,48.75,49.25
+DCubeTester  2026-07-28 13:03:34,587 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=56 all equal non-empty bins=56
+DCubeTester  2026-07-28 13:03:34,587 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/FakeRates/fakerate_vs_offl_pt' histograms are equal!
+DCubeTester  2026-07-28 13:03:34,587 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:34,587 DEBUG   : plot called for object of name fakerate_vs_offl_pt
+DCubePlotter 2026-07-28 13:03:34,588 DEBUG   : plotting fakerate_vs_offl_pt of type TGraphAsymmErrors
+DCubePlotter 2026-07-28 13:03:34,641 DEBUG   : plot 'dcube_idtpm_lrt/plots/gr_ed132cf6-1f48-4212-9652-277f2be4ff03.png' has been created
+DCubePlotter 2026-07-28 13:03:34,677 DEBUG   : plot 'dcube_idtpm_lrt/plots/gd_ae8bb3d6-8325-4c59-9a91-ce4d6839600c.png' has been created
+DCubeApp     2026-07-28 13:03:34,678 DEBUG   : child tagName graph
+DCubeApp     2026-07-28 13:03:34,678 INFO    : test graph '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/FakeRates/fakerate_vs_offl_phi' [KSnorm]
+DCubeTester  2026-07-28 13:03:34,680 DEBUG   : monitored TGraphAsymmErrors '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/FakeRates/fakerate_vs_offl_phi' has the same 25 points as reference graph
+DCubeTester  2026-07-28 13:03:34,680 INFO    : monitored TGraphAsymmErrors '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/FakeRates/fakerate_vs_offl_phi' has 25 evenly 0.251327-spaced points
+DCubeTester  2026-07-28 13:03:34,681 DEBUG   : reference TGraphAsymmErrors '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/FakeRates/fakerate_vs_offl_phi' has the same 25 points as monitored graph
+DCubeTester  2026-07-28 13:03:34,681 INFO    : reference TGraphAsymmErrors '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/FakeRates/fakerate_vs_offl_phi' has 25 evenly 0.251327-spaced points
+DCubeTester  2026-07-28 13:03:34,681 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=44 all equal non-empty bins=44
+DCubeTester  2026-07-28 13:03:34,681 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/FakeRates/fakerate_vs_offl_phi' histograms are equal!
+DCubeTester  2026-07-28 13:03:34,681 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:34,682 DEBUG   : plot called for object of name fakerate_vs_offl_phi
+DCubePlotter 2026-07-28 13:03:34,682 DEBUG   : plotting fakerate_vs_offl_phi of type TGraphAsymmErrors
+DCubePlotter 2026-07-28 13:03:34,711 DEBUG   : plot 'dcube_idtpm_lrt/plots/gr_5ce0efa5-a265-48ab-bcc1-45a28e3df2f2.png' has been created
+DCubePlotter 2026-07-28 13:03:34,735 DEBUG   : plot 'dcube_idtpm_lrt/plots/gd_3802f072-1bee-4d9f-864f-b88b7c1bb0b4.png' has been created
+DCubeApp     2026-07-28 13:03:34,736 DEBUG   : child tagName graph
+DCubeApp     2026-07-28 13:03:34,736 INFO    : test graph '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/FakeRates/fakerate_vs_offl_d0' [KSnorm]
+DCubeTester  2026-07-28 13:03:34,738 DEBUG   : monitored TGraphAsymmErrors '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/FakeRates/fakerate_vs_offl_d0' has the same 83 points as reference graph
+DCubeTester  2026-07-28 13:03:34,738 WARNING : monitored TGraphAsymmErrors '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/FakeRates/fakerate_vs_offl_d0' has 100 evenly 0.5-spaced points after adding missing 17 at x=-23.75,-23.25,-21.75,-20.25,-16.75,-15.75,-15.25,14.25,16.25,16.75,19.25,20.25,20.75,21.25,22.75,23.75,24.25
+DCubeTester  2026-07-28 13:03:34,739 DEBUG   : reference TGraphAsymmErrors '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/FakeRates/fakerate_vs_offl_d0' has the same 83 points as monitored graph
+DCubeTester  2026-07-28 13:03:34,739 WARNING : reference TGraphAsymmErrors '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/FakeRates/fakerate_vs_offl_d0' has 100 evenly 0.5-spaced points after adding missing 17 at x=-23.75,-23.25,-21.75,-20.25,-16.75,-15.75,-15.25,14.25,16.25,16.75,19.25,20.25,20.75,21.25,22.75,23.75,24.25
+DCubeTester  2026-07-28 13:03:34,739 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=72 all equal non-empty bins=72
+DCubeTester  2026-07-28 13:03:34,740 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/FakeRates/fakerate_vs_offl_d0' histograms are equal!
+DCubeTester  2026-07-28 13:03:34,740 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:34,740 DEBUG   : plot called for object of name fakerate_vs_offl_d0
+DCubePlotter 2026-07-28 13:03:34,740 DEBUG   : plotting fakerate_vs_offl_d0 of type TGraphAsymmErrors
+DCubePlotter 2026-07-28 13:03:34,783 DEBUG   : plot 'dcube_idtpm_lrt/plots/gr_eaebcf0c-f56d-46a7-bd59-7ead2d1792e7.png' has been created
+DCubePlotter 2026-07-28 13:03:34,833 DEBUG   : plot 'dcube_idtpm_lrt/plots/gd_c54d1031-e835-4b84-987e-3747c3109f78.png' has been created
+DCubeApp     2026-07-28 13:03:34,834 DEBUG   : child tagName graph
+DCubeApp     2026-07-28 13:03:34,834 INFO    : test graph '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/FakeRates/fakerate_vs_offl_z0' [KSnorm]
+DCubeTester  2026-07-28 13:03:34,836 DEBUG   : monitored TGraphAsymmErrors '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/FakeRates/fakerate_vs_offl_z0' has the same 80 points as reference graph
+DCubeTester  2026-07-28 13:03:34,837 INFO    : monitored TGraphAsymmErrors '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/FakeRates/fakerate_vs_offl_z0' has 80 evenly 5-spaced points
+DCubeTester  2026-07-28 13:03:34,837 DEBUG   : reference TGraphAsymmErrors '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/FakeRates/fakerate_vs_offl_z0' has the same 80 points as monitored graph
+DCubeTester  2026-07-28 13:03:34,837 INFO    : reference TGraphAsymmErrors '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/FakeRates/fakerate_vs_offl_z0' has 80 evenly 5-spaced points
+DCubeTester  2026-07-28 13:03:34,837 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=38 all equal non-empty bins=38
+DCubeTester  2026-07-28 13:03:34,838 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/FakeRates/fakerate_vs_offl_z0' histograms are equal!
+DCubeTester  2026-07-28 13:03:34,838 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:34,838 DEBUG   : plot called for object of name fakerate_vs_offl_z0
+DCubePlotter 2026-07-28 13:03:34,838 DEBUG   : plotting fakerate_vs_offl_z0 of type TGraphAsymmErrors
+DCubePlotter 2026-07-28 13:03:34,884 DEBUG   : plot 'dcube_idtpm_lrt/plots/gr_32df9d8a-6a4a-478a-89b4-e3a297b0305a.png' has been created
+DCubePlotter 2026-07-28 13:03:34,919 DEBUG   : plot 'dcube_idtpm_lrt/plots/gd_6c9c2af5-a52e-40f1-bae1-82c28cb3c741.png' has been created
+DCubeApp     2026-07-28 13:03:34,920 DEBUG   : TDirectory /InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/FakeRates status OK
+DCubeApp     2026-07-28 13:03:34,920 DEBUG   : child tagName TDirectory
+DCubeApp     2026-07-28 13:03:34,920 DEBUG   : now testing objects in path = /InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Efficiencies
+DCubeApp     2026-07-28 13:03:34,920 DEBUG   : child tagName graph
+DCubeApp     2026-07-28 13:03:34,920 INFO    : test graph '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Efficiencies/eff_vs_truth_eta' [KSnorm]
+DCubeTester  2026-07-28 13:03:34,925 DEBUG   : monitored TGraphAsymmErrors '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Efficiencies/eff_vs_truth_eta' has the same 20 points as reference graph
+DCubeTester  2026-07-28 13:03:34,926 INFO    : monitored TGraphAsymmErrors '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Efficiencies/eff_vs_truth_eta' has 20 evenly 0.3-spaced points
+DCubeTester  2026-07-28 13:03:34,926 DEBUG   : reference TGraphAsymmErrors '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Efficiencies/eff_vs_truth_eta' has the same 20 points as monitored graph
+DCubeTester  2026-07-28 13:03:34,926 INFO    : reference TGraphAsymmErrors '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Efficiencies/eff_vs_truth_eta' has 20 evenly 0.3-spaced points
+DCubeTester  2026-07-28 13:03:34,926 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=38 all equal non-empty bins=38
+DCubeTester  2026-07-28 13:03:34,927 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Efficiencies/eff_vs_truth_eta' histograms are equal!
+DCubeTester  2026-07-28 13:03:34,927 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:34,927 DEBUG   : plot called for object of name eff_vs_truth_eta
+DCubePlotter 2026-07-28 13:03:34,927 DEBUG   : plotting eff_vs_truth_eta of type TGraphAsymmErrors
+DCubePlotter 2026-07-28 13:03:34,953 DEBUG   : plot 'dcube_idtpm_lrt/plots/gr_095ac6cb-f573-4e50-8d9b-55f4beb6a6c5.png' has been created
+DCubePlotter 2026-07-28 13:03:34,988 DEBUG   : plot 'dcube_idtpm_lrt/plots/gd_01d0e820-7f84-4bb5-af13-5fabf0330fe6.png' has been created
+DCubeApp     2026-07-28 13:03:34,989 DEBUG   : child tagName graph
+DCubeApp     2026-07-28 13:03:34,989 INFO    : test graph '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Efficiencies/eff_vs_truth_pt' [KSnorm]
+DCubeTester  2026-07-28 13:03:34,992 DEBUG   : monitored TGraphAsymmErrors '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Efficiencies/eff_vs_truth_pt' has the same 24 points as reference graph
+DCubeTester  2026-07-28 13:03:34,992 INFO    : monitored TGraphAsymmErrors '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Efficiencies/eff_vs_truth_pt' has 24 evenly 2-spaced points
+DCubeTester  2026-07-28 13:03:34,992 DEBUG   : reference TGraphAsymmErrors '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Efficiencies/eff_vs_truth_pt' has the same 24 points as monitored graph
+DCubeTester  2026-07-28 13:03:34,993 INFO    : reference TGraphAsymmErrors '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Efficiencies/eff_vs_truth_pt' has 24 evenly 2-spaced points
+DCubeTester  2026-07-28 13:03:34,993 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=48 all equal non-empty bins=48
+DCubeTester  2026-07-28 13:03:34,993 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Efficiencies/eff_vs_truth_pt' histograms are equal!
+DCubeTester  2026-07-28 13:03:34,993 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:34,993 DEBUG   : plot called for object of name eff_vs_truth_pt
+DCubePlotter 2026-07-28 13:03:34,993 DEBUG   : plotting eff_vs_truth_pt of type TGraphAsymmErrors
+DCubePlotter 2026-07-28 13:03:35,104 DEBUG   : plot 'dcube_idtpm_lrt/plots/gr_c303adcc-9b54-4221-9d48-10d454dbabf3.png' has been created
+DCubePlotter 2026-07-28 13:03:35,128 DEBUG   : plot 'dcube_idtpm_lrt/plots/gd_95587836-3a57-47f9-9410-270809366aa4.png' has been created
+DCubeApp     2026-07-28 13:03:35,128 DEBUG   : child tagName graph
+DCubeApp     2026-07-28 13:03:35,128 INFO    : test graph '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Efficiencies/eff_vs_truth_phi' [KSnorm]
+DCubeTester  2026-07-28 13:03:35,131 DEBUG   : monitored TGraphAsymmErrors '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Efficiencies/eff_vs_truth_phi' has the same 25 points as reference graph
+DCubeTester  2026-07-28 13:03:35,131 INFO    : monitored TGraphAsymmErrors '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Efficiencies/eff_vs_truth_phi' has 25 evenly 0.251327-spaced points
+DCubeTester  2026-07-28 13:03:35,132 DEBUG   : reference TGraphAsymmErrors '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Efficiencies/eff_vs_truth_phi' has the same 25 points as monitored graph
+DCubeTester  2026-07-28 13:03:35,132 INFO    : reference TGraphAsymmErrors '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Efficiencies/eff_vs_truth_phi' has 25 evenly 0.251327-spaced points
+DCubeTester  2026-07-28 13:03:35,132 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=50 all equal non-empty bins=38
+DCubeTester  2026-07-28 13:03:35,132 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:35,133 DEBUG   : plot called for object of name eff_vs_truth_phi
+DCubePlotter 2026-07-28 13:03:35,133 DEBUG   : plotting eff_vs_truth_phi of type TGraphAsymmErrors
+DCubePlotter 2026-07-28 13:03:35,160 DEBUG   : plot 'dcube_idtpm_lrt/plots/gr_c5affd4c-98ee-48bd-932b-a74d3244da13.png' has been created
+DCubePlotter 2026-07-28 13:03:35,184 DEBUG   : plot 'dcube_idtpm_lrt/plots/gd_38fea31e-d06e-4e83-b5f5-da86201af719.png' has been created
+DCubeApp     2026-07-28 13:03:35,185 DEBUG   : child tagName graph
+DCubeApp     2026-07-28 13:03:35,185 INFO    : test graph '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Efficiencies/eff_vs_truth_d0' [KSnorm]
+DCubeTester  2026-07-28 13:03:35,187 DEBUG   : monitored TGraphAsymmErrors '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Efficiencies/eff_vs_truth_d0' has the same 28 points as reference graph
+DCubeTester  2026-07-28 13:03:35,187 WARNING : monitored TGraphAsymmErrors '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Efficiencies/eff_vs_truth_d0' has 49 evenly 0.25-spaced points after adding missing 21 at x=-5.375,-5.125,-4.875,-4.625,-4.125,-3.875,-3.625,-3.125,2.625,3.125,3.375,3.625,3.875,4.125,4.375,4.625,4.875,5.125,5.375,5.625,6.125
+DCubeTester  2026-07-28 13:03:35,188 DEBUG   : reference TGraphAsymmErrors '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Efficiencies/eff_vs_truth_d0' has the same 28 points as monitored graph
+DCubeTester  2026-07-28 13:03:35,188 WARNING : reference TGraphAsymmErrors '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Efficiencies/eff_vs_truth_d0' has 49 evenly 0.25-spaced points after adding missing 21 at x=-5.375,-5.125,-4.875,-4.625,-4.125,-3.875,-3.625,-3.125,2.625,3.125,3.375,3.625,3.875,4.125,4.375,4.625,4.875,5.125,5.375,5.625,6.125
+DCubeTester  2026-07-28 13:03:35,188 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=50 all equal non-empty bins=50
+DCubeTester  2026-07-28 13:03:35,189 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Efficiencies/eff_vs_truth_d0' histograms are equal!
+DCubeTester  2026-07-28 13:03:35,189 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:35,189 DEBUG   : plot called for object of name eff_vs_truth_d0
+DCubePlotter 2026-07-28 13:03:35,189 DEBUG   : plotting eff_vs_truth_d0 of type TGraphAsymmErrors
+DCubePlotter 2026-07-28 13:03:35,216 DEBUG   : plot 'dcube_idtpm_lrt/plots/gr_79c01039-80a4-447d-83bf-f1865a2919a1.png' has been created
+DCubePlotter 2026-07-28 13:03:35,239 DEBUG   : plot 'dcube_idtpm_lrt/plots/gd_ac5a4503-43dd-4dbd-aa64-a81fabe0de40.png' has been created
+DCubeApp     2026-07-28 13:03:35,240 DEBUG   : child tagName graph
+DCubeApp     2026-07-28 13:03:35,240 INFO    : test graph '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Efficiencies/eff_vs_truth_z0' [KSnorm]
+DCubeTester  2026-07-28 13:03:35,244 DEBUG   : monitored TGraphAsymmErrors '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Efficiencies/eff_vs_truth_z0' has the same 40 points as reference graph
+DCubeTester  2026-07-28 13:03:35,244 WARNING : monitored TGraphAsymmErrors '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Efficiencies/eff_vs_truth_z0' has 48 evenly 5-spaced points after adding missing 8 at x=-107.5,-102.5,-87.5,-82.5,67.5,72.5,77.5,97.5
+DCubeTester  2026-07-28 13:03:35,245 DEBUG   : reference TGraphAsymmErrors '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Efficiencies/eff_vs_truth_z0' has the same 40 points as monitored graph
+DCubeTester  2026-07-28 13:03:35,245 WARNING : reference TGraphAsymmErrors '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Efficiencies/eff_vs_truth_z0' has 48 evenly 5-spaced points after adding missing 8 at x=-107.5,-102.5,-87.5,-82.5,67.5,72.5,77.5,97.5
+DCubeTester  2026-07-28 13:03:35,245 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=76 all equal non-empty bins=76
+DCubeTester  2026-07-28 13:03:35,245 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Efficiencies/eff_vs_truth_z0' histograms are equal!
+DCubeTester  2026-07-28 13:03:35,246 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:35,246 DEBUG   : plot called for object of name eff_vs_truth_z0
+DCubePlotter 2026-07-28 13:03:35,246 DEBUG   : plotting eff_vs_truth_z0 of type TGraphAsymmErrors
+DCubePlotter 2026-07-28 13:03:35,277 DEBUG   : plot 'dcube_idtpm_lrt/plots/gr_f671168e-e1b6-4f22-ac92-9007c3e9a692.png' has been created
+DCubePlotter 2026-07-28 13:03:35,301 DEBUG   : plot 'dcube_idtpm_lrt/plots/gd_f1234c70-6fd1-44c6-b273-68dd0dbc09cd.png' has been created
+DCubeApp     2026-07-28 13:03:35,301 DEBUG   : child tagName graph
+DCubeApp     2026-07-28 13:03:35,301 INFO    : test graph '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Efficiencies/eff_vs_truth_prodR' [KSnorm]
+DCubeTester  2026-07-28 13:03:35,303 DEBUG   : monitored TGraphAsymmErrors '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Efficiencies/eff_vs_truth_prodR' has the same 56 points as reference graph
+DCubeTester  2026-07-28 13:03:35,304 WARNING : monitored TGraphAsymmErrors '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Efficiencies/eff_vs_truth_prodR' has 93 evenly 0.5-spaced points after adding missing 37 at x=10.75,15.25,15.75,16.25,16.75,17.25,22.25,22.75,25.25,26.75,28.25,30.75,31.25,32.25,33.25,34.25,34.75,35.25,36.75,37.25,37.75,38.25,38.75,39.25,39.75,40.25,40.75,41.25,41.75,42.25,42.75,43.25,43.75,44.25,44.75,45.25,45.75
+DCubeTester  2026-07-28 13:03:35,304 DEBUG   : reference TGraphAsymmErrors '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Efficiencies/eff_vs_truth_prodR' has the same 56 points as monitored graph
+DCubeTester  2026-07-28 13:03:35,304 WARNING : reference TGraphAsymmErrors '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Efficiencies/eff_vs_truth_prodR' has 93 evenly 0.5-spaced points after adding missing 37 at x=10.75,15.25,15.75,16.25,16.75,17.25,22.25,22.75,25.25,26.75,28.25,30.75,31.25,32.25,33.25,34.25,34.75,35.25,36.75,37.25,37.75,38.25,38.75,39.25,39.75,40.25,40.75,41.25,41.75,42.25,42.75,43.25,43.75,44.25,44.75,45.25,45.75
+DCubeTester  2026-07-28 13:03:35,305 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=106 all equal non-empty bins=106
+DCubeTester  2026-07-28 13:03:35,305 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Efficiencies/eff_vs_truth_prodR' histograms are equal!
+DCubeTester  2026-07-28 13:03:35,305 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:35,305 DEBUG   : plot called for object of name eff_vs_truth_prodR
+DCubePlotter 2026-07-28 13:03:35,305 DEBUG   : plotting eff_vs_truth_prodR of type TGraphAsymmErrors
+DCubePlotter 2026-07-28 13:03:35,339 DEBUG   : plot 'dcube_idtpm_lrt/plots/gr_55855ef3-da95-4b8e-ad9b-ec9483dfc093.png' has been created
+DCubePlotter 2026-07-28 13:03:35,367 DEBUG   : plot 'dcube_idtpm_lrt/plots/gd_827dd50b-77f4-4e47-af3f-31c0c3095c2e.png' has been created
+DCubeApp     2026-07-28 13:03:35,367 DEBUG   : child tagName graph
+DCubeApp     2026-07-28 13:03:35,367 INFO    : test graph '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Efficiencies/eff_vs_truth_prodZ' [KSnorm]
+DCubeTester  2026-07-28 13:03:35,369 DEBUG   : monitored TGraphAsymmErrors '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Efficiencies/eff_vs_truth_prodZ' has the same 38 points as reference graph
+DCubeTester  2026-07-28 13:03:35,369 WARNING : monitored TGraphAsymmErrors '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Efficiencies/eff_vs_truth_prodZ' has 55 evenly 7-spaced points after adding missing 17 at x=-234.5,-227.5,-220.5,-206.5,-192.5,-185.5,-178.5,-171.5,-164.5,-157.5,-150.5,-143.5,-136.5,-129.5,-122.5,80.5,115.5
+DCubeTester  2026-07-28 13:03:35,370 DEBUG   : reference TGraphAsymmErrors '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Efficiencies/eff_vs_truth_prodZ' has the same 38 points as monitored graph
+DCubeTester  2026-07-28 13:03:35,370 WARNING : reference TGraphAsymmErrors '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Efficiencies/eff_vs_truth_prodZ' has 55 evenly 7-spaced points after adding missing 17 at x=-234.5,-227.5,-220.5,-206.5,-192.5,-185.5,-178.5,-171.5,-164.5,-157.5,-150.5,-143.5,-136.5,-129.5,-122.5,80.5,115.5
+DCubeTester  2026-07-28 13:03:35,370 DEBUG   : *** Kolmogorov-Smirnoff *** all non-empty bins=70 all equal non-empty bins=70
+DCubeTester  2026-07-28 13:03:35,370 DEBUG   : *** Kolmogorov-Smirnoff *** both '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Efficiencies/eff_vs_truth_prodZ' histograms are equal!
+DCubeTester  2026-07-28 13:03:35,371 INFO    : *** Kolmogorov-Smirnoff *** (N) p-value=1.000 status=OK
+DCubePlotter 2026-07-28 13:03:35,371 DEBUG   : plot called for object of name eff_vs_truth_prodZ
+DCubePlotter 2026-07-28 13:03:35,379 DEBUG   : plotting eff_vs_truth_prodZ of type TGraphAsymmErrors
+DCubePlotter 2026-07-28 13:03:35,411 DEBUG   : plot 'dcube_idtpm_lrt/plots/gr_adca97f3-4fe0-4404-a504-9c340aa20914.png' has been created
+DCubePlotter 2026-07-28 13:03:35,439 DEBUG   : plot 'dcube_idtpm_lrt/plots/gd_030019f7-8b24-4638-9406-bab626b7c168.png' has been created
+DCubeApp     2026-07-28 13:03:35,439 DEBUG   : TDirectory /InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks/Efficiencies status OK
+DCubeApp     2026-07-28 13:03:35,440 DEBUG   : TDirectory /InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Tracks status OK
+DCubeApp     2026-07-28 13:03:35,440 DEBUG   : child tagName TDirectory
+DCubeApp     2026-07-28 13:03:35,440 DEBUG   : now testing objects in path = /InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Vertices
+DCubeApp     2026-07-28 13:03:35,440 DEBUG   : child tagName TDirectory
+DCubeApp     2026-07-28 13:03:35,440 DEBUG   : now testing objects in path = /InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Vertices/AllPrimary
+DCubeApp     2026-07-28 13:03:35,441 DEBUG   : child tagName TDirectory
+DCubeApp     2026-07-28 13:03:35,441 DEBUG   : now testing objects in path = /InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Vertices/AllPrimary/Parameters
+DCubeApp     2026-07-28 13:03:35,441 DEBUG   : child tagName hist2D
+DCubeApp     2026-07-28 13:03:35,441 INFO    : test hist2D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Vertices/AllPrimary/Parameters/offline_nVtx_vs_truthMu_2D' [KS]
+DCubeTester  2026-07-28 13:03:35,450 ERROR   : monitored object '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Vertices/AllPrimary/Parameters/offline_nVtx_vs_truthMu_2D' not found!
+DCubeApp     2026-07-28 13:03:35,450 DEBUG   : child tagName hist2D
+DCubeApp     2026-07-28 13:03:35,450 INFO    : test hist2D '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Vertices/AllPrimary/Parameters/offline_nVtx_vs_actualMu_2D' [KS]
+DCubeTester  2026-07-28 13:03:35,450 ERROR   : monitored object '/InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Vertices/AllPrimary/Parameters/offline_nVtx_vs_actualMu_2D' not found!
+DCubeApp     2026-07-28 13:03:35,450 DEBUG   : TDirectory /InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Vertices/AllPrimary/Parameters status FAIL
+DCubeApp     2026-07-28 13:03:35,451 DEBUG   : TDirectory /InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Vertices/AllPrimary status FAIL
+DCubeApp     2026-07-28 13:03:35,451 DEBUG   : TDirectory /InDetTrackPerfMonPlots/TrkAnaOffl/Offline/Vertices status FAIL
+DCubeApp     2026-07-28 13:03:35,451 DEBUG   : TDirectory /InDetTrackPerfMonPlots/TrkAnaOffl/Offline status FAIL
+DCubeApp     2026-07-28 13:03:35,452 DEBUG   : TDirectory /InDetTrackPerfMonPlots/TrkAnaOffl status FAIL
+DCubeApp     2026-07-28 13:03:35,452 DEBUG   : TDirectory /InDetTrackPerfMonPlots status FAIL
+DCubeApp     2026-07-28 13:03:35,452 DEBUG   : TDirectory / status FAIL
+DCubeTester  2026-07-28 13:03:35,461 INFO    : *************************************************************
+DCubeTester  2026-07-28 13:03:35,462 INFO    : * RUN SUMMARY
+DCubeTester  2026-07-28 13:03:35,462 INFO    : *************************************************************
+DCubeTester  2026-07-28 13:03:35,462 INFO    : * objects processed = 149
+DCubeTester  2026-07-28 13:03:35,462 INFO    : * STATISTICS TESTS TABLE
+DCubeTester  2026-07-28 13:03:35,462 INFO    : * ---------------------------------------------
+DCubeTester  2026-07-28 13:03:35,463 INFO    : * | test     |       OK |     WARN |     FAIL |
+DCubeTester  2026-07-28 13:03:35,463 INFO    : * ---------------------------------------------
+DCubeTester  2026-07-28 13:03:35,463 INFO    : * | KS       |      105 |        0 |        0 |
+DCubeTester  2026-07-28 13:03:35,463 INFO    : * ---------------------------------------------
+DCubeTester  2026-07-28 13:03:35,463 INFO    : * | chi2     |        0 |        0 |        0 |
+DCubeTester  2026-07-28 13:03:35,464 INFO    : * ---------------------------------------------
+DCubeTester  2026-07-28 13:03:35,464 INFO    : * | bbb      |        0 |        0 |        0 |
+DCubeTester  2026-07-28 13:03:35,464 INFO    : * ---------------------------------------------
+DCubeTester  2026-07-28 13:03:35,464 INFO    : * | meanY    |       42 |        0 |        0 |
+DCubeTester  2026-07-28 13:03:35,464 INFO    : * ---------------------------------------------
+DCubeTester  2026-07-28 13:03:35,464 INFO    : * | all      |      147 |        0 |        0 |
+DCubeTester  2026-07-28 13:03:35,465 INFO    : * ---------------------------------------------
+DCubeTester  2026-07-28 13:03:35,465 INFO    : * | %        |   100.00 |     0.00 |     0.00 |
+DCubeTester  2026-07-28 13:03:35,465 INFO    : * ---------------------------------------------
+DCubeTester  2026-07-28 13:03:35,465 INFO    : *************************************************************
+DCubeTester  2026-07-28 13:03:35,465 INFO    : * WARNINGS =   2
+DCubeTester  2026-07-28 13:03:35,466 INFO    : * [01] FAIL monitored not found            - occured 2 times
+DCubeTester  2026-07-28 13:03:35,466 INFO    : *************************************************************
+DCubeTester  2026-07-28 13:03:35,466 INFO    : * OVERALL STATISTICS STATUS: WARN
+DCubeTester  2026-07-28 13:03:35,466 INFO    : *************************************************************
+DCubeApp     2026-07-28 13:03:35,466 DEBUG   : will create backup file for /eos/home-j/jlai/idtpm_validation/build/dcube_idtpm_lrt/dcube.xml
+DCubeApp     2026-07-28 13:03:35,467 WARNING : file /eos/home-j/jlai/idtpm_validation/build/dcube_idtpm_lrt/dcube.xml exists and will be overwritten!
+DCubeApp     2026-07-28 13:03:35,467 DEBUG   : will create backup file /eos/home-j/jlai/idtpm_validation/build/dcube_idtpm_lrt/dcube.xml.bak
+DCubeApp     2026-07-28 13:03:35,469 INFO    : backup file /eos/home-j/jlai/idtpm_validation/build/dcube_idtpm_lrt/dcube.xml.bak from file /eos/home-j/jlai/idtpm_validation/build/dcube_idtpm_lrt/dcube.xml has been created
+DCubeApp     2026-07-28 13:03:35,484 INFO    : DCube output has been saved to file /eos/home-j/jlai/idtpm_validation/build/dcube_idtpm_lrt/dcube.xml
+DCubeApp     2026-07-28 13:03:35,485 INFO    : will produce HTML files...
+DCubeApp     2026-07-28 13:03:35,630 INFO    : server files already in dcube_idtpm_lrt/DCubeServer - don't overwrite them
+DCubeApp     2026-07-28 13:03:35,630 DEBUG   : out php URI /eos/home-j/jlai/idtpm_validation/build/dcube_idtpm_lrt/dcube.xml.php
+DCubeApp     2026-07-28 13:03:35,631 DEBUG   : log php URI /eos/home-j/jlai/idtpm_validation/build/dcube_idtpm_lrt/dcubelog.php
+DCubeApp     2026-07-28 13:03:35,637 DEBUG   : out php file has been created
+DCubeApp     2026-07-28 13:03:35,648 DEBUG   : log php file has been created
+DCubePHPWriter 2026-07-28 13:03:35,649 INFO    : server file dcube_idtpm_lrt/DCubeServer/dcube.js.php already exists - don't overwrite it
+DCubePHPWriter 2026-07-28 13:03:35,649 INFO    : server file dcube_idtpm_lrt/DCubeServer/css/dcube.css.php already exists - don't overwrite it
+DCubeApp     2026-07-28 13:03:35,650 DEBUG   : symlink dcube_idtpm_lrt/index.html already exists - don't overwrite
+DCubeApp     2026-07-28 13:03:35,651 INFO    : creation of HTML files completed
+DCubeApp     2026-07-28 13:03:35,651 INFO    : *** SUCCESS ***
