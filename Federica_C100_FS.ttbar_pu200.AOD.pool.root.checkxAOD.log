@@ -1,0 +1,82 @@
+## opening file [/eos/user/p/piazza/testIDTPM/C100_FS.ttbar_pu200.AOD.pool.root]...
+## importing ROOT...
+## importing ROOT... [DONE]
+## opening file [OK]
+
+==========================================================================================================
+         Event data
+==========================================================================================================
+    Mem Size        Disk Size         Size/Evt      Compression    Items Container Name (Type) [Category]
+----------------------------------------------------------------------------------------------------------
+       0.656 KiB        0.160 KiB        0.002 KiB        4.098      100  IsTestBeam (Bool_t) [EvtId]
+       0.660 KiB        0.162 KiB        0.002 KiB        4.072      100  IsSimulation (Bool_t) [EvtId]
+       0.662 KiB        0.163 KiB        0.002 KiB        4.060      100  IsCalibration (Bool_t) [EvtId]
+       0.977 KiB        0.167 KiB        0.002 KiB        5.848      100  McChannel (UInt_t) [EvtId]
+       0.977 KiB        0.167 KiB        0.002 KiB        5.848      100  RunNumber (UInt_t) [EvtId]
+       0.977 KiB        0.167 KiB        0.002 KiB        5.848      100  EventTime (UInt_t) [EvtId]
+       0.990 KiB        0.170 KiB        0.002 KiB        5.828      100  EventTimeNanoSec (UInt_t) [EvtId]
+       0.984 KiB        0.171 KiB        0.002 KiB        5.760      100  ConditionsRun (UInt_t) [EvtId]
+       0.979 KiB        0.180 KiB        0.002 KiB        5.446      100  LumiBlockN (UInt_t) [EvtId]
+       0.960 KiB        0.181 KiB        0.002 KiB        5.314      100  EventWeight (Float_t) [EvtId]
+       1.396 KiB        0.282 KiB        0.003 KiB        4.948      100  EventNumber (ULong64_t) [EvtId]
+       0.853 KiB        0.355 KiB        0.004 KiB        2.398        1  DataHeader (DataHeader_p6) [MetaData]
+       0.973 KiB        0.368 KiB        0.004 KiB        2.642      100  BunchId (UInt_t) [EvtId]
+       5.079 KiB        0.903 KiB        0.009 KiB        5.623      100  index_ref (Long64_t) [MetaData]
+      17.925 KiB        2.003 KiB        0.020 KiB        8.949      100  Token (Char_t) [MetaData]
+       9.548 KiB        3.062 KiB        0.031 KiB        3.118        1  DataHeaderForm (DataHeaderForm_p6) [MetaData]
+      43.186 KiB        7.014 KiB        0.070 KiB        6.157      100  TruthPileupParticles (DataVector<xAOD::TruthParticle_v1>) [Truth]
+     405.481 KiB       96.373 KiB        0.964 KiB        4.207      100  InTimeAntiKt4TruthJets (DataVector<xAOD::Jet_v1>) [*Unknown*]
+     712.703 KiB      148.021 KiB        1.480 KiB        4.815      100  OutOfTimeAntiKt4TruthJets (DataVector<xAOD::Jet_v1>) [*Unknown*]
+    9503.116 KiB      155.088 KiB        1.551 KiB       61.276      100  TruthEvents (DataVector<xAOD::TruthEvent_v1>) [Truth]
+    8500.704 KiB      384.354 KiB        3.844 KiB       22.117      100  EventInfo (xAOD::EventInfo_v1) [EvtId]
+    4458.810 KiB     1068.643 KiB       10.686 KiB        4.172      100  PrimaryVertices (DataVector<xAOD::Vertex_v1>) [InDet]
+    9127.177 KiB     5196.808 KiB       51.968 KiB        1.756      100  InDetLargeD0TrackParticles (DataVector<xAOD::TrackParticle_v1>) [LRT]
+  436672.479 KiB     7483.135 KiB       74.831 KiB       58.354      100  TruthPileupEvents (DataVector<xAOD::TruthPileupEvent_v1>) [Truth]
+  103284.375 KiB    44521.754 KiB      445.218 KiB        2.320      100  InDetTrackParticles (DataVector<xAOD::TrackParticle_v1>) [InDet]
+  561620.842 KiB    50711.213 KiB      507.112 KiB       11.075      100  TruthVertices (DataVector<xAOD::TruthVertex_v1>) [Truth]
+  281294.922 KiB    74015.146 KiB      740.151 KiB        3.801      100  SiSPSeedSegmentsActsPixelTrackParticles (DataVector<xAOD::TrackParticle_v1>) [ACTS]
+  444039.331 KiB   107717.738 KiB     1077.177 KiB        4.122      100  TruthParticles (DataVector<xAOD::TruthParticle_v1>) [Truth]
+ 2950722.407 KiB   441888.531 KiB     4418.885 KiB        6.678      100  ITkStripMeasurements_offl (DataVector<xAOD::TrackMeasurementValidation_v1>) [ITk]
+ 3727651.624 KiB   769893.484 KiB     7698.935 KiB        4.842      100  ITkPixelMeasurements_offl (DataVector<xAOD::TrackMeasurementValidation_v1>) [ITk]
+----------------------------------------------------------------------------------------------------------
+ 8538081.751 KiB  1503295.964 KiB    15032.960 KiB        5.680      100  Total
+
+================================================================================
+         Categorized data
+================================================================================
+ Disk Size/Evt   Fraction Category Name
+--------------------------------------------------------------------------------
+       0.063 KiB    0.000  MetaData
+       2.444 KiB    0.000  *Unknown*
+       3.867 KiB    0.000  EvtId
+      51.968 KiB    0.003  LRT
+     455.904 KiB    0.030  InDet
+     740.151 KiB    0.049  ACTS
+    1660.742 KiB    0.110  Truth
+   12117.820 KiB    0.806  ITk
+   15032.960 KiB    1.000  Total
+
+================================================================================
+CSV for categories disk size/evt and fraction:
+Total,ITk,Truth,ACTS,InDet,LRT,EvtId,*Unknown*,MetaData
+15032.960,12117.820,1660.742,740.151,455.904,51.968,3.867,2.444,0.063
+1.000,0.806,0.110,0.049,0.030,0.003,0.000,0.000,0.000
+================================================================================
+
+================================================================================
+         Meta data
+================================================================================
+    Mem Size        Disk Size     Container Name
+--------------------------------------------------------------------------------
+       2.360 KiB        0.723 KiB  EventFormatStreamAOD
+       5.340 KiB        0.849 KiB  TruthMetaData
+      19.029 KiB        0.906 KiB  _Digitization_Parameters
+       6.740 KiB        1.068 KiB  _Generation_Parameters
+       2.224 KiB        1.188 KiB  StreamAOD
+       2.808 KiB        1.371 KiB  _TagInfo
+       8.132 KiB        1.551 KiB  FileMetaData
+       3.354 KiB        1.771 KiB  _Simulation_Parameters
+--------------------------------------------------------------------------------
+      49.986 KiB        9.428 KiB  Total
+================================================================================
+## Bye.
